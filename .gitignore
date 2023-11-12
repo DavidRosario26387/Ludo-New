@@ -1,0 +1,17 @@
+/temp
+/Temp
+/obj
+
+/logs
+
+/.vs
+
+/myapk.apk
+*.apk
+*.logs
+*.log
+build
+debug
+/library
+Library
+/Assets/Firebase/Plugins/x86_64/

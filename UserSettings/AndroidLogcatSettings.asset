@@ -1,0 +1,199 @@
+{
+    "m_SelectedDeviceId": "08617312BQ074761",
+    "m_SelectedPackage": {
+        "deviceId": "08617312BQ074761",
+        "name": "com.devsecit.devilludo",
+        "processId": 19997,
+        "exited": false
+    },
+    "m_SelectedPriority": 0,
+    "m_KnownPackagesForSerialization": [
+        {
+            "deviceId": "2a7517d",
+            "name": "com.android.chrome",
+            "processId": 12920,
+            "exited": true
+        },
+        {
+            "deviceId": "2a7517d",
+            "name": "com.webplustech.eliteludo",
+            "processId": 14178,
+            "exited": true
+        },
+        {
+            "deviceId": "2a7517d",
+            "name": "com.webplustech.eliteludo",
+            "processId": 15449,
+            "exited": false
+        },
+        {
+            "deviceId": "FYNRTSHUW48HWCBI",
+            "name": "com.eliteludo.webplustech",
+            "processId": 2587,
+            "exited": true
+        },
+        {
+            "deviceId": "FYNRTSHUW48HWCBI",
+            "name": "com.devsecit.devilludo",
+            "processId": 5545,
+            "exited": true
+        },
+        {
+            "deviceId": "FYNRTSHUW48HWCBI",
+            "name": "com.android.launcher3",
+            "processId": 15957,
+            "exited": false
+        },
+        {
+            "deviceId": "FYNRTSHUW48HWCBI",
+            "name": "com.devsecit.devilludo",
+            "processId": 7975,
+            "exited": false
+        },
+        {
+            "deviceId": "FYNRTSHUW48HWCBI",
+            "name": "com.devsecit.devilludo",
+            "processId": 9083,
+            "exited": false
+        },
+        {
+            "deviceId": "FYNRTSHUW48HWCBI",
+            "name": "com.devsecit.devilludo",
+            "processId": 14265,
+            "exited": false
+        },
+        {
+            "deviceId": "FYNRTSHUW48HWCBI",
+            "name": "com.devsecit.devilludo",
+            "processId": 16274,
+            "exited": false
+        },
+        {
+            "deviceId": "FYNRTSHUW48HWCBI",
+            "name": "com.devsecit.devilludo",
+            "processId": 17221,
+            "exited": false
+        },
+        {
+            "deviceId": "FYNRTSHUW48HWCBI",
+            "name": "com.devsecit.devilludo",
+            "processId": 18071,
+            "exited": false
+        },
+        {
+            "deviceId": "FYNRTSHUW48HWCBI",
+            "name": "com.devsecit.devilludo",
+            "processId": 19383,
+            "exited": false
+        },
+        {
+            "deviceId": "FYNRTSHUW48HWCBI",
+            "name": "com.devsecit.devilludo",
+            "processId": 21897,
+            "exited": false
+        },
+        {
+            "deviceId": "08617312BQ074761",
+            "name": "com.devsecit.devilludo",
+            "processId": 12938,
+            "exited": false
+        },
+        {
+            "deviceId": "08617312BQ074761",
+            "name": "com.devsecit.devilludo",
+            "processId": 15145,
+            "exited": false
+        },
+        {
+            "deviceId": "08617312BQ074761",
+            "name": "com.devsecit.devilludo",
+            "processId": 17689,
+            "exited": false
+        },
+        {
+            "deviceId": "08617312BQ074761",
+            "name": "com.devsecit.devilludo",
+            "processId": 18305,
+            "exited": false
+        },
+        {
+            "deviceId": "08617312BQ074761",
+            "name": "com.devsecit.devilludo",
+            "processId": 19228,
+            "exited": false
+        },
+        {
+            "deviceId": "08617312BQ074761",
+            "name": "com.devsecit.devilludo",
+            "processId": 19997,
+            "exited": false
+        }
+    ],
+    "m_Tags": {
+        "m_Entries": [
+            {
+                "m_Name": "Filter by all listed tags",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "No Filter",
+                "m_Selected": true
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Tag Control...",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Unity",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "CRASH",
+                "m_Selected": false
+            }
+        ]
+    },
+    "m_MemoryViewerState": {
+        "MemoryWindowHeight": 300.0,
+        "MemoryWindowWidth": 170.0,
+        "MemoryTypeEnabled": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ],
+        "MemoryGroup": 2,
+        "Behavior": 0
+    },
+    "m_FilterOptions": {
+        "m_Filter": "",
+        "m_UseRegularExpressions": false,
+        "m_MatchCase": false
+    },
+    "m_SymbolPaths": [],
+    "m_CaptureVideoSettings": {
+        "TimeLimitEnabled": false,
+        "TimeLimit": 180,
+        "VideoSizeEnabled": false,
+        "VideoSizeX": 1280,
+        "VideoSizeY": 720,
+        "BitRateEnabled": false,
+        "BitRateK": 20000,
+        "DisplayIdEnabled": false,
+        "DisplayId": ""
+    }
+}
