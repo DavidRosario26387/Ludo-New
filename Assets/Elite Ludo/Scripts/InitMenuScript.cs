@@ -353,9 +353,9 @@ public class InitMenuScript : MonoBehaviour
     public Image PanelAvatar;
     private string YoutubeLink = "";
     private string WhatsappLink = "https://wa.me/918101979855";
-    private string FacebookLink = "http://t.me/webdeveloperkanai";
-    private string PrivacyPolicyLink = "https://ludo.yourdemowebsite.online";
-    private string ContactUSLink = "http://t.me/webdeveloperkanai";
+    private string FacebookLink = "https://telegram.me/+skuXu2p4PRs4YTFl";
+    private string PrivacyPolicyLink = "https://spludo.online/privacy/";
+    private string ContactUSLink = "https://telegram.me/+skuXu2p4PRs4YTFl";
     private string Referalcode;
 
     public void OpenWP()
@@ -373,7 +373,7 @@ public class InitMenuScript : MonoBehaviour
     public void ContactUSMail()
     {
         string email = ContactUSLink;
-        string subject = MyEscapeURL("Ludo Game");
+        string subject = MyEscapeURL("SP Ludo Game");
         string body = MyEscapeURL("");
         Application.OpenURL("mailto:" + email + "?subject=" + subject + "&body=" + body);
     }
@@ -718,7 +718,7 @@ public class InitMenuScript : MonoBehaviour
     public void OpenMail()
     {
         Debug.Log("Check Email");
-        string email = "info@devsecit.com";
+        string email = "info@spludo.online";
         string subject = MyEscapeURL1("Contect Us");
         string body = MyEscapeURL1("");
         Debug.Log("Check Email11111"    );
