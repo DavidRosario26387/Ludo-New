@@ -22,6 +22,7 @@ Progress Tracking: After watching an ad, a progress panel displays the number of
 2. Data Persistence
 Date Tracking: Saved the date in PlayerPrefs.GetString("AdsToday"). Checked in the Start function if the saved date matches today's date. If not, reset the watched ads count to zero.
 Ad Count: Saved the number of ads watched today in PlayerPrefs.GetInt("adCount").
+
 API Integration Needed:
 1. UpdateUserData API
 Function Call: We should use the UpdateUserData(Dictionary<string, string> data) API function call from MyPlayerData.cs to update the coins earned from watching ads.
