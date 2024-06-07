@@ -7,17 +7,17 @@
         public static string ITunesAppID = "11111111111";
 
         // Notifications
-        public static string notificationTitle = "Devil Ludo";
+        public static string notificationTitle = "SP Ludo";
         public static string notificationMessage = "Get your FREE fortune spin!";
 
-        public static string baseURL = "https://elite.yourdemowebsite.online/";
+        public static string baseURL = "https://spludo.online/";
         public static  int PawnIndex= 0;
         // Game configuration
         public static float WaitTimeUntilStartWithBots = 30.0f; // Time in seconds. If after that time new player doesnt join room game will start with  s
 
         public static string privacypolicy = "";
         public static string terms = "";
-        public static string  contactus = "info@devsecit.com";
+        public static string  contactus = "info@spludo.online";
         // Services configration IDS
         public static string PlayFabTitleID = "5E78C";
         public static string appVersionNumber = "V0001";
@@ -25,15 +25,15 @@
         public static string PhotonChatID = "e923647f-fe0f-46a4-8ac6-6fdec816a45c";
 
         // Facebook share variables
-        public static string facebookShareLinkTitle = "I'm playing Devil Ludo!. Available on Android and iOS.";
+        public static string facebookShareLinkTitle = "I'm playing SP Ludo!. Available on Android";
 
         // Share private room code
-        public static string SharePrivateLinkMessage = "Join me in Devil Ludo. My Private Room Code is:";
-        public static string SharePrivateLinkMessage2 = "Download Devil Ludo from:";
-        public static string ShareApkLink = "https://ludo.yourdemowebsite.online/";
-        public static string ShareScreenShotText = "I finished game in Devil Ludo. It's my score :-) Join me and download Devil Ludo:";
+        public static string SharePrivateLinkMessage = "Join me in SP Ludo. My Private Room Code is:";
+        public static string SharePrivateLinkMessage2 = "Download SP Ludo from:";
+        public static string ShareApkLink = "https://spludo.online/";
+        public static string ShareScreenShotText = "I finished game in SP Ludo. Join me and download SP Ludo:";
 
-        public static string paymentURl = "https://elite.yourdemowebsite.online/";
+        public static string paymentURl = "https://spludo.online/";
         
         // Initial coins count for new players
         // When logged as Guest

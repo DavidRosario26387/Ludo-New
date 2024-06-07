@@ -223,8 +223,8 @@ public class Authenticator : MonoBehaviour
 
     public void SendEmail()
     {
-        string email = "info@devsecit.com";
-        string subject = MyEscapeURL("Devil Ludo");
+        string email = "info@spludo.online";
+        string subject = MyEscapeURL("SP Ludo");
         string body = MyEscapeURL("");
         Application.OpenURL("mailto:" + email + "?subject=" + subject + "&body=" + body);
     }
@@ -259,11 +259,11 @@ public class Authenticator : MonoBehaviour
 
     public void PrivacyPolicy()
     {
-        Application.OpenURL("https://elite.yourdemowebsite.online");
+        Application.OpenURL("https://spludo.online");
     }
     public void TermsandConditions()
     {
-        Application.OpenURL("https://elite.yourdemowebsite.online");
+        Application.OpenURL("https://spludo.online");
     }
 
 

@@ -13,10 +13,11 @@ using UnityEditor;
 
 public class FortuneWheelManager : MonoBehaviour
 {
-    public GameObject FreeTurnIndicator;
+    //public GameObject FreeTurnIndicator;
     [HideInInspector]
-    public Text timeToFreeText;
-    public GameObject TimeToFreeTurnIndicator;
+    //public Text timeToFreeText;
+    public Text LoadingText;
+    //public GameObject TimeToFreeTurnIndicator;
 
     [Header("Game Objects for some elements")]
     public Button PaidTurnButton;               // This button is showed when you can turn the wheel for coins
@@ -24,8 +25,8 @@ public class FortuneWheelManager : MonoBehaviour
     public GameObject Circle;                   // Rotatable GameObject on scene with reward objects
     public Text DeltaCoinsText;                 // Pop-up text with wasted or rewarded coins amount
     public Text CurrentCoinsText;               // Pop-up text with wasted or rewarded coins amount
-    public GameObject NextTurnTimerWrapper;
-    public Text NextFreeTurnTimerText;          // Text element that contains remaining time to next free turn
+    //public GameObject NextTurnTimerWrapper;
+    //public Text NextFreeTurnTimerText;          // Text element that contains remaining time to next free turn
 
     [Header("How much currency one paid turn costs")]
     public int TurnCost = 300;                  // How much coins user waste when turn whe wheel
@@ -78,17 +79,15 @@ public class FortuneWheelManager : MonoBehaviour
     /// </summary>
     void Start()
     {
-        timeToFreeText = TimeToFreeTurnIndicator.GetComponent<Text>();
+        //timeToFreeText = TimeToFreeTurnIndicator.GetComponent<Text>();
     }
 
     private void Awake()
     {
+        //DateTime.
 
 
-
-
-
-       // PlayerPrefs.SetString(LAST_FREE_TURN_TIME_NAME, GameManager.Instance.myPlayerData.GetLastFortuneTime());
+        // PlayerPrefs.SetString(LAST_FREE_TURN_TIME_NAME, GameManager.Instance.myPlayerData.GetLastFortuneTime());
 
         _previousCoinsAmount = _currentCoinsAmount;
         // Show our current coins amount
@@ -105,7 +104,6 @@ public class FortuneWheelManager : MonoBehaviour
         {
             // Start our timer to next free turn
             SetNextFreeTime();
-
             if (!PlayerPrefs.HasKey(LAST_FREE_TURN_TIME_NAME))
             {
                 PlayerPrefs.SetString(LAST_FREE_TURN_TIME_NAME, DateTime.Now.Ticks.ToString());
@@ -113,9 +111,8 @@ public class FortuneWheelManager : MonoBehaviour
         }
         else
         {
-            NextTurnTimerWrapper.gameObject.SetActive(false);
+            //NextTurnTimerWrapper.gameObject.SetActive(false);
         }
-
 
     }
 
@@ -236,7 +233,6 @@ public class FortuneWheelManager : MonoBehaviour
     {
 
 
-
         // Reset the remaining time values
         _timerRemainingHours = TimerMaxHours;
         _timerRemainingMinutes = TimerMaxMinutes;
@@ -251,12 +247,13 @@ public class FortuneWheelManager : MonoBehaviour
 
         _isFreeTurnAvailable = false;
 
+
         int miliSeconds = (TimerMaxHours * 3600000) + (TimerMaxMinutes * 60000) + (TimerMaxSeconds * 1000);
 
 
-        LocalNotification.CancelNotification(1);
+        //LocalNotification.CancelNotification(1);
 
-        if (PlayerPrefs.GetInt(StaticStrings.NotificationsKey, 0) == 0)
+        /*if (PlayerPrefs.GetInt(StaticStrings.NotificationsKey, 0) == 0)
         {
 
             LocalNotification.SendNotification(1, miliSeconds, StaticStrings.notificationTitle, StaticStrings.notificationMessage, new Color32(0xff, 0x44, 0x44, 255), true, true, true, "app_icon");
@@ -264,8 +261,7 @@ public class FortuneWheelManager : MonoBehaviour
         else
         {
          
-        }
-
+        }*/
     }
 
     private void ShowTurnButtons()
@@ -299,7 +295,6 @@ public class FortuneWheelManager : MonoBehaviour
 
     private void Update()
     {
-
         // We need to show TURN FOR FREE button or TURN FOR COINS button
         ShowTurnButtons();
 
@@ -348,7 +343,7 @@ public class FortuneWheelManager : MonoBehaviour
     /// <param name="awardCoins">Coins for user</param>
     public void RewardCoins(int awardCoins)
     {
-
+        Debug.Log("Coins rewarded");
         _currentCoinsAmount += awardCoins;
         // Show animated delta coins
         DeltaCoinsText.text = String.Format("+{0}", awardCoins);
@@ -398,22 +393,26 @@ public class FortuneWheelManager : MonoBehaviour
         _timerRemainingMinutes = (int)(_nextFreeTurnTime - DateTime.Now).Minutes;
         _timerRemainingSeconds = (int)(_nextFreeTurnTime - DateTime.Now).Seconds;
 
+/*        _timerRemainingHours = 0;
+        _timerRemainingMinutes = 0;
+        _timerRemainingSeconds = 0;*/
+
         // If the timer has ended
         if (_timerRemainingHours <= 0 && _timerRemainingMinutes <= 0 && _timerRemainingSeconds <= 0)
         {
-            FreeTurnIndicator.SetActive(true);
-            TimeToFreeTurnIndicator.SetActive(false);
-            NextFreeTurnTimerText.text = "Ready!";
+            //FreeTurnIndicator.SetActive(true);
+            //TimeToFreeTurnIndicator.SetActive(false);
+            //NextFreeTurnTimerText.text = "Ready!";
             // Now we have a free turn
             _isFreeTurnAvailable = true;
         }
         else
         {
-            FreeTurnIndicator.SetActive(false);
+            //FreeTurnIndicator.SetActive(false);
             // Show the remaining time
-            TimeToFreeTurnIndicator.SetActive(true);
-            NextFreeTurnTimerText.text = String.Format("{0:00}:{1:00}:{2:00}", _timerRemainingHours, _timerRemainingMinutes, _timerRemainingSeconds);
-            timeToFreeText.text = String.Format("{0:00}:{1:00}:{2:00}", _timerRemainingHours, _timerRemainingMinutes, _timerRemainingSeconds);
+            //TimeToFreeTurnIndicator.SetActive(true);
+            //NextFreeTurnTimerText.text = String.Format("{0:00}:{1:00}:{2:00}", _timerRemainingHours, _timerRemainingMinutes, _timerRemainingSeconds);
+            //timeToFreeText.text = String.Format("{0:00}:{1:00}:{2:00}", _timerRemainingHours, _timerRemainingMinutes, _timerRemainingSeconds);
             // We don't have a free turn yet
             _isFreeTurnAvailable = false;
         }

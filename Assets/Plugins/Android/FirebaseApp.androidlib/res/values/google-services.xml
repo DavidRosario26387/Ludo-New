@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/firebase_database_url,@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id">
-  <string name="firebase_database_url" translatable="false">https://devil-win-default-rtdb.firebaseio.com</string>
-  <string name="gcm_defaultSenderId" translatable="false">338879019577</string>
-  <string name="google_storage_bucket" translatable="false">devil-win.appspot.com</string>
-  <string name="project_id" translatable="false">devil-win</string>
-  <string name="google_api_key" translatable="false">AIzaSyCRWcscKLDrMk-65HGVcJu5x3vr5K5QLJw</string>
-  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCRWcscKLDrMk-65HGVcJu5x3vr5K5QLJw</string>
-  <string name="google_app_id" translatable="false">1:338879019577:android:f5ddf1109f95a77ef86be8</string>
-  <string name="default_web_client_id" translatable="false">338879019577-j02dc032ca81t6v8c10iv453haeoe3ph.apps.googleusercontent.com</string>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_android_client_id,@string/default_web_client_id">
+  <string name="gcm_defaultSenderId" translatable="false">889988251706</string>
+  <string name="google_storage_bucket" translatable="false">sp-ludo.appspot.com</string>
+  <string name="project_id" translatable="false">sp-ludo</string>
+  <string name="google_api_key" translatable="false">AIzaSyBGTb4a2k4_DP4qPG4dxLBvIUGuLY2vg3A</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBGTb4a2k4_DP4qPG4dxLBvIUGuLY2vg3A</string>
+  <string name="google_app_id" translatable="false">1:889988251706:android:0f691f101aa3abc8563503</string>
+  <string name="default_android_client_id" translatable="false">889988251706-i198sql8cjposdf9ilrk0dnvtngd25jc.apps.googleusercontent.com</string>
+  <string name="default_web_client_id" translatable="false">889988251706-e4eu106t1m2vtuun87m7dmci6astggi8.apps.googleusercontent.com</string>
 </resources>
