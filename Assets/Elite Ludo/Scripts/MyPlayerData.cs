@@ -34,13 +34,13 @@ public class MyPlayerData : MonoBehaviour
     public int GetCoins()
     {
 
- 
-         return 0;
+
+        return 0;
     }
 
     public int GetTotalEarnings()
     {
-     //   return int.Parse(this.data[TotalEarningsKey].Value);
+        //   return int.Parse(this.data[TotalEarningsKey].Value);
         return 0;
     }
 
@@ -85,7 +85,7 @@ public class MyPlayerData : MonoBehaviour
     {
         return "0";
 
-//        return this.data[ChatsKey].Value;
+        //        return this.data[ChatsKey].Value;
     }
 
     public string GetEmoji()
@@ -105,7 +105,7 @@ public class MyPlayerData : MonoBehaviour
             return this.data[PlayerName].Value;
         else return "Error";
     */
-        return " 0" ;
+        return " 0";
 
     }
 
@@ -161,101 +161,106 @@ public class MyPlayerData : MonoBehaviour
 
     public void UpdateUserData(Dictionary<string, string> data)
     {
-        /*
-        if (this.data != null)
-            foreach (var item in data)
+
+        /*(this.data != null)
+           foreach (var item in data)
+           {
+               Debug.Log("SAVE: " + item.Key);
+               if (this.data.ContainsKey(item.Key))
+               {
+                   Debug.Log("AA");
+                   this.data[item.Key].Value = item.Value;
+               }
+               if (item.Key == "Coins")
+               {
+                   this.AvlCoins = item.Value;
+                   // this.LastUrl += "&avl_coins="+AvlCoins;
+                   this.LastUrl += "Total Coins : " + this.AvlCoins;
+               }
+               if (item.Key == "TotalEarnings")
+               {
+                   this.TotalEarnings = item.Value;
+                   this.LastUrl += "&total_earnings=" + TotalEarnings;
+               }
+               if (item.Key == "TwoPlayerWins")
+               {
+                   this.TwoPlayerWins = item.Value;
+                   this.LastUrl += "&two_player_wins=" + TwoPlayerWins;
+               }
+               if (item.Key == "FourPlayerWins")
+               {
+                   FourPlayerWins = item.Value;
+                   this.LastUrl += "&four_player_wins=" + FourPlayerWins;
+               }
+               if (item.Key == "PlayerName")
+               {
+                   this.PlayerNames = item.Value;
+                   this.LastUrl += "&player_name=" + PlayerNames;
+               }
+               if (item.Key == "GamesPlayed")
+               {
+                   this.GamesPlayed = item.Value;
+                   this.LastUrl += "&game_played=" + GamesPlayed;
+               }
+           }
+       UpdateUserDataRequest userDataRequest = new UpdateUserDataRequest()
+       {
+           Data = data,
+           Permission = UserDataPermission.Public
+       };
+
+       PlayFabClientAPI.UpdateUserData(userDataRequest, (result1) =>
+       {
+           Debug.Log("Data updated successfull ");
+
+       }, (error1) =>
+       {
+           Debug.Log("Data updated error " + error1.ErrorMessage);
+       }, null);
+
+   }*/
+
+        /*ifIEnumerator updateUser(WWW www)
+        {
+            yield return www;
+
+            // check for errors
+            if (www.error == null)
             {
-                Debug.Log("SAVE: " + item.Key);
-                if (this.data.ContainsKey(item.Key))
-                {
-                    Debug.Log("AA");
-                    this.data[item.Key].Value = item.Value;
-                }
-                    if(item.Key == "Coins"){
-                        this.AvlCoins = item.Value;
-                        // this.LastUrl += "&avl_coins="+AvlCoins;
-                        this.LastUrl += "Total Coins : "+this.AvlCoins;
-                    }
-                    if(item.Key == "TotalEarnings"){
-                        this.TotalEarnings = item.Value;
-                        this.LastUrl += "&total_earnings="+TotalEarnings;
-                    }
-                    if(item.Key == "TwoPlayerWins"){
-                        this.TwoPlayerWins = item.Value;
-                        this.LastUrl += "&two_player_wins="+TwoPlayerWins;
-                    }
-                    if(item.Key == "FourPlayerWins"){
-                        FourPlayerWins = item.Value;
-                        this.LastUrl += "&four_player_wins="+FourPlayerWins;
-                    }
-                    if(item.Key == "PlayerName"){
-                        this.PlayerNames = item.Value;
-                        this.LastUrl += "&player_name="+PlayerNames;
-                    }
-                    if(item.Key == "GamesPlayed"){
-                        this.GamesPlayed = item.Value;
-                        this.LastUrl += "&game_played="+GamesPlayed;
-                    }
+                Debug.Log("WWW Data updated successfull: " + www.text);// contains all the data sent from the server
             }
-        UpdateUserDataRequest userDataRequest = new UpdateUserDataRequest()
-        {
-            Data = data,
-            Permission = UserDataPermission.Public
-        };
-
-        PlayFabClientAPI.UpdateUserData(userDataRequest, (result1) =>
-        {
-            Debug.Log("Data updated successfull ");
-
-        }, (error1) =>
-        {
-            Debug.Log("Data updated error " + error1.ErrorMessage);
-        }, null);
-            
-    }
-
-    IEnumerator updateUser(WWW www)
-     {
-         yield return www;
-
-         // check for errors
-         if (www.error == null)
-         {
-            Debug.Log("WWW Data updated successfull: " + www.text);// contains all the data sent from the server
-         }
-         else{
-            Debug.Log("WWW Data updated error: " + www.error);// contains all the data sent from the server
-         }
-     }
-
-    public static Dictionary<string, string> InitialUserData(bool fb)
-    {
-        Dictionary<string, string> data = new Dictionary<string, string>();
-        data.Add(TotalEarningsKey, "0");
-        data.Add(ChatsKey, "");
-        data.Add(EmojiKey, "");
-        if (fb)
-        {
-            data.Add(CoinsKey, StaticStrings.initCoinsCountFacebook.ToString());
-            data.Add(AvatarIndexKey, "fb");
-            // data.Add(InviteCodeKey, "");
-        }
-        else
-        {
-            data.Add(CoinsKey, StaticStrings.initCoinsCountGuest.ToString());
-            data.Add(AvatarIndexKey, "0");
-            // data.Add(InviteCodeKey, "");
+            else
+            {
+                Debug.Log("WWW Data updated error: " + www.error);// contains all the data sent from the server
+            }
         }
 
-        data.Add(GamesPlayedKey, "0");
-        data.Add(TwoPlayerWinsKey, "0");
-        data.Add(FourPlayerWinsKey, "0");
+        public static Dictionary<string, string> InitialUserData(bool fb)
+        {
+            Dictionary<string, string> data = new Dictionary<string, string>();
+            data.Add(TotalEarningsKey, "0");
+            data.Add(ChatsKey, "");
+            data.Add(EmojiKey, "");
+            if (fb)
+            {
+                data.Add(CoinsKey, StaticStrings.initCoinsCountFacebook.ToString());
+                data.Add(AvatarIndexKey, "fb");
+                // data.Add(InviteCodeKey, "");
+            }
+            else
+            {
+                data.Add(CoinsKey, StaticStrings.initCoinsCountGuest.ToString());
+                data.Add(AvatarIndexKey, "0");
+                // data.Add(InviteCodeKey, "");
+            }
 
-        data.Add(TitleFirstLoginKey, "1");
-        data.Add(FortuneWheelLastFreeKey, DateTime.Now.Ticks.ToString());
-        return data;
-        */
+            data.Add(GamesPlayedKey, "0");
+            data.Add(TwoPlayerWinsKey, "0");
+            data.Add(FourPlayerWinsKey, "0");
+
+            data.Add(TitleFirstLoginKey, "1");
+            data.Add(FortuneWheelLastFreeKey, DateTime.Now.Ticks.ToString());
+            return data;*/
+
     }
-
-
 }

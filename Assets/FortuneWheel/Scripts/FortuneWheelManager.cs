@@ -350,6 +350,7 @@ public class FortuneWheelManager : MonoBehaviour
         DeltaCoinsText.gameObject.SetActive(true);
         StartCoroutine(UpdateCoinsAmount());
 
+        StartCoroutine(InitMenuScript.inst.AddRewardCoins(awardCoins));
         Dictionary<string, string> data = new Dictionary<string, string>();
         data.Add(MyPlayerData.CoinsKey, (GameManager.Instance.myPlayerData.GetCoins() + awardCoins).ToString());
         GameManager.Instance.myPlayerData.UpdateUserData(data);

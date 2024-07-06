@@ -73,6 +73,7 @@ public class InitMenuScript : MonoBehaviour
 
     public static InitMenuScript inst;
 
+    public Text loadingText;
 
     void Start()
     {
@@ -194,7 +195,39 @@ public class InitMenuScript : MonoBehaviour
     }
     public Transform CoinList;
     public GameObject LoadingScreen,CoinLister;
-    public IEnumerator Details()
+
+    public IEnumerator AddRewardCoins(int coins)
+    {
+        WWWForm form = new WWWForm();
+        form.AddField("playerid", PlayerPrefs.GetString("PID", ""));
+        form.AddField("coins", coins);
+
+        string url = StaticStrings.baseURL + "api/player/addRewardCoins";
+
+        using (UnityWebRequest request = UnityWebRequest.Post(url, form))
+        {
+            yield return request.SendWebRequest();
+
+            if (request.isHttpError || request.isNetworkError)
+            {
+                Debug.LogError(request.error);
+            }
+            else
+            {
+                JSONNode jsonNode = JSON.Parse(request.downloadHandler.text);
+                Debug.Log("Response: " + request.downloadHandler.text);
+                if (jsonNode["notice"] == "Coins Successfully Added!")
+                {
+                    loadingText.text = request.downloadHandler.text;
+                }
+                else
+                {
+                    Debug.LogWarning(jsonNode["notice"]);
+                }
+            }
+        }
+    }
+public IEnumerator Details()
     {
      
         WWWForm form = new WWWForm();
@@ -322,10 +355,7 @@ public class InitMenuScript : MonoBehaviour
         StartCoroutine(Details());
         }
 
-
-
-
-    public string[] DataArray = new string[7];
+public string[] DataArray = new string[7];
 
     public IEnumerator LoadPro_pic(string url)
     {
