@@ -34,7 +34,7 @@ public class MyPlayerData : MonoBehaviour
     public int GetCoins()
     {
 
-
+        //return (int)Convert.ToDouble(InitMenuScript.inst.DataArray[0]);
         return 0;
     }
 

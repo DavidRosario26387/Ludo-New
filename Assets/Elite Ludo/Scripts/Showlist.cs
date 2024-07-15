@@ -15,7 +15,7 @@ public class Showlist : MonoBehaviour
 
 
         SetTitle();
-
+        PlayerPrefs.SetFloat("Comm", 10);
         int payoutCommision = 100 - (int)PlayerPrefs.GetFloat("Comm");
         for (int p = 0; p < Holder.childCount; p++)
         {

@@ -7,6 +7,7 @@ using UnityEngine.Networking;
 //using Garlic.Plugins.Webview;
 //using Garlic.Plugins.Webview.Utils;
 using AssemblyCSharp;
+using System.Security.Policy;
 
 public class WithdrawMoneyScript : MonoBehaviour
 {
@@ -20,13 +21,19 @@ public class WithdrawMoneyScript : MonoBehaviour
     public GameObject ifscCode;
     public Text MW;
     public GameObject ErrorText;
+
+    public GameObject withdrawlFees;
+    public Text amountToWithdraw;
+    public Text withdrawlCharges;
+    public Text amountAfterChanges;
+    public Button confirmButton;
     // Start is called before the first frame update
     void Start()
     {
         // GarlicWebview.Instance.SetCallbackInterface(new GarlicWebviewCallbackReceiver());
         withdrawlAmount.SetActive(true); bankName.SetActive(true); accountNumber.SetActive(true); ifscCode.SetActive(true);
         accountNumber.GetComponent<InputField>().placeholder.GetComponent<Text>().text = "Enter account number";
-        MW.text = "Minimum withdrawal is Rs. " + PlayerPrefs.GetInt("MW", 50).ToString(); 
+        MW.text = "Minimum withdrawal is Rs. " + PlayerPrefs.GetInt("MW", 250).ToString(); 
         GameManager.Instance.saveButton = saveBtn;
         saveBtn.SetActive(true);
         HandleDropdownInputData(0);
@@ -45,6 +52,8 @@ public class WithdrawMoneyScript : MonoBehaviour
     }
 
 
+
+
     private void OnEnable()
     {
         withdrawlAmount.GetComponent<InputField>().text = "";
@@ -53,8 +62,80 @@ public class WithdrawMoneyScript : MonoBehaviour
         accountNumber.GetComponent<InputField>().text = "";
         ifscCode.GetComponent<InputField>().text = "";
         bankName.GetComponent<InputField>().text = "";
+        bool Done = int.TryParse(FindObjectOfType<InitMenuScript>().DataArray[0], out NetAmount);
+        if (!Done)
+            NetAmount = 0;
+        NetAmountText.text = "Net Balance  Rs. " + NetAmount.ToString();
     }
     int NetAmount = 0;
+
+    public void ProceedTransaction(int amountWithdrawl, string ifscC, string ID, string bName, string url)
+    {
+        string type = "null";
+        if (UPI.isOn)
+        {
+            type = "upi";
+            if (accountNumber.GetComponent<InputField>().text == "")
+            {
+                saveBtn.SetActive(true);
+                GameManager.Instance.dialogNew.dialogTxt.GetComponent<Text>().text = "Please fill all the details.";
+                GameManager.Instance.objectGame.SetActive(true);
+                Debug.Log("   " + accountNumber.GetComponent<InputField>().text);
+                return;
+            }
+        }
+        if (Paytm.isOn)
+        {
+            type = "paytm";
+            if (accountNumber.GetComponent<InputField>().text.Length != 10)
+            {
+                saveBtn.SetActive(true);
+                GameManager.Instance.dialogNew.dialogTxt.GetComponent<Text>().text = "Please fill all the details.";
+                GameManager.Instance.objectGame.SetActive(true);
+
+                return;
+            }
+        }
+        if (Bank.isOn)
+        {
+            type = "bank";
+            if (bankName.GetComponent<InputField>().text == "")
+            {
+                saveBtn.SetActive(true);
+                GameManager.Instance.dialogNew.dialogTxt.GetComponent<Text>().text = "Please fill all the details.";
+                GameManager.Instance.objectGame.SetActive(true);
+
+                return;
+            }
+            if (ifscCode.GetComponent<InputField>().text == "")
+            {
+                saveBtn.SetActive(true);
+                GameManager.Instance.dialogNew.dialogTxt.GetComponent<Text>().text = "Please fill all the details.";
+                GameManager.Instance.objectGame.SetActive(true);
+
+                return;
+            }
+
+        }
+        Debug.Log("Req made ..." + type);
+        if (type != null)
+        {
+            WWWForm form = new WWWForm();
+            form.AddField("playerid", PlayerPrefs.GetString("PID"));
+            //form.AddField("playerid", "dsi1923426690");
+            form.AddField("withdrawmethod", type);
+            form.AddField("requestAmount", amountWithdrawl);
+            form.AddField("ifsc", ifscC);
+            form.AddField("upi_id", ID);
+            form.AddField("Paytm_ID", ID);
+            form.AddField("account_number", ID);
+            form.AddField("bank_name", bName);
+            UnityWebRequest req = UnityWebRequest.Post(url, form);
+
+            StartCoroutine(WaitForRequest(req));
+
+        }
+    }
     public void callAPI()
     {
         //saveBtn.SetActive(false);
@@ -102,72 +183,15 @@ public class WithdrawMoneyScript : MonoBehaviour
                 //  int index_num = PlayerPrefs.GetInt("index");
                 string url = StaticStrings.baseURL + "api/amount/withdraw";
 
-                if ((amountWithdrawl <= NetAmount) && (amountWithdrawl >= PlayerPrefs.GetInt("MW", 50)))
+                if ((amountWithdrawl <= NetAmount) && (amountWithdrawl >= PlayerPrefs.GetInt("MW", 250)))
                 {
-
-                    string type = "null";
-                    if (UPI.isOn)
-                    {
-                        type = "upi";
-                        if (accountNumber.GetComponent<InputField>().text == "")
-                        {
-                            saveBtn.SetActive(true);
-                            GameManager.Instance.dialogNew.dialogTxt.GetComponent<Text>().text = "Please fill all the details.";
-                            GameManager.Instance.objectGame.SetActive(true);
-                            Debug.Log("   " + accountNumber.GetComponent<InputField>().text);
-                            return;
-                        }
-                    }
-                    if (Paytm.isOn)
-                    {
-                        type = "paytm";
-                        if (accountNumber.GetComponent<InputField>().text.Length != 10)
-                        {
-                            saveBtn.SetActive(true);
-                            GameManager.Instance.dialogNew.dialogTxt.GetComponent<Text>().text = "Please fill all the details.";
-                            GameManager.Instance.objectGame.SetActive(true);
-
-                            return;
-                        }
-                    }
-                    if (Bank.isOn)
-                    {
-                        type = "bank";
-                        if (bankName.GetComponent<InputField>().text == "")
-                        {
-                            saveBtn.SetActive(true);
-                            GameManager.Instance.dialogNew.dialogTxt.GetComponent<Text>().text = "Please fill all the details.";
-                            GameManager.Instance.objectGame.SetActive(true);
-
-                            return;
-                        }
-                        if (ifscCode.GetComponent<InputField>().text == "")
-                        {
-                            saveBtn.SetActive(true);
-                            GameManager.Instance.dialogNew.dialogTxt.GetComponent<Text>().text = "Please fill all the details.";
-                            GameManager.Instance.objectGame.SetActive(true);
-
-                            return;
-                        }
-
-                    }
-                    Debug.Log("Req made ..." + type);
-                    if (type != null)
-                    {
-                        WWWForm form = new WWWForm();
-                        form.AddField("playerid", PlayerPrefs.GetString("PID"));
-                        form.AddField("withdrawmethod", type);
-                        form.AddField("requestAmount", amountWithdrawl);
-                        form.AddField("ifsc", ifscC);
-                        form.AddField("upi_id", ID);
-                        form.AddField("Paytm_ID", ID);
-                        form.AddField("account_number", ID);
-                        form.AddField("bank_name", bName);
-                        UnityWebRequest req = UnityWebRequest.Post(url, form);
-
-                        StartCoroutine(WaitForRequest(req));
-
-                    }
+                    amountToWithdraw.text = "Amount to Withdraw: " + amountWithdrawl.ToString();
+                    int fees = amountWithdrawl * 5 / 100;
+                    withdrawlCharges.text = "Withdrawal Charges (5%): " + fees.ToString();
+                    int charges = amountWithdrawl - fees;
+                    amountAfterChanges.text = "Amount After Charges: " + charges.ToString();
+                    confirmButton.onClick.AddListener(delegate { ProceedTransaction(charges, ifscC, ID, bName, url); });
+                    withdrawlFees.SetActive(true);
                 }
                 else
                 {
@@ -291,6 +315,4 @@ public class WithdrawMoneyScript : MonoBehaviour
         bankName.GetComponent<InputField>().text = "";
 
     }
-
-
 }

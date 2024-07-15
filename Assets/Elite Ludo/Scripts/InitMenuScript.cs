@@ -96,7 +96,8 @@ public class InitMenuScript : MonoBehaviour
         GameManager.Instance.isLocalPLay = false;
         GameManager.Instance.GameScene = "GameScene";
         GameManager.Instance.isPlayingWithComputer = false;
-
+        /*Debug.Log(GameManager.Instance.currentPlayer.id);
+        Debug.Log(GameManager.Instance.currentPlayer.name);*/
         // PlayerPrefs.SetInt(StaticStrings.SoundsKey,0);
         // PlayerPrefs.SetInt(StaticStrings.MusicKey,0);
         // PlayerPrefs.Save();
@@ -218,7 +219,7 @@ public class InitMenuScript : MonoBehaviour
                 Debug.Log("Response: " + request.downloadHandler.text);
                 if (jsonNode["notice"] == "Coins Successfully Added!")
                 {
-                    loadingText.text = request.downloadHandler.text;
+                    //loadingText.text = request.downloadHandler.text;
                 }
                 else
                 {
@@ -227,11 +228,77 @@ public class InitMenuScript : MonoBehaviour
             }
         }
     }
-public IEnumerator Details()
+
+    public IEnumerator AddWinCoins(int coins)
     {
-     
         WWWForm form = new WWWForm();
         form.AddField("playerid", PlayerPrefs.GetString("PID", ""));
+        form.AddField("coins", coins);
+
+        string url = StaticStrings.baseURL + "api/player/addWinCoins";
+
+        using (UnityWebRequest request = UnityWebRequest.Post(url, form))
+        {
+            yield return request.SendWebRequest();
+
+            if (request.isHttpError || request.isNetworkError)
+            {
+                Debug.LogError(request.error);
+            }
+            else
+            {
+                JSONNode jsonNode = JSON.Parse(request.downloadHandler.text);
+                Debug.Log("Response: " + request.downloadHandler.text);
+                if (jsonNode["notice"] == "Win Coins Successfully Added!")
+                {
+                    //loadingText.text = request.downloadHandler.text;
+                }
+                else
+                {
+                    Debug.LogWarning(jsonNode["notice"]);
+                }
+            }
+        }
+    }
+
+    public IEnumerator DeductCoins(int coins)
+    {
+        WWWForm form = new WWWForm();
+        form.AddField("playerid", PlayerPrefs.GetString("PID", ""));
+        form.AddField("coins", coins);
+
+        string url = StaticStrings.baseURL + "api/player/deductCoins";
+
+        using (UnityWebRequest request = UnityWebRequest.Post(url, form))
+        {
+            yield return request.SendWebRequest();
+
+            if (request.isHttpError || request.isNetworkError)
+            {
+                Debug.LogError(request.error);
+            }
+            else
+            {
+                JSONNode jsonNode = JSON.Parse(request.downloadHandler.text);
+                Debug.Log("Response: " + request.downloadHandler.text);
+                if (jsonNode["notice"] == "Coins Successfully Deducted!")
+                {
+                    //loadingText.text = request.downloadHandler.text;
+                }
+                else
+                {
+                    Debug.LogWarning(jsonNode["notice"]);
+                }
+            }
+        }
+    }
+    public IEnumerator Details()
+    {
+        loadingText.text = PlayerPrefs.GetString("API");
+        WWWForm form = new WWWForm();
+        form.AddField("playerid", PlayerPrefs.GetString("PID", ""));
+        //loadingText.text = PlayerPrefs.GetString("PID", "");
+        //form.AddField("playerid", "dsi1923426690");
         string url = StaticStrings.baseURL + "api/player/details";
 
         using (UnityWebRequest handshake = UnityWebRequest.Post(url, form))
@@ -269,8 +336,9 @@ public IEnumerator Details()
                     }
                     else
                     {
-                       
-                        TotalCoins = int.Parse( jsonNode["playerdata"]["playcoin"].Value);
+                        Debug.Log(jsonNode["playerdata"]["playcoin"].Value);
+                        //TotalCoins = int.Parse(jsonNode["playerdata"]["playcoin"].Value);
+                        TotalCoins = (int)Convert.ToDouble(jsonNode["playerdata"]["playcoin"].Value);
                     }
 
 
