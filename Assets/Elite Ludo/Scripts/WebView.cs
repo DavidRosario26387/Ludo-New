@@ -34,7 +34,7 @@ public class WebView : MonoBehaviour
 
         string data = "?Player_ID=" + PlayerPrefs.GetString("PID") + "&amount=" + amount + "&name=" + PlayerPrefs.GetString("g_name") + "&email=" + PlayerPrefs.GetString("g_email");
         pageToOpen += data;
-        FindObjectOfType<Bridge>().Stringfy(pageToOpen, amount);
+        //FindObjectOfType<Bridge>().Stringfy(pageToOpen, amount);
 
         if (pageToOpen != "" && !string.IsNullOrEmpty(pageToOpen))
             InAppBrowser.OpenURL(pageToOpen, BrowserOptions());

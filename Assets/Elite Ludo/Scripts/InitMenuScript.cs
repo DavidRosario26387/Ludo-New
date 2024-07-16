@@ -78,7 +78,7 @@ public class InitMenuScript : MonoBehaviour
     void Start()
     {
         inst = this;
-
+        //InAppBrowser.OpenURL("https://spludo.online/cashfree/payment");
         Text[] fonts = FindObjectsOfType<Text>();
         for (int i = 0; i < fonts.Length; i++)
             fonts[i].font = f;
