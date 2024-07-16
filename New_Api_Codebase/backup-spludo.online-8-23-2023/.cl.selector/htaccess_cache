@@ -1,0 +1,3 @@
+[/home/spludo/public_html]
+htaccess_list = /home/spludo/public_html/.htaccess,/home/spludo/public_html/public/.htaccess,/home/spludo/public_html/public/paytm/.htaccess
+

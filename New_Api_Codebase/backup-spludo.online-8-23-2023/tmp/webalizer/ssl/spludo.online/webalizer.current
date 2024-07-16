@@ -1,0 +1,373 @@
+# Webalizer V2.23-08 Incremental Data - 07/15/2024 09:23:28
+2024 7 15 9 23 28
+257 216 44 26 10 14 15925736 24 22 0
+9 3 63 5 15
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+1 1 48219 1 1 1
+0 0 0 0 0 0
+56 47 3830817 6 3 3
+26 22 1584142 1 1 1
+2 1 6633 1 0 0
+25 21 1385397 11 4 4
+32 26 1641623 3 5 4
+23 21 1379921 14 5 5
+0 0 0 0 0 0
+26 22 1584142 1 1 1
+66 55 4464842 9 4 3
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0
+65 56 4499843 5
+38 34 2529769 3
+2 2 48243 1
+0 0 0 0
+0 0 0 0
+0 0 0 0
+5 5 85948 1
+0 0 0 0
+31 24 1615927 2
+3 2 62836 2
+2 1 6633 0
+2 2 48243 1
+22 18 1332938 3
+0 0 0 0
+2 1 18543 1
+26 22 1584142 1
+26 22 1584142 1
+32 26 2460310 2
+0 0 0 0
+1 1 48219 1
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0
+0
+0
+216
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+41
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/front-assets/js/vendors/jquery-3.5.1.min.js
+0 11 8299971881376641637 984225 0 0
+/front-assets/fonts/themify.woff
+0 6 3257567295583695405 336648 0 0
+/front-assets/js/vendors/jquery.easing.min.js
+0 11 94406493925712 61017 0 0
+/admin-assets/css/custom/js/screenshot/screenshot.js
+0 6 0 34050 0 0
+/admin-assets/fonts/line-awesome/fonts/la-solid-900.woff2
+0 6 0 580512 0 0
+/front-assets/webfonts/fa-brands-400.woff2
+0 6 0 459672 0 0
+/admin-assets/vendors/js/sweet-alert/jquery.sweet-modal.min.css
+0 12 0 378780 0 0
+/front-assets/js/vendors/jquery.waypoints.min.js
+0 11 0 99308 0 0
+/favicon.ico
+0 2 0 0 0 0
+/front-assets/css/main.css
+0 11 0 8589691 0 0
+/front-assets/js/vendors/owl.carousel.min.js
+0 11 0 487762 0 0
+/admin-assets/vendors/js/sweet-alert/sweetalert.css
+0 10 0 208870 0 0
+/admin-assets/vendors/js/sweet-alert/sweetalert.min.js
+0 7 0 118839 0 0
+/admin-assets/vendors/js/sweet-alert/sweet-alert.js
+0 8 0 33728 0 0
+/front-assets/webfonts/fa-solid-900.woff2
+0 6 0 476664 0 0
+/front-assets/js/vendors/popper.min.js
+0 11 0 233816 0 0
+/
+0 9 0 433971 9 2
+/about-us
+0 11 0 131274 10 1
+/front-assets/js/app.js
+0 5 0 39780 0 0
+/robots.txt
+0 8 0 192 0 0
+/front-assets/js/vendors/validator.min.js
+0 8 0 48440 0 0
+/front-assets/js/vendors/jquery.rcounterup.js
+0 8 0 16112 0 0
+/admin-assets/fonts/line-awesome/line-awesome.css
+0 10 0 1105900 0 0
+/privacy/
+0 4 0 32032 3 0
+/front-assets/js/vendors/bootstrap.min.js
+0 10 0 601740 0 0
+/front-assets/js/vendors/magnific-popup.min.js
+0 8 28793190102415666 161744 0 0
+# End Of Table - urls
+# -sites- (monthly)
+crawl-66-249-77-98.googlebot.com
+0 8 5 114311 2 1720692459
+/privacy/
+17-246-15-124.applebot.apple.com
+0 2 2 786936 0 0
+-
+crawl-66-249-77-99.googlebot.com
+0 1 1 0 0 0
+-
+google-proxy-64-233-173-64.google.com
+0 1 0 6609 0 0
+-
+crawl-66-249-77-97.googlebot.com
+0 6 5 150762 3 1720692454
+/
+45.119.28.216
+0 26 22 1584142 1 1720979425
+/about-us
+27.61.87.84
+0 26 22 1584142 1 1720454677
+/about-us
+17-22-253-70.applebot.apple.com
+0 2 1 38174 0 0
+-
+37.111.206.154
+0 31 23 1622512 1 1721008112
+/about-us
+72-14-201-138.v4.fetch.tunnel.googlezip.net
+0 1 1 11934 1 1720799680
+/about-us
+17-241-75-121.applebot.apple.com
+0 2 2 48243 1 1720576837
+/
+17-246-19-144.applebot.apple.com
+0 2 2 98503 0 0
+-
+17-22-245-234.applebot.apple.com
+0 2 2 785097 0 0
+-
+crawl-66-249-79-106.googlebot.com
+0 2 1 6633 0 0
+-
+42.0.7.246
+0 20 17 1260661 1 1720317644
+/about-us
+crawl-66-249-66-205.googlebot.com
+0 4 3 787538 0 0
+-
+google-proxy-74-125-215-197.google.com
+0 8 7 207171 1 1721008079
+/about-us
+17-22-245-216.applebot.apple.com
+0 3 3 179792 0 0
+-
+google-proxy-74-125-215-196.google.com
+0 7 7 1062981 0 0
+-
+crawl-66-249-77-195.googlebot.com
+0 1 1 24 0 0
+-
+abts-kk-dynamic-186.191.172.122.airtelbroadband.in
+0 24 19 1492839 1 1720721743
+/privacy/
+17-246-19-31.applebot.apple.com
+0 2 1 38174 0 0
+-
+17-246-23-196.applebot.apple.com
+0 2 2 65598 0 0
+-
+17-246-23-43.applebot.apple.com
+0 1 1 8008 1 1720790064
+/privacy/
+propet.milleniervices.net
+0 1 1 48219 1 1720210490
+/
+17-22-253-208.applebot.apple.com
+0 3 3 115240 0 0
+-
+17-22-245-170.applebot.apple.com
+0 3 3 71284 0 0
+-
+17-246-23-234.applebot.apple.com
+0 3 3 172778 0 0
+-
+google-proxy-74-125-215-195.google.com
+0 8 8 294163 0 0
+-
+hydrogen253-ext2.a.ahrefs.com
+0 1 1 48219 1 1720755495
+/
+hydrogen115-ext2.a.ahrefs.com
+0 1 1 24 0 0
+-
+crawl-66-249-79-107.googlebot.com
+0 1 0 6609 0 0
+-
+17-241-219-181.applebot.apple.com
+0 2 2 48243 1 1720788609
+/
+google-proxy-64-233-173-67.google.com
+0 2 2 173364 0 0
+-
+google-proxy-64-233-173-68.google.com
+0 2 2 801768 0 0
+-
+crawl-66-249-66-206.googlebot.com
+0 6 5 186566 0 0
+-
+17-22-245-197.applebot.apple.com
+0 1 1 8008 1 1720576889
+/privacy/
+google-proxy-64-233-173-100.google.com
+0 1 0 6609 0 0
+-
+google-proxy-64-233-173-69.google.com
+0 5 5 289641 1 1721008079
+/about-us
+17-246-23-230.applebot.apple.com
+0 3 3 46652 0 0
+-
+72-14-201-141.v4.fetch.tunnel.googlezip.net
+0 1 1 11934 1 1720345988
+/about-us
+crawl-66-249-77-197.googlebot.com
+0 1 1 48219 1 1720748355
+/
+152.58.106.162
+0 26 22 1584142 1 1720345976
+/about-us
+17-22-253-242.applebot.apple.com
+0 2 2 23270 0 0
+-
+# End Of Table - sites (monthly)
+# -sites- (daily)
+37.111.206.154
+0 31 23 1622512 1 1721008112
+/about-us
+crawl-66-249-79-106.googlebot.com
+0 2 1 6633 0 0
+-
+google-proxy-74-125-215-197.google.com
+0 8 7 207171 1 1721008079
+/about-us
+google-proxy-74-125-215-196.google.com
+0 7 7 1062981 0 0
+-
+google-proxy-74-125-215-195.google.com
+0 8 8 294163 0 0
+-
+crawl-66-249-79-107.googlebot.com
+0 1 0 6609 0 0
+-
+google-proxy-64-233-173-67.google.com
+0 2 2 173364 0 0
+-
+google-proxy-64-233-173-68.google.com
+0 2 2 801768 0 0
+-
+google-proxy-64-233-173-69.google.com
+0 5 5 289641 1 1721008079
+/about-us
+# End Of Table - sites (daily)
+# -referrers- 
+https://www.spludo.online/about-us
+0 132
+http://spludo.online/
+0 2
+https://www.spludo.online/front-assets/css/main.css
+0 18
+https://www.google.com/
+0 7
+- (Direct Request)
+0 30
+http://www.spludo.online/
+0 8
+https://www.spludo.online/
+0 52
+https://www.spludo.online/admin-assets/fonts/line-awesome/line-awesome.css
+0 6
+https://spludo.online/
+0 1
+https://www.spludo.online/privacy/index.php
+0 1
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.6422.175 Mobile
+0 20
+Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Mobile S
+0 1
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+0 6
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+0 24
+Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)
+0 2
+Googlebot-Image/1.0
+0 1
+Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36
+0 74
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15 (Appleb
+0 35
+Mozilla/5.0 (Linux; Android 10; Infinix X612B Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6478
+0 31
+Chrome Privacy Preserving Prefetch Proxy
+0 2
+Mozilla/5.0 (Linux; U; Android 4.4.2; en-us; SCH-I535 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile
+0 1
+Mozilla/5.0 (Linux; Android 7.0; SM-G930V Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Sa
+0 32
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+0 26
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; +http://www.google.com/bot.html) Chrome/125.0.6
+0 2
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

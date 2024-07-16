@@ -1,0 +1,2180 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202404 will be lost/reset.
+# Last config file used to build this data file was /home/spludo/tmp/awstats/awstats.spludo.online.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2008                
+POS_TIME 2688                
+POS_VISITOR 22622               
+POS_DAY 58393               
+POS_DOMAIN 3558                
+POS_LOGIN 4314                
+POS_ROBOT 4469                
+POS_WORMS 5521                
+POS_EMAILSENDER 5652                
+POS_EMAILRECEIVER 5795                
+POS_SESSION 59207               
+POS_SIDER 59410               
+POS_FILETYPES 5930                
+POS_DOWNLOADS 6211                
+POS_OS 6259                
+POS_BROWSER 6796                
+POS_SCREENSIZE 10919               
+POS_UNKNOWNREFERER 10993               
+POS_UNKNOWNREFERERBROWSER 12318               
+POS_ORIGIN 13150               
+POS_SEREFERRALS 13293               
+POS_PAGEREFS 13509               
+POS_SEARCHWORDS 13657               
+POS_KEYWORDS 13809               
+POS_MISC 2350                
+POS_ERRORS 13868               
+POS_CLUSTER 4170                
+POS_SIDER_404 14027               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20240501001032 55 12915 8090408011076
+FirstTime 20240402142451
+LastTime 20240430234433
+LastUpdate 20240501114653 55 0 54 0 0
+TotalVisits 1340                
+TotalUnique 890                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 914                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+AddToFavourites 0 148 0
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 73 120 1210795 18 68 349667
+1 136 267 1780626 77 188 357559
+2 64 91 833684 25 81 202733
+3 139 220 4777716 164 305 12341426
+4 114 183 1306959 22 84 376531
+5 46 80 895925 56 107 580016
+6 39 82 939915 31 78 699976
+7 120 229 1922812 69 158 790330
+8 41 86 870270 84 148 526608
+9 64 86 781063 46 80 389723
+10 124 136 658726 39 76 379243
+11 67 160 2016454 31 103 419548
+12 85 141 1302632 92 149 265823
+13 103 144 901765 45 96 323616
+14 40 85 872522 34 63 552746
+15 227 401 2854361 295 422 601440
+16 173 370 3532428 54 163 533750
+17 93 208 2827254 20 151 812053
+18 84 135 1066236 28 107 314957
+19 119 151 1089291 19 57 141441
+20 54 127 1500004 11 62 113102
+21 35 63 436559 36 56 123188
+22 105 134 992427 17 49 466703
+23 70 205 2450828 40 105 365672
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 37
+us 899 1911 19928841
+ip 603 774 6811933
+in 167 347 2979348
+jp 160 217 2049527
+cn 93 122 1059258
+ru 67 90 787803
+ca 35 35 214156
+gb 27 47 482615
+ro 24 63 684647
+be 17 17 112430
+de 15 39 246939
+nl 13 34 306813
+bg 11 11 59415
+se 11 11 68666
+fr 8 8 52920
+au 8 18 274754
+eu 7 19 337311
+it 6 21 294478
+il 6 21 296061
+bd 6 10 125627
+id 4 18 197405
+pl 4 10 154062
+hn 3 3 6621
+cz 3 3 12284
+at 3 3 13246
+es 1 1 6623
+cl 1 1 6618
+ua 1 1 6620
+sa 2 6 107461
+ch 2 2 13244
+pa 1 14 92105
+zz 1 1 2468
+tr 2 2 6636
+gr 1 21 6607
+ir 1 1 6621
+za 1 1 6621
+pt 1 1 2468
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 25
+curl 351 544256 20240416055744 0
+Googlebot/ 250 1453757 20240429180854 57
+AhrefsBot/ 108 710156 20240430045842 16
+Go\-http\-client/ 73 169504 20240430022003 29
+unknown 32 744 20240429233845 32
+no_user_agent 29 199118 20240430025709 0
+SemrushBot/ 14 26261 20240422023129 7
+bingbot/ 11 56903 20240421044420 3
+scanner 10 66181 20240404034204 0
+MJ12bot/ 8 19522 20240418175236 2
+link 8 26143 20240416215537 1
+Dalvik/ 8 52976 20240430112717 0
+spider 7 9162 20240410020330 3
+Applebot/ 6 13318 20240406094855 4
+Apache\-HttpClient/ 5 28940 20240404081559 0
+YandexBot/ 4 6669 20240413130936 3
+facebookexternalhit/ 3 9114 20240408235424 1
+(firefox/)([0-9]\.|[0-1][0]\.) 3 19868 20240430143829 0
+yandex 3 39967 20240413090939 0
+[\s_+:,\.\;\/\\-]bot 2 6650 20240403234519 1
+baidu 1 6621 20240410021633 0
+crawl 1 6621 20240421024234 0
+archive\.org_bot 1 6604 20240402190538 0
+feed 1 24 20240407034127 1
+java 1 6622 20240407044424 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+eot 14 957644 0 0
+woff 11 676991 0 0
+js 1038 10342325 0 0
+html 1190 7662497 0 0
+png 1 35688 0 0
+ttf 7 478280 0 0
+svg 14 1130000 0 0
+css 636 13753437 0 0
+Unknown 653 563677 0 0
+php 321 735177 0 0
+woff2 19 1485536 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 32
+winlong 1 1
+ios_ipad 1 0
+androidpie 19 10
+macosx 80 45
+win8 2 1
+androidlollipop 2 2
+android10 140 43
+android 36 21
+Unknown 576 562
+macosx14 6 1
+wince 1 1
+macosx7 3 3
+androidmarshmallow 45 24
+macosx10 20 20
+macosx9 7 6
+macosx11 46 20
+macosx15 194 163
+macosx6 8 8
+androidnougat 20 6
+macosx13 2 0
+linuxubuntu 58 14
+ios_iphone 422 301
+androidgingerbread 1 0
+win10 1693 733
+androidoreo 4 1
+winnt 7 7
+win8.1 6 2
+androidjellybean 1 0
+unix 8 4
+winxp 6 4
+linux 454 191
+win7 35 21
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 196
+chrome101.0.4951.54 1 1
+chrome121.0.0.0 145 46
+chrome108.0.0.0 1 1
+chrome91.0.4472.101 24 4
+chrome72.0.3626.109 1 0
+chrome113.0.0.0 3 3
+chrome123.0.6312.42 1 1
+chrome76.0.3803.0 1 0
+chrome112.0.0.0 1 1
+chrome65.0.3152.119 1 1
+safari14.6 1 1
+chrome64.0.3282.39 1 0
+chrome92.0.4515.159 18 5
+msie10.0 1 1
+chrome106.0.0.0 2 2
+chrome76.0.2558 1 1
+chrome87.0.4280.144 3 3
+chrome80.0.3987.162 2 2
+chrome98.0.4758.102 20 5
+firefox123.0 8 8
+chrome104.0.5112.101 14 2
+safari13.1.2 1 1
+safari17.4.1 2 2
+chrome85.0.54 1 1
+chrome87.0.4280.88 74 39
+chrome118.0.5993.80 1 1
+chrome41.0.2228.0 3 0
+chrome17.0.963.56 2 2
+chrome93.0.1708 1 1
+chrome96.0.4664.110 16 16
+chrome114.0.0.0 21 21
+chrome106.0.2304 1 1
+opera54.0.2952.71 1 1
+chrome75.0.3770.142 2 0
+chrome121.0.6167.160 35 15
+chrome80.0.3987.119 2 2
+chrome79.0.3945.88 15 15
+opera12.16 1 0
+safari 75 36
+chrome56.0.2924.87 1 0
+chrome89.0.4389.114 24 24
+chrome59.0.3071.125 1 0
+opera12.0 2 0
+firefox109.0 8 2
+opera107.0.0.0 6 6
+chrome37.0.2049.0 2 1
+chrome76.0.3809.89 3 0
+chrome67.0.1560 1 1
+msie11.0 3 1
+safari15.1 1 1
+chrome86.0.2130 1 1
+chrome91.0.4472.77 8 2
+safari17.0 1 1
+safari11.0 1 1
+safari15.4 40 8
+msie8.0 1 1
+chrome83.0.4103.61 8 8
+chrome76.0.3809.100 2 0
+chrome98.0.53 1 1
+chrome83.0.4103.101 1 1
+chrome77.0.3865.73 5 1
+firefox98.0 2 2
+chrome103.0.5060.114 7 7
+opera89.0.4447.51 1 1
+chrome107.0.0.0 6 6
+chrome19.0.1084.9 1 1
+safari17.2 3 3
+chrome83.0.4103.97 56 56
+msie4.01 1 1
+opera58.0.3135.132 1 1
+cloudflare 18 18
+chrome106.0.5249.91 10 2
+chrome79.0.3945.79 20 6
+chrome85.0.4183.127 2 2
+chrome87.0.4280.141 4 4
+chrome70.0.3538.110 8 2
+firefox79.0 3 3
+chrome35.0.1916.47 2 2
+chrome105.0.0.0 6 6
+chrome110.0.0.0 13 7
+chrome97.0.4692.71 4 4
+chrome50.0.3473.240 1 1
+chrome84.0.4147.111 1 1
+chrome62.0.3202.94 2 0
+chrome97.0.1866 1 1
+safari17.3.1 32 24
+chrome117.0.5938.132 14 10
+iphone 36 32
+chrome73.0.1281 1 1
+chrome19.0.1055.1 1 1
+chrome118.0.0.0 2 2
+mozilla 83 68
+chrome85.0.4183.121 2 2
+chrome84.0.4147.89 3 3
+chrome39.0.2171.95 20 20
+firefox46.0 1 1
+netscape5.0 3 3
+chrome102.0.0.0 83 83
+firefox82.0 1 1
+firefox83.0 3 3
+firefox66.0 4 4
+chrome111.0.0.0 3 3
+chrome109.0.0.0 18 1
+chrome74.0.3729.131 1 0
+chrome103.0.5060.66 15 2
+chrome116.0.0.0 7 5
+firefox108.0 4 4
+chrome123.0.0.0 395 182
+chrome67.0.3396.87 2 1
+chrome91.0.4472.164 1 0
+safari13.0.3 182 182
+firefox68.0 1 1
+opera11.61 1 1
+chrome78.0.3904.108 42 42
+chrome122.0.0.0 52 14
+chrome104.0.0.0 80 22
+chrome123.0.6312.40 1 1
+chrome70.0.3538.77 4 4
+chrome32.0.1700.99 1 0
+chrome80.0.3987.132 8 2
+safari14.0.3 3 0
+safari16.5 18 10
+chrome34.0.1847.116 1 1
+firefox122.0 49 6
+chrome91.0.4472.114 4 4
+chrome94.0.4606.61 44 44
+firefox52.0 39 13
+opera62.3.3146.57763 1 1
+firefox120.0 51 25
+chrome83.0.4103.106 3 3
+chrome112.0.5615.29 11 2
+chrome124.0.0.0 1 1
+firefox36.0 1 0
+firefox77.0 3 3
+chrome84.0.4147.105 6 6
+chrome86.0.4240.75 1 1
+chrome99.0.4844.88 1 1
+chrome86.0.4240.198 8 2
+chrome111.0.5563.65 1 1
+firefox115.0 4 4
+chrome47.0.2526.106 6 6
+safari7.0.3 1 0
+safari17.2.1 1 1
+safari5.1.3 1 1
+edge12 73 46
+chrome54.0.2700 1 1
+chrome76.0.3809.111 6 0
+chrome74.0.3729.169 2 2
+safari10.0 31 8
+chrome81.0.4044.138 13 13
+chrome114.0.5735.130 1 1
+chrome121.0.6167.184 2 2
+chrome91.0.4472.120 1 1
+edge17 2 2
+chrome122.0.6261.94 69 18
+chrome33.0.1750.152 4 3
+firefox35.0 1 1
+chrome106.0.30 1 1
+chrome85.0.176 1 1
+firefox102.0 1 1
+chrome78.0.3880.4 1 0
+chrome52.0.3161.98 2 2
+chrome69.0.3497.100 17 6
+chrome117.0.0.0 10 8
+msie9.0 1 1
+safari12.0 1 1
+chrome87.0.4280.101 63 9
+firefox50.0 3 1
+safari6.0 7 2
+firefox119.0 1 1
+chrome100.0.4896.60 35 31
+chrome92.0.1115 1 1
+firefox99.0 1 1
+chrome85.0.4183.81 1 1
+chrome85.0.4183.102 821 218
+chrome73.0.3683.86 1 0
+chrome78.0.3875.0 1 0
+chrome18.6.872.0 1 0
+chrome120.0.0.0 31 24
+firefox65.0 2 2
+chrome76.0.3809.87 1 0
+chrome91.0.4472.124 2 1
+firefox114.0 2 2
+chrome79.0.3945.130 3 3
+android 1 0
+chrome88.0.4240.193 9 9
+Unknown 474 474
+safari12.1.1 1 1
+chrome31.0.1650.16 1 1
+chrome100.0.4896.58 8 2
+chrome52.0.2743.98 2 2
+chrome92.0.4515.107 9 3
+chrome60.0.1133 1 1
+chrome80.0.3987.87 1 1
+safari16.4 14 4
+chrome11.0.696.65 1 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 21
+Mozilla/5.0_researchscan.comsys.rwth-aachen.de 20240426154608
+WhatsApp/2.23.20.0 20240402153734
+Cloudflare-SSLDetector 20240429052404
+python-requests/2.31.0 20240428232722
+Mozilla/5.0_(compatible;_Dataprovider.com) 20240404145500
+Python/3.11_aiohttp/3.9.3 20240403223701
+Python/3.10_aiohttp/3.9.3 20240404025019
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20240402161614
+python-requests/2.30.0 20240404032734
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20240404031456
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20240412094121
+undici 20240418141714
+python-requests/2.28.2 20240410223203
+python-httpx/0.22.0 20240403145508
+Python/3.8_aiohttp/3.9.5 20240429233856
+Cpanel-HTTP-Client/1.0 20240430221215
+Python/3.10_aiohttp/3.8.3 20240404073652
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20240429213055
+okhttp/4.9.2 20240402150743
+Mozilla/5.0_Firefox/35.0 20240404032728
+quic-go-HTTP/3 20240426073846
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 14
+okhttp/4.9.2 20240402150743
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20240429213055
+quic-go-HTTP/3 20240426073846
+Cpanel-HTTP-Client/1.0 20240430221215
+Python/3.8_aiohttp/3.9.5 20240429233856
+Python/3.10_aiohttp/3.8.3 20240404073652
+python-httpx/0.22.0 20240403145508
+python-requests/2.28.2 20240410223203
+undici 20240418141714
+WhatsApp/2.23.20.0 20240402153734
+python-requests/2.30.0 20240404032734
+Python/3.10_aiohttp/3.9.3 20240404025019
+Python/3.11_aiohttp/3.9.3 20240403223701
+python-requests/2.31.0 20240428232722
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1406 1609
+From1 1 1
+From2 13 13
+From3 0 0
+From4 795 2281
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+www_google_ie 1 1
+duckduckgo 1 1
+www_google_com 10 10
+www_google_it 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+500 106 13755027
+302 26 4700
+404 1686 3332804
+405 8 1393866
+419 1 996
+403 37 45473
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 157
+/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css 1 -
+/storage/brand/ludo-game-ludo-2020-star-game-logo.webp 1 -
+//wordpress/wp-includes/wlwmanifest.xml 18 -
+/misc/ajax.js 1 -
+//web/wp-includes/wlwmanifest.xml 22 -
+/wp-checkbex.php 1 -
+/storage/Screenshot/Screenshot%20(129).png 30 https://spludo.online/
+/inputs.php 1 spludo.online
+//website/wp-includes/wlwmanifest.xml 16 -
+/sitemap.xml 40 -
+/storage/Brand/rtyrt.png 84 https://spludo.online/
+/front-assets/js/vendors/%25url%25 2 -
+//test/wp-includes/wlwmanifest.xml 14 -
+/fonts/proxima_nova/proxima-nova-light-italic-webfont.woff 1 https://spludo.online/front-assets/css/main.css
+/images/toggige-arrow.jpg 1 spludo.online
+/sbn 9 -
+/storage/Brand/EliteLudo.apk 13 -
+/storage/Screenshot/Screenshot%20%28138%29.png 6 -
+/assets/img/slider-bg-1.jpg 7 -
+/wp-includes/js/jquery/jquery.js 1 -
+/storage/Screenshot/Screenshot%20%28136%29.png 6 -
+/fonts/proxima_nova/proxima-nova-bold-italic-webfont.eot 1 https://spludo.online/front-assets/css/main.css
+/storage/Screenshot/Screenshot%20%28131%29.png 6 -
+/login.action 2 -
+/app-assets/data/locales/en.json 64 https://spludo.online/admin/transction/all
+/sellers.json 2 -
+/a.nel.cloud 1 -
+/ads.txt 7 http://www.spludo.online/ads.txt
+/lander/tinkoff 8 -
+/manager/ 1 -
+/wordpress/wp-admin/setup-config.php 1 -
+/fonts/proxima_nova/proxima-nova-semibold-italic-webfont.woff 1 https://spludo.online/front-assets/css/main.css
+/storage/Screenshot/Screenshot%20%28139%29.png 4 -
+/wp-admin/setup-config.php 5 -
+/lander/ru-ru-quiz-sberbank/ 8 -
+/tme 8 -
+/admin-assets/images/ico/apple-icon-120.png 4 https://spludo.online/admin/dashboard
+/wp-includes/wlwmanifest.xml 1 -
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 2 -
+/fonts/proxima_nova/proxima-nova-semibold-italic-webfont.ttf 1 https://spludo.online/front-assets/css/main.css
+/security.txt 2 http://www.spludo.online/security.txt
+/lander/gazprom-prelandergnidanewkomment-thanksstory2-objv2/ 8 -
+//cms/wp-includes/wlwmanifest.xml 14 -
+/fonts/proxima_nova/proxima-nova-regular-italic-webfont.eot 1 https://spludo.online/front-assets/css/main.css
+/fonts/proxima_nova/proxima-nova-light-webfont.eot 1 https://spludo.online/front-assets/css/main.css
+/lander/sber/ 6 -
+/storage/Screenshot/Screenshot%20(138).png 17 https://spludo.online/
+//shop/wp-includes/wlwmanifest.xml 14 -
+//wp-includes/wlwmanifest.xml 25 -
+/fonts/proxima_nova/proxima-nova-light-webfont.svg 1 https://spludo.online/front-assets/css/main.css
+/util/login.aspx 1 -
+/fonts/proxima_nova/proxima-nova-regular-webfont.svg 1 https://spludo.online/front-assets/css/main.css
+/lander/gazprom-prelander9may-thankspidaras9may/ 3 -
+/storage/Screenshot/Screenshot%20%28129%29.png 6 -
+//2019/wp-includes/wlwmanifest.xml 14 -
+/.env 8 -
+/front-assets/fonts/themify.svg 1 https://spludo.online/front-assets/css/main.css
+/simpla/ 1 -
+/lander/gpb-prelanderhuylonewkoment-thanksstory2/land/ 9 -
+//www.spludo.online/front-assets/s/vendors/countdown.min.js 2 -
+/top 8 -
+/storage/Screenshot/Screenshot%20(131).png 17 https://spludo.online/
+/storage/Screenshot/Screenshot%20(128).png 32 https://spludo.online/
+/storage/Brand/Ludo-Game-Ludo-2020-Star-Game-logo.webp 297 -
+/.vscode/sftp.json 4 -
+/fonts/proxima_nova/proxima-nova-light-italic-webfont.svg 1 https://spludo.online/front-assets/css/main.css
+/fonts/proxima_nova/proxima-nova-regular-webfont.eot 1 https://spludo.online/front-assets/css/main.css
+/fonts/proxima_nova/proxima-nova-bold-italic-webfont.woff 1 https://spludo.online/front-assets/css/main.css
+/fonts/proxima_nova/proxima-nova-light-italic-webfont.eot 1 https://spludo.online/front-assets/css/main.css
+/fonts/proxima_nova/proxima-nova-bold-webfont.woff 1 https://spludo.online/front-assets/css/main.css
+/merchant/code 6 -
+/3ds1633693954432212 6 -
+/about.php 1 spludo.online
+//wp1/wp-includes/wlwmanifest.xml 14 -
+/storage/Screenshot/Screenshot%20%28132%29.png 6 -
+//media/wp-includes/wlwmanifest.xml 5 -
+/storage/Screenshot/Screenshot%20(135).png 19 https://spludo.online/
+/server-status 2 -
+/fonts/proxima_nova/proxima-nova-light-italic-webfont.ttf 1 https://spludo.online/front-assets/css/main.css
+//blog/wp-includes/wlwmanifest.xml 25 -
+/fonts/proxima_nova/proxima-nova-bold-webfont.ttf 1 https://spludo.online/front-assets/css/main.css
+/wp-admin/install.php 4 -
+/fonts/proxima_nova/proxima-nova-semibold-webfont.woff 1 https://spludo.online/front-assets/css/main.css
+/s/93e26393e2431313e2838313/_/ 1 -
+//wp/wp-includes/wlwmanifest.xml 15 -
+//sito/wp-includes/wlwmanifest.xml 14 -
+/fonts/proxima_nova/proxima-nova-bold-italic-webfont.ttf 1 https://spludo.online/front-assets/css/main.css
+/lander/sberinv-quiz/ 8 -
+/fonts/proxima_nova/proxima-nova-bold-webfont.svg 1 https://spludo.online/front-assets/css/main.css
+/server 2 -
+/storage/Brand/home.png 85 https://spludo.online/
+/fonts/proxima_nova/proxima-nova-regular-webfont.ttf 1 https://spludo.online/front-assets/css/main.css
+/wp-includes/widgets/index.php 1 spludo.online
+/storage/Brand/homepage.png 96 https://spludo.online/
+/view-source: 1 -
+/lander/ru---cryptohub---773-gazprom---vesenniy-sezon-pribil-iz-doma---fz/ 6 -
+/_all_dbs 2 -
+/fonts/proxima_nova/proxima-nova-semibold-webfont.eot 1 https://spludo.online/front-assets/css/main.css
+/fonts/proxima_nova/proxima-nova-semibold-italic-webfont.eot 1 https://spludo.online/front-assets/css/main.css
+//2020/wp-includes/wlwmanifest.xml 9 -
+/front-assets/s/vendors/countdown.min.js 152 https://spludo.online/
+/storage/Screenshot/Screenshot%20(136).png 13 https://spludo.online/
+/wp-login.php 3 http://spludo.online/wp-login.php
+//spludo.online/front-assets/s/vendors/countdown.min.js 1 -
+/storage/Screenshot/Screenshot%20%28135%29.png 6 -
+/fonts/proxima_nova/proxima-nova-bold-webfont.eot 1 https://spludo.online/front-assets/css/main.css
+/3ds.php 6 -
+//2018/wp-includes/wlwmanifest.xml 5 -
+//news/wp-includes/wlwmanifest.xml 15 -
+/wp-head.php 1 -
+/assets/img/hero-bottom-shape-2.svg 1 https://spludo.online/
+/sftp.json 2 -
+/fonts/proxima_nova/proxima-nova-regular-italic-webfont.woff 1 https://spludo.online/front-assets/css/main.css
+/config.json 2 -
+/front-assets/css/owl.video.play.png 1 https://spludo.online/front-assets/css/main.css
+/app-ads.txt 2 -
+/debug/default/view 2 -
+/.DS_Store 8 -
+/about 2 -
+/telescope/requests 2 -
+/humans.txt 4 http://www.spludo.online/humans.txt
+/admin/content/sitetree/ 1 -
+/js/mage/cookies.js 1 -
+/radio.php 1 spludo.online
+/.well-known/traffic-advice 2 -
+/fonts/proxima_nova/proxima-nova-regular-webfont.woff 1 https://spludo.online/front-assets/css/main.css
+/fonts/proxima_nova/proxima-nova-semibold-webfont.svg 1 https://spludo.online/front-assets/css/main.css
+/wordpress/ 3 -
+/v2/_catalog 2 -
+/storage/Screenshot/Screenshot%20%28128%29.png 6 -
+/radio.txt 1 spludo.online
+//wp2/wp-includes/wlwmanifest.xml 14 -
+/fonts/proxima_nova/proxima-nova-regular-italic-webfont.ttf 1 https://spludo.online/front-assets/css/main.css
+/static/admin/javascript/hetong.js 7 -
+/merchant/z/payment/ 6 -
+/fonts/proxima_nova/proxima-nova-bold-italic-webfont.svg 1 https://spludo.online/front-assets/css/main.css
+/storage/Testimonial/unnamed.png 24 https://spludo.online/
+/storage/Screenshot/Screenshot%20(132).png 19 https://spludo.online/
+/fonts/proxima_nova/proxima-nova-semibold-webfont.ttf 1 https://spludo.online/front-assets/css/main.css
+/storage/Screenshot/Screenshot%20(139).png 17 https://spludo.online/
+/administrator/index.php 1 -
+/rek/offer-rbk-gazprom_1710409953/ 8 -
+//site/wp-includes/wlwmanifest.xml 14 -
+/fonts/proxima_nova/proxima-nova-light-webfont.ttf 1 https://spludo.online/front-assets/css/main.css
+/Public/home/js/check.js 7 -
+/storage/Profile/70ffbb7b286b99b060d83c045ffc4ac7.jpg 61 https://spludo.online/admin/player/all
+/readme.html 3 -
+/admin.php 1 spludo.online
+/finance-survey/33/ 2 -
+/license.txt 3 -
+/sftp-config.json 2 -
+/fonts/proxima_nova/proxima-nova-semibold-italic-webfont.svg 1 https://spludo.online/front-assets/css/main.css
+/s/93e27393e2431313e2838313/_/ 1 -
+/.well-known/security.txt 3 http://www.spludo.online/.well-known/security.txt
+/administrator/ 1 -
+/fonts/proxima_nova/proxima-nova-light-webfont.woff 1 https://spludo.online/front-assets/css/main.css
+/fonts/proxima_nova/proxima-nova-regular-italic-webfont.svg 1 https://spludo.online/front-assets/css/main.css
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 914
+2a01:4f8:172:1262::2 438 438 28032 20240430221215
+122.176.240.14 129 243 1612403 20240402155936
+2607:5300:201:3100::6410 61 88 3730096 20240403035430
+170.64.146.6 27 27 119215 20240404035951
+23.111.114.116 17 17 112573 20240420221438
+34.78.206.105 14 40 223194 20240429233856
+54.247.57.72 12 55 454169 20240404182148
+35.171.144.152 11 11 72753 20240418135045
+81.161.59.17 10 14 164598 20240407000530
+43.206.208.110 10 29 382446 20240403223712
+54.88.179.33 10 10 66182 20240426034242
+174.138.27.156 9 9 39728 20240429203852
+2401:4900:4e17:ff9c:fdbc:8d84:cd76:2901 8 8 322858 20240407224059
+149.56.160.172 8 8 32726 20240404145436
+2a12:5940:5433::2 8 8 52975 20240430201622
+2405:204:1382:d5d5::5af:f0ad 8 62 915943 20240414165834
+149.56.160.171 8 8 32723 20240403091120
+91.92.245.204 7 7 32925 20240413051116
+44.203.162.195 7 7 46362 20240407044731
+43.163.6.35 6 6 39669 20240430181839
+43.159.129.209 6 6 39660 20240421021426
+104.248.159.147 6 6 26485 20240424153302
+208.78.41.90 6 24 344821 20240413020631
+95.177.163.4 6 12 49550 20240408073749
+43.134.142.8 6 6 39681 20240418181141
+52.87.183.37 2 7 65957 20240416043506
+27.115.124.45 1 1 6621 20240408183554
+52.81.249.147 1 1 6605 20240412024408
+172.70.4.221 2 2 13227 20240415060812
+162.43.228.213 2 6 107466 20240422174517
+172.70.17.104 1 1 6607 20240418134209
+104.166.80.190 3 20 199563 20240403041221
+64.23.237.235 1 1 6623 20240411071457
+54.91.225.64 1 1 2468 20240402162836
+221.229.106.25 1 1 6620 20240423131923
+184.168.28.1 3 3 13244 20240403235553
+64.15.129.124 1 1 6616 20240407015515
+5.133.192.99 1 1 6621 20240427221813
+138.199.29.243 5 17 324080 20240412011658
+34.222.173.88 1 18 190480 20240404065005
+44.204.169.232 2 13 181775 20240402160626
+186.179.59.179 1 1 0 20240404084751
+150.109.16.20 3 3 19846 20240423002149
+34.136.173.120 1 1 6620 20240403054958
+2804:1e68:c221:dd89:19a1:9ec5:467c:37b0 1 1 6620 20240415110716
+3.35.165.116 1 1 2468 20240410020304
+150.109.13.194 3 3 19835 20240429022017
+52.88.38.74 1 1 6621 20240425102335
+3.92.68.36 2 9 154519 20240416163418
+58.49.233.126 1 1 6621 20240424122654
+149.102.252.119 2 2 9095 20240404182312
+45.79.8.217 1 1 6620 20240404025613
+3.69.242.167 1 1 6622 20240409055113
+93.158.92.13 1 1 6620 20240427012545
+90.22.81.65 2 2 13241 20240429053429
+3.89.74.200 2 4 16915 20240409072534
+45.90.62.21 2 2 13248 20240409181557
+124.223.193.19 3 3 19874 20240405184044
+35.86.121.39 1 1 6624 20240421105752
+87.236.176.110 1 1 6619 20240404031456
+66.115.182.136 3 10 165835 20240404055057
+43.153.93.68 2 2 13235 20240430153216
+52.203.245.239 2 2 13237 20240407024954
+54.188.38.200 1 1 6620 20240415035703
+54.161.206.65 2 10 161000 20240427234219
+146.70.108.171 2 2 9073 20240402191137
+52.37.171.48 1 1 6621 20240430094752
+176.53.222.27 1 1 6619 20240422191430
+3.93.56.89 4 4 26487 20240405212715
+172.70.246.128 1 1 64 20240405101412
+123.160.221.132 2 7 73764 20240413230052
+3.91.150.5 2 7 70118 20240421220034
+67.205.146.212 1 1 6605 20240429033831
+193.187.172.24 2 2 13242 20240410223203
+54.210.225.111 2 12 170638 20240429124239
+83.229.79.218 0 1 14242 
+34.222.97.181 1 1 6622 20240421193501
+157.245.110.2 1 1 6618 20240416124513
+170.106.159.160 3 3 19835 20240424014608
+34.219.165.87 1 1 6625 20240418093127
+34.221.107.191 1 1 6619 20240419043057
+35.89.206.174 1 1 6623 20240403120419
+172.70.242.85 1 1 64 20240405071237
+54.147.244.43 2 6 76654 20240419051545
+2a05:d016:39f:3102:5894:618:935e:b7c7 1 1 87 20240402161614
+172.111.197.130 2 8 144963 20240428233608
+44.234.145.183 1 1 6625 20240412040457
+89.104.110.137 1 1 6619 20240424175155
+176.53.221.153 1 1 6621 20240403102633
+176.53.218.7 1 1 6621 20240403094930
+205.169.39.104 4 6 39642 20240403044414
+197.242.156.68 1 1 6621 20240404055013
+3.91.160.154 2 5 60831 20240408192503
+87.89.48.69 1 1 6625 20240428233050
+44.234.119.159 1 1 6620 20240415111633
+46.246.122.43 1 1 6618 20240404163706
+170.106.82.193 1 1 6623 20240430060957
+3.95.169.227 2 6 62627 20240421014514
+52.81.203.9 1 1 6623 20240405232328
+23.172.112.231 1 1 2468 20240406135110
+111.7.96.158 1 1 6618 20240410030451
+198.235.24.178 1 1 6623 20240423103704
+35.162.172.214 1 1 6625 20240424203336
+34.218.66.192 1 1 6623 20240427094656
+36.111.67.189 1 1 6605 20240424233507
+198.23.242.150 1 1 2468 20240402162751
+35.93.212.65 1 1 6622 20240408201849
+91.92.253.104 1 1 6621 20240410094724
+195.88.252.196 1 1 6619 20240422061649
+193.17.44.106 1 1 6620 20240402183022
+209.242.213.252 0 1 1792 
+2804:1e68:c221:6534:2e35:e85e:a925:d167 1 1 6618 20240404113813
+45.90.63.249 1 1 6623 20240408183931
+43.143.60.88 1 1 6620 20240407194944
+176.53.219.122 1 1 6605 20240404010436
+43.131.248.209 2 2 13231 20240430170656
+199.45.154.71 1 1 6622 20240403065017
+34.218.238.148 0 1 1792 
+198.235.24.88 1 1 6622 20240409095659
+35.87.194.175 1 1 6619 20240427035636
+43.157.66.187 2 2 13230 20240427181758
+18.193.84.173 1 1 6620 20240419233418
+2a01:4f8:10a:2d6::2 1 1 6599 20240402151322
+43.159.63.75 2 2 13245 20240426181629
+34.208.49.34 1 1 6617 20240407111506
+2804:ec8:18:1d64:8c14:14f6:ba83:4753 2 2 4936 20240403215453
+46.4.33.48 1 1 6623 20240404154625
+43.134.37.211 3 3 19835 20240430022330
+104.166.80.213 1 1 6627 20240403025303
+172.71.246.116 1 1 64 20240405131252
+34.215.159.229 1 1 6621 20240409102352
+54.246.74.197 2 15 179939 20240414082014
+34.122.147.229 2 9 159204 20240410031838
+34.207.242.99 2 2 13212 20240406170844
+18.207.220.207 2 6 61455 20240421174452
+66.249.79.100 1 1 6603 20240409094147
+172.70.65.138 1 1 6623 20240425152206
+45.87.212.70 1 1 6623 20240404014941
+65.154.226.168 4 5 22555 20240406022502
+154.28.229.62 1 2 11736 20240402151728
+34.204.18.155 2 10 142754 20240410113842
+101.91.148.219 1 1 6623 20240409221346
+87.236.176.70 1 1 6609 20240403164447
+34.210.80.95 1 1 6620 20240406095148
+54.82.162.189 2 6 62625 20240410194904
+34.95.185.149 1 1 6622 20240403145418
+15.204.182.106 4 4 18114 20240404122028
+43.130.32.224 1 1 6623 20240417181353
+18.246.14.248 1 1 6623 20240421042732
+104.166.80.85 2 2 13244 20240411174253
+46.4.84.237 2 2 5661 20240428032537
+5.133.192.189 1 1 6626 20240422033948
+87.236.176.182 1 1 6605 20240403121044
+35.88.46.157 1 1 6623 20240419191447
+34.219.225.165 1 1 6623 20240429122049
+104.166.80.194 1 1 6618 20240405162600
+89.104.101.249 1 1 6626 20240418115249
+154.28.229.250 1 2 11760 20240403032812
+54.87.143.126 1 6 71296 20240408022319
+54.234.9.124 2 3 10958 20240412034409
+116.233.173.24 1 1 6605 20240409223550
+176.53.223.175 1 1 6618 20240406162054
+87.236.176.116 1 1 6624 20240404015851
+13.37.224.52 1 1 2468 20240404163856
+54.184.113.224 1 1 6619 20240414191343
+2409:4085:2d8c:1d79::bd49:50e 5 22 495219 20240411194848
+172.71.118.102 1 1 64 20240405071237
+223.113.128.132 1 1 6623 20240407013514
+104.166.80.28 1 1 6620 20240407161911
+54.244.75.243 0 1 622 
+34.215.146.111 1 1 6623 20240413101831
+154.28.229.237 1 1 6600 20240402151725
+54.82.55.108 2 4 12871 20240411035943
+92.118.39.244 1 21 6607 20240429010614
+34.213.229.225 1 1 6623 20240424114520
+35.86.87.171 1 1 6619 20240404101508
+164.90.241.135 4 21 202033 20240409055221
+133.242.174.119 1 1 6624 20240402191853
+176.53.217.152 2 2 13246 20240430042849
+89.104.101.125 1 1 6623 20240429041358
+18.212.38.193 2 14 182398 20240425233904
+52.80.71.82 1 1 6606 20240406031738
+77.102.122.117 2 2 9090 20240404055123
+49.51.179.103 2 2 13210 20240426022440
+35.94.87.5 1 1 6620 20240417050813
+34.222.95.96 1 1 6620 20240428194039
+36.99.136.136 2 2 13242 20240426121133
+2600:1f16:269:da01:b259:4097:b2ca:5e0f 3 3 261 20240402161614
+52.91.231.173 2 5 37846 20240423113209
+128.90.170.38 1 1 6624 20240416100800
+111.7.96.172 3 4 22935 20240423175158
+93.159.230.90 1 1 6624 20240410041723
+54.202.197.115 1 1 6622 20240403032023
+65.154.226.171 4 5 22537 20240423161225
+52.58.51.176 1 1 6627 20240404075206
+104.166.80.104 2 2 13242 20240407101607
+193.36.118.248 1 1 6622 20240404014941
+172.105.130.66 2 2 6626 20240406125404
+2a06:98c0:360b:34db:6b85:111e:d4dc:aac8 1 1 6620 20240418134209
+54.218.13.115 1 1 6623 20240416114036
+104.166.80.226 1 1 6621 20240404161928
+175.6.217.4 1 1 6622 20240410180422
+52.81.254.49 1 1 6619 20240405232348
+199.45.155.23 2 2 13226 20240409052255
+121.4.105.222 2 2 13245 20240409180200
+182.42.104.32 1 1 6620 20240414215233
+104.129.56.24 1 1 2468 20240402191138
+185.236.23.131 2 2 0 20240428232722
+198.23.242.156 3 3 15709 20240404014959
+18.246.191.42 1 1 6609 20240402190803
+18.212.90.240 2 8 120396 20240407115956
+180.149.1.43 2 2 9088 20240418174518
+107.23.110.2 2 7 115480 20240411200818
+121.229.185.160 1 1 6607 20240411233526
+95.184.97.172 1 5 104993 20240406110015
+2a05:d016:39f:3101:6da3:aefa:29c2:357b 1 1 87 20240402161614
+161.35.246.138 4 21 202034 20240406135019
+35.94.104.135 1 1 6622 20240411093016
+185.166.84.146 3 6 40247 20240410004223
+54.245.194.29 1 1 6619 20240426204543
+98.159.226.215 1 1 2468 20240403003236
+124.221.247.200 2 2 13247 20240404171051
+54.190.73.218 1 1 6619 20240410094010
+138.246.253.15 1 1 0 20240426073846
+43.163.3.58 2 2 13232 20240424181319
+104.244.210.245 1 1 2468 20240404015047
+43.128.110.17 2 2 13228 20240420002217
+35.162.217.133 1 1 6623 20240418040336
+206.168.34.52 1 1 6606 20240412055616
+49.98.90.30 4 4 13240 20240404184801
+54.70.139.251 1 1 6624 20240407203846
+18.237.53.249 1 1 6622 20240406095129
+43.131.62.4 1 1 6606 20240417225739
+216.194.91.194 2 2 9094 20240417175044
+35.85.151.123 1 1 6625 20240416190606
+111.7.100.31 1 2 36900 20240424191731
+3.121.76.11 1 1 2468 20240406135109
+44.206.244.84 2 6 63422 20240423113152
+3.88.205.55 2 10 160997 20240425112950
+44.233.222.156 1 1 6622 20240404123340
+223.177.248.207 4 24 343069 20240413134222
+49.7.227.204 1 1 6626 20240421192927
+104.165.199.9 1 1 6623 20240402155330
+54.245.58.198 1 1 6625 20240406193142
+77.105.182.35 1 1 6621 20240404113247
+180.110.203.108 2 2 13228 20240425111418
+111.7.100.25 1 1 6605 20240410060246
+88.0.90.25 1 1 6623 20240405205858
+193.168.220.241 0 1 4371 
+47.251.15.21 1 1 6624 20240403103533
+34.220.87.142 1 1 6620 20240412121705
+35.94.45.7 1 1 6624 20240412095410
+34.229.202.113 2 3 20226 20240417084732
+54.242.125.37 4 4 26491 20240405213936
+111.7.100.24 2 8 144949 20240410060353
+52.23.247.243 2 11 172137 20240408233637
+167.94.138.52 1 1 6611 20240403084006
+152.39.212.44 2 6 107465 20240416175026
+52.35.190.191 1 1 6619 20240424191141
+176.53.217.87 1 1 6624 20240404000419
+36.134.147.75 1 1 6605 20240407031904
+14.194.11.238 1 1 0 20240404050944
+49.15.240.108 5 22 495990 20240404171155
+35.91.235.62 1 1 6622 20240409124007
+104.152.222.44 1 1 6624 20240402170449
+111.7.96.176 1 1 6624 20240425205328
+74.80.181.135 1 1 6619 20240402162444
+146.70.190.158 1 1 2468 20240406135109
+34.211.228.242 1 1 6624 20240404101453
+209.97.184.16 1 1 6621 20240430140034
+23.26.108.89 3 3 13250 20240408140028
+51.36.51.9 2 7 137748 20240403082802
+185.241.208.97 5 5 26488 20240404140802
+35.87.39.176 0 1 780 
+42.83.147.34 1 1 6622 20240430195559
+45.90.63.0 1 1 6619 20240404184649
+100.26.191.252 2 6 65204 20240418051729
+3.89.139.88 2 3 11683 20240407200059
+129.226.146.179 3 3 19833 20240425224259
+35.85.218.2 0 1 2592 
+199.45.154.52 1 1 6606 20240412094121
+170.187.184.242 2 2 6628 20240407131040
+205.210.31.235 1 1 6607 20240429213055
+3.88.213.124 2 9 163124 20240418090750
+114.80.36.40 1 1 6618 20240428082427
+122.176.207.216 2 2 9837 20240426054000
+34.224.212.146 2 7 72815 20240422015621
+34.220.59.39 1 1 6620 20240417112640
+95.177.180.85 2 19 192946 20240404070559
+50.19.129.227 1 1 6622 20240403135622
+103.225.178.164 2 11 172135 20240414073847
+44.202.51.26 2 14 176131 20240421141607
+2a00:2381:5374:1c::120 2 10 161003 20240402155612
+125.75.66.97 1 1 6623 20240420005744
+35.93.11.196 1 1 6621 20240410094016
+146.190.63.155 1 1 6606 20240411011757
+45.90.61.51 1 1 6622 20240425204732
+43.135.129.233 2 2 13225 20240417001847
+3.91.238.253 1 1 6621 20240402150956
+134.122.37.125 1 1 6619 20240422121310
+180.149.25.59 2 2 9090 20240417175150
+43.133.77.208 1 1 6607 20240412201917
+35.165.100.72 1 1 6624 20240426094354
+93.159.230.89 1 1 6623 20240410041847
+3.80.21.181 2 10 161003 20240424232957
+51.195.199.91 2 10 84060 20240404164201
+3.17.74.253 2 8 144964 20240410020308
+34.219.219.194 1 1 6618 20240415094534
+2804:1e68:c221:6fe1:5344:786e:6370:951 1 1 6619 20240408103656
+164.52.36.218 3 3 19865 20240404152348
+3.87.204.176 2 12 174724 20240409233147
+89.248.171.23 2 4 16794 20240404182852
+3.92.134.192 2 6 17770 20240420095357
+209.127.107.77 1 1 6622 20240403000120
+87.236.176.58 1 1 6624 20240404012645
+54.187.155.226 1 1 6620 20240420094349
+193.9.112.123 2 2 9089 20240428233132
+159.65.186.201 1 1 6622 20240426145224
+34.221.149.65 1 1 6619 20240415094533
+198.12.64.43 1 1 2468 20240404163857
+184.73.103.113 2 7 109332 20240413161744
+142.93.242.177 1 1 6623 20240412140130
+13.38.78.242 3 3 15709 20240403074816
+176.53.221.84 1 1 6601 20240404110149
+154.28.229.123 1 1 6620 20240403032808
+119.13.215.40 2 6 107460 20240418174524
+2a02:25b0:aaaa:aaaa:305f:22d2:9ca:0 3 3 11557 20240428233453
+89.104.101.234 1 1 6616 20240406110034
+54.200.211.0 0 1 5138 
+52.32.133.22 1 1 6623 20240422043434
+159.65.173.245 1 1 6619 20240414130435
+176.53.223.45 1 1 6625 20240421184330
+172.70.2.218 4 4 26453 20240412023009
+157.230.195.44 2 10 160981 20240402191459
+18.139.110.4 1 6 71295 20240406035547
+154.28.229.81 1 1 6623 20240402161104
+49.44.81.231 2 17 209630 20240402150714
+34.208.41.63 1 1 6627 20240413121538
+43.134.66.205 2 2 13229 20240427021923
+176.53.221.196 1 1 6625 20240413032958
+54.146.173.84 0 1 7221 
+3.87.67.231 2 13 173539 20240424114027
+172.70.65.140 2 2 1410 20240402142452
+13.39.233.164 1 1 2468 20240428233132
+104.164.173.70 1 1 931 20240402150128
+35.94.205.116 1 1 6623 20240425030201
+35.86.184.166 1 1 6621 20240423044443
+51.254.49.102 1 1 6604 20240404070243
+162.222.195.93 1 1 6623 20240404163707
+104.166.80.147 1 1 6619 20240403103332
+2001:41d0:404:200::2aa 1 1 2468 20240402191140
+89.208.29.42 2 10 160997 20240403003226
+54.191.32.197 1 1 6627 20240426094355
+35.87.211.71 1 1 6622 20240413191443
+87.236.176.21 1 1 6601 20240404011955
+104.165.199.193 1 1 6620 20240402155823
+154.28.229.38 1 2 8533 20240402162027
+2600:3c00::f03c:93ff:fe2b:34f6 1 1 2468 20240402150939
+34.222.202.59 1 1 6619 20240427194200
+78.24.220.1 3 3 8108 20240421055416
+43.153.110.177 4 4 26451 20240415180617
+35.89.131.104 1 1 6622 20240419102110
+123.160.221.133 1 3 44123 20240422133543
+3.95.6.219 2 4 16049 20240419011225
+43.163.0.99 2 2 13217 20240417151149
+54.174.164.141 2 6 62622 20240409034701
+52.81.60.5 2 2 13230 20240419204432
+2600:3000:1511:200::85 2 2 174 20240402161614
+185.141.119.49 4 8 93178 20240410015505
+199.45.154.68 1 1 6606 20240403122619
+45.90.60.50 1 1 6625 20240416031039
+74.80.182.88 0 1 7221 
+113.30.152.56 2 2 13244 20240404170916
+87.236.176.162 1 1 6625 20240403070357
+34.220.135.204 1 1 6623 20240416094708
+54.205.81.233 1 1 2468 20240402162657
+104.244.209.67 1 1 2468 20240428233132
+92.22.200.208 1 1 2468 20240409055206
+119.13.90.176 2 8 144965 20240404175321
+143.110.243.24 1 1 6624 20240410143205
+54.223.89.173 1 1 6619 20240428160313
+43.134.170.46 3 3 19813 20240411150752
+35.180.44.4 1 1 2468 20240406135109
+45.80.158.37 4 4 19866 20240404211843
+65.154.226.170 1 1 6617 20240422032958
+87.236.176.209 1 1 6601 20240403191506
+223.226.251.62 5 9 51220 20240406034121
+94.139.237.81 1 1 6611 20240402162424
+202.43.6.60 1 1 2468 20240404015046
+34.222.107.143 1 1 6618 20240408030329
+2604:2dc0:100:55dd:: 2 2 6437 20240404122359
+3.92.226.245 2 8 109096 20240408113123
+34.210.9.167 1 1 6622 20240409030951
+151.80.67.229 1 1 6629 20240416123337
+18.246.15.213 1 1 6622 20240413041916
+43.128.100.206 3 3 19813 20240414151348
+202.43.6.9 1 1 6620 20240402162444
+96.9.249.37 2 10 154399 20240403040230
+176.53.223.82 1 1 6622 20240404104341
+144.217.135.225 2 8 144950 20240403091145
+54.210.58.4 2 7 79986 20240416125033
+87.236.176.245 1 1 6623 20240404005251
+43.155.169.133 2 2 13231 20240412101912
+35.202.72.83 1 1 6618 20240404081058
+52.34.185.87 1 1 6622 20240418200523
+150.136.146.238 1 8 34786 20240407121423
+54.159.154.82 2 12 106252 20240410035627
+195.201.41.238 1 1 6623 20240404001155
+18.208.178.62 2 2 13241 20240407064719
+3.84.82.17 2 8 118482 20240414171201
+209.242.215.126 0 1 30278 
+192.175.111.229 1 1 6619 20240407015517
+2400:6180:100:d0::a68:4001 2 2 13242 20240406224455
+89.104.100.44 1 1 6621 20240403082556
+64.15.129.104 1 1 6604 20240407022715
+54.218.249.39 1 1 6624 20240403100020
+139.162.135.250 1 18 190481 20240404012000
+18.222.201.223 2 15 9092 20240407154946
+54.90.109.233 2 12 135915 20240415082824
+18.206.228.44 2 6 92854 20240410074853
+47.88.94.161 1 1 6606 20240403103026
+93.158.91.11 1 1 6621 20240416065034
+52.91.35.46 2 9 154580 20240428233343
+2a00:6800:3:78a::1 1 1 6618 20240403153723
+54.221.118.77 2 8 139381 20240410235024
+54.71.75.233 1 1 6627 20240424044527
+84.17.42.13 1 1 6620 20240404014941
+159.203.85.23 1 1 6607 20240413004409
+35.93.27.241 0 1 849 
+35.166.52.182 1 1 6622 20240412095420
+34.209.134.82 1 1 6622 20240408113300
+146.70.166.87 2 2 13227 20240406100531
+35.86.34.43 1 1 6621 20240430043349
+43.130.31.48 5 5 33053 20240428195850
+54.90.195.236 1 1 6622 20240403000857
+84.252.95.137 1 1 6625 20240428233050
+34.209.191.31 1 1 6622 20240414092203
+170.106.104.42 4 4 26437 20240415021107
+23.20.96.219 2 13 176641 20240417130329
+44.222.201.34 1 1 6623 20240404084755
+192.158.226.16 1 1 6620 20240428233050
+35.86.191.14 1 1 6620 20240423120945
+172.241.130.183 1 1 6624 20240409192348
+20.163.64.196 2 8 144961 20240408112442
+181.214.218.112 1 1 6618 20240422061805
+192.154.207.164 1 1 6622 20240425065238
+101.44.69.160 1 1 0 20240404131217
+62.216.215.246 2 2 9090 20240406135018
+43.130.7.211 2 2 13231 20240417122458
+2a01:4f8:1c1c:e9fa::1 2 2 9088 20240404012944
+2604:a880:400:d0::24e2:b001 1 1 6607 20240402161639
+35.88.88.71 1 1 6624 20240412194209
+43.130.62.164 3 3 19849 20240426003430
+18.204.17.119 2 8 115312 20240412001012
+131.202.14.152 1 1 6624 20240406183837
+43.133.38.182 2 2 13226 20240429174409
+3.83.105.32 2 3 20235 20240409153339
+3.80.56.49 2 7 108085 20240419091156
+205.210.31.48 1 1 6602 20240411235659
+54.221.163.148 2 3 20226 20240407081710
+205.169.39.189 4 8 57832 20240403223534
+2a06:98c0:360b:69de:8bf4:a1c:2831:a40d 2 2 13226 20240405183533
+52.81.87.90 1 1 6621 20240407013238
+34.222.254.177 1 1 6625 20240411120056
+87.236.176.45 1 1 6604 20240403105017
+94.139.237.75 0 1 3335 
+43.163.8.148 4 4 26489 20240429065154
+43.135.166.178 4 4 26455 20240430004348
+69.4.234.70 1 1 6604 20240402213634
+18.212.74.25 2 6 19469 20240417043949
+52.41.141.222 1 1 6626 20240410032656
+111.7.100.28 2 2 9088 20240421123734
+43.128.100.220 3 3 19845 20240428181537
+34.209.230.251 1 1 6620 20240421102400
+122.176.204.43 2 2 9844 20240407064704
+2a05:d016:39f:3101:7eec:c59c:ded4:344f 1 1 87 20240402145905
+93.158.91.241 1 1 6624 20240416145705
+150.109.253.34 1 1 6604 20240407215621
+35.91.3.10 1 1 6618 20240425191737
+205.210.31.221 1 1 6619 20240423064444
+124.221.186.82 1 1 6622 20240408182721
+188.165.87.110 1 1 6608 20240404021219
+2a06:98c0:360c:90a5:7833:370c:b7ce:91a8 1 1 6608 20240425152206
+206.189.247.132 3 3 11558 20240428233139
+93.114.137.109 2 2 9089 20240419175056
+54.91.147.13 2 3 9941 20240411074432
+167.94.138.127 1 1 6607 20240409043521
+54.83.100.114 1 1 6625 20240408080017
+104.166.80.115 3 12 60930 20240404185509
+35.92.93.83 1 1 6622 20240410194334
+2a03:2880:21ff:10::face:b00c 1 2 22444 20240402152509
+111.7.96.163 3 6 64346 20240423074958
+45.149.30.146 0 1 7221 
+49.51.206.130 3 3 19851 20240424152235
+43.130.39.101 1 1 6606 20240410020735
+34.221.184.107 1 1 6621 20240416043726
+179.43.152.68 1 14 92105 20240420160941
+104.234.140.36 3 3 13242 20240422015124
+103.175.168.108 1 1 629 20240406121158
+2a03:2880:21ff:11::face:b00c 1 3 80651 20240402152512
+157.119.232.164 2 8 144963 20240402180358
+104.245.126.72 2 4 46587 20240423175533
+35.92.157.243 1 1 6622 20240419102107
+54.197.109.93 2 8 115132 20240423234103
+2a03:b0c0:1:d0::5e2:6001 4 8 116550 20240402162750
+34.224.215.26 2 2 13248 20240406170818
+43.155.160.173 2 2 13251 20240409034953
+51.178.81.195 4 4 22313 20240406135025
+162.142.125.8 1 1 6607 20240409041544
+54.197.33.229 2 4 22019 20240418130638
+176.53.216.72 1 1 6623 20240426180716
+64.226.115.70 1 1 6621 20240408125845
+35.173.186.17 2 5 60828 20240413123051
+34.238.155.124 2 3 10881 20240422113607
+16.170.245.127 1 1 6619 20240422081643
+192.175.111.249 1 1 6621 20240407015520
+34.220.154.183 1 1 6624 20240429105053
+35.91.254.249 1 1 6621 20240405201430
+52.81.33.66 2 2 13240 20240429053559
+3.88.173.101 2 8 113454 20240412160847
+36.255.220.97 4 4 26454 20240424172836
+104.164.173.170 1 1 6623 20240403032812
+104.168.34.156 1 1 2468 20240404055123
+3.238.248.140 2 7 136149 20240406110213
+34.226.122.173 2 9 122988 20240413203240
+176.53.222.83 1 1 6623 20240404153935
+176.53.218.174 1 1 6624 20240411165429
+52.32.182.175 1 1 6623 20240423100037
+135.148.195.13 1 1 6619 20240408070634
+44.201.136.63 2 9 156624 20240406201005
+185.93.251.254 1 1 6636 20240428111149
+104.166.80.8 1 1 6620 20240406102320
+159.203.39.184 1 1 6621 20240420123803
+2001:4860:7:405::df 1 1 2447 20240407224022
+35.88.248.13 1 1 6625 20240414043813
+35.89.158.214 1 1 6621 20240409102354
+23.82.137.78 3 6 39233 20240406135057
+84.17.42.48 1 1 2468 20240408162836
+54.172.243.241 2 8 115309 20240417165342
+122.180.181.49 2 2 6438 20240404110157
+185.189.114.126 1 1 6621 20240430234433
+34.213.201.90 2 8 125821 20240404213209
+43.159.128.68 4 4 26466 20240429183126
+18.237.45.72 1 1 6622 20240427110802
+43.163.1.85 2 2 13209 20240408150652
+34.220.209.63 1 1 6623 20240408093957
+54.175.35.196 2 6 35175 20240410153744
+54.94.75.93 1 1 0 20240402150050
+205.169.39.251 4 12 22686 20240410031852
+104.166.80.132 1 1 6622 20240406025424
+168.151.97.14 2 2 9089 20240416175213
+18.246.211.251 0 1 14242 
+172.70.4.160 2 2 13227 20240422013846
+43.155.166.202 2 2 13225 20240419002202
+35.93.59.126 1 1 6623 20240404195835
+34.227.221.241 2 9 117203 20240412121424
+129.226.147.7 3 3 19849 20240427002026
+18.220.89.58 3 7 109933 20240403062038
+47.251.13.32 2 2 13227 20240403102738
+176.53.219.8 1 1 6623 20240406090329
+124.225.164.130 2 2 13232 20240426103907
+93.158.91.247 1 1 6621 20240403064018
+36.99.136.129 5 8 92580 20240426121134
+212.102.46.41 3 18 278761 20240413203616
+180.149.19.80 2 6 107449 20240402162222
+192.175.111.242 1 1 6621 20240407015520
+3.223.78.149 1 1 2468 20240402162005
+52.11.59.211 1 1 6622 20240403193517
+44.202.136.69 2 4 16938 20240418004332
+43.159.141.180 1 1 6602 20240408012926
+52.71.253.214 2 7 137476 20240411161145
+111.7.100.30 0 1 7221 
+62.197.150.19 4 6 59830 20240411075751
+34.223.82.251 1 1 6623 20240409185746
+64.226.65.160 1 1 6606 20240402161637
+3.83.89.5 2 2 9092 20240413082408
+2604:2dc0:100:4f07:: 6 6 14451 20240404122325
+104.197.69.115 2 8 16312 20240406022343
+162.158.110.167 1 1 64 20240405101412
+44.201.244.109 2 8 148616 20240426113127
+15.235.9.75 1 1 2441 20240418155007
+36.99.136.137 2 2 13242 20240421062955
+94.139.230.127 1 1 2468 20240402162428
+3.88.163.141 2 2 13212 20240406170742
+162.158.111.245 1 1 64 20240405131252
+89.104.100.217 1 1 6621 20240403011848
+111.207.155.211 1 1 6617 20240404032728
+34.16.79.135 1 1 6621 20240411131306
+54.87.184.121 2 3 16140 20240415042228
+104.164.173.36 1 1 6622 20240402161914
+65.154.226.167 2 4 16798 20240424031027
+42.83.147.53 1 1 6617 20240419051551
+54.187.12.77 1 1 6623 20240417110024
+89.38.132.36 2 6 107463 20240419175209
+165.227.97.139 1 1 6619 20240406130648
+45.15.18.72 4 4 18183 20240423073748
+92.16.218.116 3 3 11559 20240408163132
+152.42.181.219 3 3 13242 20240422011811
+86.164.199.108 1 1 2468 20240402162750
+54.190.136.196 1 1 6623 20240425102338
+35.161.227.35 1 1 6619 20240418093119
+66.249.79.101 1 1 2412 20240409100417
+198.7.56.242 1 1 2468 20240402170540
+52.81.77.13 1 1 6624 20240426111929
+3.86.35.251 2 7 52909 20240416082055
+35.85.229.177 1 1 6621 20240406121209
+104.166.80.38 1 1 6622 20240408102215
+35.166.67.253 1 1 6623 20240413101831
+13.38.69.47 1 1 2468 20240402191137
+198.235.24.249 1 1 6620 20240412170108
+155.94.216.148 1 1 6624 20240402162444
+178.33.107.250 1 1 6624 20240404073652
+35.206.153.204 1 1 6620 20240424203133
+58.211.23.183 6 6 39728 20240430134728
+156.146.60.67 3 3 13252 20240418082227
+2406:da18:85:1400:f628:143f:199f:5739 2 2 174 20240402161614
+66.249.66.200 1 1 2420 20240415122150
+34.211.165.57 1 1 6624 20240407095410
+139.59.34.102 1 1 6619 20240428150802
+35.226.247.173 1 1 6624 20240403145508
+43.135.181.13 5 5 33052 20240422152135
+94.247.172.129 1 1 6604 20240416105427
+89.104.111.198 1 1 6624 20240404095245
+2001:bc8:1201:1d:ba2a:72ff:fee1:1d32 2 17 71720 20240411215650
+52.70.47.244 2 5 55406 20240408153117
+34.235.114.235 2 3 9710 20240414083733
+172.70.22.197 1 1 6603 20240429052404
+104.223.88.8 1 1 6621 20240408162707
+43.131.249.153 2 2 13208 20240422022309
+87.236.176.229 1 1 6609 20240403105214
+52.26.44.225 1 1 6622 20240428124717
+156.146.63.164 3 3 15710 20240402150832
+77.81.142.251 2 10 161001 20240404164238
+52.80.214.58 1 1 6606 20240426112136
+206.168.34.53 1 1 6607 20240412084731
+159.65.83.47 1 1 6624 20240418134630
+54.189.251.70 0 1 7047 
+43.134.89.111 5 5 33059 20240428153323
+54.84.191.65 2 10 160996 20240420060001
+52.71.112.69 2 4 22017 20240419214810
+3.84.79.9 2 6 62620 20240414125319
+35.93.222.112 1 1 6622 20240419115623
+57.128.80.78 1 1 6605 20240404064638
+2406:b400:72:857e:fdb4:a657:3bc4:d393 3 28 391698 20240413140130
+34.221.195.194 1 1 6622 20240403100029
+35.174.154.189 2 10 119644 20240427114459
+18.191.44.104 3 7 109930 20240428051232
+54.144.227.23 1 1 6620 20240403115038
+54.158.127.146 2 7 96206 20240416002740
+170.106.101.31 3 3 19814 20240423015659
+2600:3000:1511:200::87 1 1 87 20240402161614
+77.234.44.183 3 3 12284 20240417075218
+205.169.39.76 2 2 9085 20240406063413
+54.201.164.25 1 1 6624 20240418121103
+195.80.149.246 3 9 151594 20240408162934
+161.35.37.80 1 1 6606 20240409024228
+146.190.197.169 2 6 111612 20240404164003
+35.86.163.207 1 1 6624 20240420113035
+34.216.62.160 1 1 6618 20240430195339
+3.86.43.205 2 8 119228 20240421062422
+3.95.239.79 2 5 57723 20240415123144
+35.86.177.163 1 1 6619 20240406095149
+137.226.113.44 2 2 13212 20240426154608
+52.33.154.98 1 1 6623 20240425114141
+104.166.80.15 1 1 6624 20240408025105
+122.176.203.120 2 2 9839 20240405171359
+64.57.140.62 2 8 144964 20240402173318
+123.160.221.131 1 1 2468 20240424010408
+44.222.225.207 0 1 11139 
+110.166.71.39 1 1 6620 20240415172314
+176.53.219.48 1 1 6623 20240415044729
+2400:6180:100:d0::a68:5001 2 2 13243 20240409010544
+199.45.155.22 1 1 6602 20240403142228
+176.53.217.180 1 1 6609 20240403013641
+101.35.239.216 4 4 26492 20240410203903
+18.219.27.80 3 7 109936 20240416174012
+35.90.25.68 1 1 6627 20240421102359
+45.90.60.250 1 1 6625 20240415015324
+18.246.24.125 1 1 6625 20240417194947
+199.244.88.232 1 1 6623 20240403100206
+191.102.170.130 1 1 6621 20240404081606
+138.199.47.230 1 1 6624 20240402170448
+52.33.9.85 0 1 11139 
+87.236.176.85 1 1 6610 20240403114318
+182.44.12.37 1 1 6602 20240426215725
+100.20.101.182 1 1 6619 20240422205046
+104.166.80.239 1 1 6621 20240409103052
+199.45.154.54 1 1 6624 20240404152654
+176.53.217.214 1 1 6621 20240413111602
+54.173.108.208 2 7 114517 20240418172258
+44.234.188.159 1 1 6623 20240406044628
+44.204.19.8 1 1 6619 20240405182827
+168.151.134.114 2 6 107465 20240430175311
+2001:41d0:305:2100::587a 2 2 13226 20240402190809
+192.241.67.18 1 1 6621 20240403002857
+34.221.182.152 0 1 1868 
+43.130.37.62 2 2 13211 20240429153041
+18.234.214.67 2 10 160997 20240415012904
+35.90.120.140 1 1 6623 20240428030526
+35.92.159.51 1 1 6621 20240408093957
+98.159.33.31 3 3 9870 20240409102623
+3.88.137.130 2 11 172136 20240404082333
+52.91.201.16 2 6 65747 20240411113933
+103.225.130.94 1 1 2468 20240402162007
+176.53.219.125 1 1 6618 20240404082556
+54.71.173.62 1 1 6623 20240415094531
+146.190.242.161 1 1 6610 20240402161638
+54.225.30.212 2 3 10958 20240420221344
+178.62.8.153 1 1 6607 20240407023037
+204.93.149.129 1 1 565 20240402150124
+35.215.99.143 1 1 6627 20240418032721
+198.235.24.176 1 1 6603 20240416193335
+35.82.29.7 1 1 6623 20240429191800
+199.45.154.53 1 1 6624 20240403040959
+3.12.165.98 3 7 109930 20240422120551
+34.235.137.105 2 11 172137 20240428113846
+34.224.58.90 2 10 161002 20240413050419
+35.89.6.187 0 1 30278 
+3.87.138.49 1 1 6598 20240402151823
+176.53.219.58 1 1 6619 20240420165934
+192.175.111.253 1 1 6608 20240407022718
+168.151.101.30 2 2 9073 20240402162222
+176.53.217.23 1 1 6622 20240427030000
+135.148.195.15 1 1 6626 20240416162538
+43.163.6.124 1 1 6608 20240420021030
+139.59.161.129 1 1 6622 20240404132016
+45.90.63.137 1 1 6621 20240407123538
+34.122.89.224 1 1 6607 20240402162004
+162.142.125.217 1 1 6618 20240403034137
+89.208.29.44 2 9 159207 20240404201357
+185.206.225.169 1 1 2468 20240404163856
+34.219.8.37 1 1 6620 20240422093910
+172.104.151.10 1 18 190477 20240404011955
+82.102.30.72 1 1 2468 20240402162751
+3.88.104.20 2 10 168804 20240421100032
+34.207.175.187 1 1 6597 20240402151114
+54.227.111.178 2 5 60832 20240407160217
+35.165.72.245 1 1 6624 20240411041405
+104.166.80.2 1 1 6625 20240410174314
+44.202.66.157 2 7 53366 20240417212828
+176.53.222.122 1 1 6624 20240408111526
+102.129.252.146 3 17 190784 20240409033651
+34.202.230.92 2 7 133586 20240416203737
+35.83.254.180 1 1 6624 20240411200254
+54.191.141.143 1 1 6620 20240426031257
+68.235.50.247 1 1 6616 20240402150807
+45.90.61.196 1 1 6622 20240407095158
+222.79.104.23 1 1 6605 20240427211848
+193.239.84.35 1 1 2468 20240402170539
+43.133.66.151 3 3 19845 20240422145952
+104.166.80.49 1 1 6616 20240407025410
+176.53.223.197 1 1 6623 20240403202156
+54.201.71.20 1 1 6618 20240407095301
+54.218.102.116 1 1 6623 20240428093658
+2600:1f14:804:fd00:bcaf:3f0e:5790:cd84 1 1 87 20240402145906
+52.42.34.115 1 1 6621 20240426094354
+34.234.70.251 2 4 41158 20240409113211
+3.82.128.145 2 6 83937 20240414003653
+35.86.169.237 1 1 6622 20240423201930
+77.74.177.119 1 1 6622 20240424042817
+47.89.193.239 1 1 6624 20240403103027
+3.95.61.51 2 10 160995 20240419174016
+35.163.161.73 1 1 6622 20240420094349
+87.236.176.172 1 1 6623 20240403183630
+199.45.155.36 1 1 6606 20240403125624
+2a00:6800:3:b78::1 1 1 6624 20240430001811
+199.244.88.226 1 1 6625 20240417220448
+2600:1f14:804:fd01:cb7:33bc:9728:8e6f 2 2 174 20240402161614
+54.160.164.240 2 13 179806 20240422233113
+69.160.160.52 2 8 144963 20240421024240
+35.169.200.35 1 1 6622 20240403115041
+2a13:6302:0:4::1 4 21 202032 20240404164122
+205.210.31.64 1 1 6607 20240419223514
+84.252.95.135 1 1 6620 20240404163706
+34.210.43.134 1 1 6624 20240409072511
+52.47.93.114 1 2 9957 20240403071833
+43.135.149.154 3 3 19863 20240429003208
+111.7.96.154 1 1 6621 20240426153626
+198.23.242.152 1 1 2468 20240409055207
+45.128.163.88 1 1 6623 20240425152235
+199.45.155.53 1 1 6621 20240403063813
+195.78.54.77 3 3 13246 20240414025112
+44.201.144.212 2 3 9712 20240408073709
+43.163.8.36 5 5 33054 20240428021856
+188.49.165.81 1 1 2468 20240406110020
+111.7.96.177 3 7 69241 20240421041038
+34.229.220.220 2 2 13246 20240406170908
+138.68.26.139 1 1 6621 20240404025613
+34.212.8.151 1 1 6621 20240423100027
+18.215.151.62 2 8 78928 20240420014746
+104.234.140.81 3 3 13242 20240416171924
+138.197.164.136 1 1 6606 20240403001727
+43.133.77.230 4 4 26464 20240422004118
+170.64.214.133 3 3 13250 20240418071539
+154.28.229.169 1 2 11760 20240402162106
+34.81.16.175 2 14 181877 20240407044427
+34.201.250.125 2 4 88310 20240419131234
+192.175.111.254 1 1 6608 20240407022716
+212.143.94.254 4 15 188591 20240402155948
+104.166.80.40 1 1 6622 20240410030157
+122.176.202.195 4 4 19686 20240412225149
+13.43.217.231 1 1 6620 20240402170448
+37.187.215.244 1 1 6609 20240404042621
+43.155.138.79 2 2 13248 20240420181857
+54.189.11.118 1 1 6620 20240429041508
+194.195.243.80 6 28 133134 20240407131040
+43.134.32.12 6 21 301909 20240418075319
+194.38.25.102 0 1 74848 
+68.183.245.101 1 1 2468 20240408162837
+2a01:4f9:c012:6365::1 3 3 19848 20240427134922
+43.159.128.149 2 2 13214 20240427152618
+176.53.217.202 1 1 6619 20240408111527
+87.236.176.47 1 1 6617 20240404015957
+44.204.48.207 1 1 6619 20240402150743
+43.134.117.60 6 23 334021 20240411074233
+44.234.104.226 1 1 6619 20240410124617
+2a00:6800:3:b9f::1 2 2 13243 20240420010632
+18.206.205.87 2 5 104131 20240412202202
+203.33.203.148 1 1 6608 20240418192856
+83.229.78.140 1 1 2468 20240402162014
+43.157.40.112 1 1 6623 20240408080701
+209.242.213.96 0 1 15821 
+34.221.172.6 2 2 13243 20240427094657
+54.224.171.28 2 3 20228 20240420133737
+152.39.135.227 2 6 107462 20240430175128
+165.154.18.108 3 3 19815 20240425071612
+164.92.107.198 1 1 6622 20240424122222
+167.94.138.49 1 1 6624 20240404163554
+135.148.195.6 1 1 6622 20240423221622
+47.254.74.59 1 1 6622 20240403102738
+54.191.123.231 1 1 6618 20240430121915
+128.140.7.19 1 1 6621 20240428060146
+104.166.80.228 1 1 6622 20240410102643
+54.70.10.147 1 1 6622 20240429105223
+18.142.128.26 1 1 6605 20240418141714
+104.166.80.62 1 1 6624 20240409030515
+54.160.189.157 2 9 159206 20240406160622
+36.99.136.128 4 5 33476 20240426121126
+87.236.176.24 1 1 6622 20240403185140
+35.162.157.219 1 1 6622 20240428093656
+64.227.174.88 1 1 6621 20240425082843
+45.87.9.237 1 1 2468 20240402162017
+35.89.168.5 1 1 6626 20240407095257
+54.202.209.5 1 1 6623 20240422093908
+3.91.201.62 2 15 178042 20240417010107
+109.156.124.176 1 1 6621 20240409055113
+165.227.81.246 1 5 104997 20240428233242
+111.7.100.29 1 1 6623 20240421123727
+87.236.176.90 1 1 6609 20240403114936
+18.220.167.115 3 7 109932 20240410105330
+103.225.130.1 1 1 6604 20240402162004
+36.72.97.100 1 1 6621 20240404032734
+54.162.190.39 2 11 166787 20240426234202
+35.86.243.251 1 1 6625 20240415205204
+35.92.40.2 1 1 6625 20240404101516
+205.210.31.217 1 1 6620 20240416101501
+100.27.192.144 2 15 184424 20240430004150
+51.81.167.146 1 1 6602 20240407130824
+2001:4860:7:505::d2 1 1 2399 20240411194915
+35.94.124.82 1 1 6622 20240430094756
+43.134.190.89 2 2 13247 20240420214856
+111.7.96.165 3 5 47860 20240425121457
+45.90.63.127 1 1 6622 20240423191337
+193.8.215.70 2 2 13244 20240403200237
+192.87.174.28 6 6 39708 20240404025019
+54.174.234.60 2 11 172138 20240430125350
+43.130.47.136 4 4 26440 20240426152549
+52.43.123.21 1 1 6622 20240420043908
+3.90.78.45 2 6 62620 20240414045906
+185.67.34.1 1 1 0 20240402150042
+104.164.173.248 1 1 6620 20240402162023
+93.158.91.31 1 1 6622 20240422023815
+35.80.5.76 1 1 6621 20240420200032
+135.148.195.4 1 1 6621 20240415084600
+65.154.226.169 1 1 6626 20240410031902
+3.86.230.155 2 6 43755 20240414204443
+154.47.20.13 3 3 13246 20240415002425
+18.230.149.249 1 1 6601 20240402161954
+199.45.155.21 1 1 6623 20240404183849
+191.102.174.238 1 1 0 20240404081605
+52.81.44.220 1 1 6600 20240406031801
+54.68.160.209 1 1 6623 20240416094647
+192.175.111.243 1 1 6603 20240407022718
+217.138.255.187 3 9 151586 20240409055140
+2406:da18:85:1402:1a78:3889:63a6:5686 1 1 87 20240402161614
+167.88.60.236 1 1 2468 20240402150934
+51.254.49.98 1 1 6609 20240404052416
+54.226.3.31 2 13 173541 20240420174405
+216.24.216.229 1 1 6616 20240402150806
+54.185.190.137 1 1 6620 20240422124149
+2.57.76.145 2 6 107470 20240422174522
+54.166.144.171 2 9 157664 20240407040222
+44.223.1.236 1 1 6620 20240403135448
+84.252.95.139 1 1 6624 20240402162444
+144.217.135.197 2 10 160981 20240404145501
+47.254.76.138 1 1 6620 20240403103027
+5.180.136.56 1 1 0 20240419032853
+54.160.192.27 2 13 181104 20240415203109
+128.90.104.208 2 2 9071 20240402191136
+2a03:2880:21ff:3::face:b00c 0 1 4371 
+2a06:98c0:360b:89f8:1461:d08c:6edc:4d16 1 1 6619 20240429052404
+34.216.96.146 1 1 6620 20240426122749
+54.174.37.188 2 5 60832 20240413000244
+54.201.251.113 1 1 6618 20240414092203
+3.85.166.131 2 8 110906 20240408032214
+184.73.16.50 2 8 116427 20240407234536
+2a03:b0c0:3:d0::d1a:1 1 1 6605 20240402161637
+34.222.90.112 1 1 6625 20240408093956
+35.93.164.7 1 1 6621 20240414115039
+89.104.110.30 1 1 6626 20240417205340
+45.144.91.75 1 1 2468 20240402162011
+176.53.216.225 1 1 6627 20240411042431
+52.37.193.168 1 1 6622 20240404043226
+35.89.241.56 1 1 6620 20240407044316
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20240402 263 508 4128680 103
+20240403 202 305 5679505 88
+20240404 210 431 4159945 130
+20240405 44 44 209214 34
+20240406 99 158 1288840 67
+20240407 103 196 1799874 66
+20240408 78 128 1260347 55
+20240409 83 119 996325 59
+20240410 79 150 1455668 55
+20240411 61 124 1374973 38
+20240412 59 86 764477 40
+20240413 58 149 1723973 36
+20240414 56 155 1749441 32
+20240415 45 79 688185 30
+20240416 60 100 969528 40
+20240417 49 89 687207 31
+20240418 64 104 986821 37
+20240419 45 72 682228 30
+20240420 47 91 674701 32
+20240421 52 103 1020970 32
+20240422 64 95 830399 41
+20240423 53 73 492956 33
+20240424 50 85 647709 34
+20240425 48 70 557698 32
+20240426 49 64 494162 35
+20240427 39 55 407414 27
+20240428 58 88 857924 41
+20240429 55 111 540422 32
+20240430 42 72 691666 30
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+30s-2mn 14
+15mn-30mn 4
+0s-30s 1305
+30mn-1h 4
+5mn-15mn 4
+2mn-5mn 9
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 511
+/ 1179 7635237 1023 801
+/privacy/index.php 292 720656 55 264
+/admin/notification/single/user/test 59 18418 0 1
+//xmlrpc.php 25 0 0 3
+/contact-us 21 64385 7 12
+/about-us 14 31771 4 3
+/admin/websettings 12 103684 0 0
+/terms-condition 11 24094 2 3
+/admin 10 15564 3 2
+/refund-policy 9 19313 1 1
+/privacy-policy 8 16818 0 0
+/admin/player/all 8 42957 0 0
+/admin/dashboard 7 32173 0 1
+/admin/bid/coin 7 28556 0 0
+/admin-assets/fonts/line-awesome/fonts/la-solid-900.woff2 6 580512 0 1
+/admin/account 5 42586 0 0
+/.well-known/acme-challenge/E-9HPsHEQ80FqLdYvN7RXDghohoXIIADOMxEHtd1Cr4 5 435 5 3
+/.well-known/acme-challenge/wWKUcVaGgvdvgbfkgTld-INeIEpanMjKtqEvzziNcb0 5 435 5 5
+/.well-known/acme-challenge/yzU_jKsKLXVB_GboHYhw2fOoBay8cQhfJEMLw16Dp_0 5 435 3 5
+/front-assets/webfonts/fa-solid-900.woff2 4 317776 0 0
+/admin/leaderboard 4 16220 0 0
+/front-assets/fonts/themify.woff 4 224432 0 1
+/front-assets/webfonts/fa-brands-400.woff2 4 306448 1 0
+/admin-assets/fonts/line-awesome/fonts/la-brands-400.woff2 3 254316 0 0
+/admin/new/withdraw/request 3 13008 0 1
+/.well-known/acme-challenge/-NZYXXBO14YQU04S4QIBF2M06KWH5PCW 1 64 1 0
+/.well-known/acme-challenge/LJL6I5HV01WMR72Y9EAS7OWTVTSCH6D_ 1 64 1 0
+/.well-known/acme-challenge/3-ULT1JVHFG65S5DUJ5NP14UYGF2BE-V 1 64 0 1
+/.well-known/acme-challenge/JQYPB2I-RZ5W98S3SPUTS4AXJ5Q0LMZK 1 64 1 0
+/front-assets/webfonts/fa-solid-900.eot 2 201208 0 0
+/.well-known/acme-challenge/OXURZC9WJKX7HAXHBQ-CZ0E-BMK4VGUV 1 64 1 0
+/.well-known/acme-challenge/TX9T84GXAYQ_D0-RSD-SS1JXEJ39YF04 1 64 1 0
+/.well-known/acme-challenge/HSMFY30B6NBG3QB55-WTB2VIGG_T1LYW 1 64 1 0
+/.well-known/acme-challenge/QKQC6FSKJJ8K8QAM82O75CZ-BUBD4G20 1 64 0 1
+/.well-known/acme-challenge/TEEKN5Q8SG3O556NJ213VL8C2VLBNB0S 1 64 0 1
+/.well-known/acme-challenge/ST15BL8I3L09K0XNRH-RT5YUOQ2OOD7M 1 64 1 0
+/.well-known/acme-challenge/TW_628M3F02JS8SBOOSUT18ZBZF591PO 1 64 1 0
+/.well-known/acme-challenge/EOQROS-I-GYR1S13NEDG7Y7J6UH3FBMW 1 64 1 0
+/.well-known/acme-challenge/_M83ABL8YPGLVEQN7PIGTTULAZTEK75P 1 64 1 0
+/.well-known/acme-challenge/ZL6APXAEZS6J70IPT7QMKUX4LBSPT_MR 1 64 1 0
+/.well-known/acme-challenge/VKD6PILEYEKO1SD62XDV8MRKPS9W89V3 1 64 0 1
+/.well-known/acme-challenge/C6M4TXC1806P6YY-WO0H03N8SEGVTDJE 1 64 0 1
+/.well-known/acme-challenge/LEQ11E4UY1313K86QYDGFJ3S6B_B3VFP 1 64 1 0
+/.well-known/acme-challenge/4SCXKKE2FAII0MCL0JUQN6ZA2O0UAZB- 1 64 1 0
+/.well-known/acme-challenge/YRDU_2FGISUC1TDZ12XVY2708GRS2IFU 1 64 0 1
+/.well-known/acme-challenge/MP_CFMMIQD_JTABVWVGDY0-OUDH8N3Q9 1 64 1 1
+/terms-condition/ 2 4819 1 0
+/.well-known/acme-challenge/P-4NY3GDBYZM8EO-S-216QXLWT_EJCA9 1 64 1 0
+/.well-known/acme-challenge/DWU2YP9MU0L43MI3MX5HED2Z6IEK6X0T 1 64 1 0
+/.well-known/acme-challenge/RPYDHJPPKAQOP1H8U-88XY--MFTC7U60 1 64 1 0
+/.well-known/acme-challenge/L3ZQ43P9TX8W5CC_U49NJN0G37MM4_H9 1 64 0 1
+/admin/player/view/eyJpdiI6IlBXWWEzNkdQS0tsMWJkbVp6UEFvOEE9PSIsInZhbHVlIjoiYitaWWZkb0xRYUF2ZnkvL2c5eXB2VkJpckwzUU5SWVB3MGxneHF2RzdrTT0iLCJtYWMiOiI1MzllZGNiYWZiODM5MjE4NzViYmEyODZiZjBjNzZiODM1ZWM1ZDY4NTU1YTI4ZTk5YTg3ZjY0MmFkZDVhZGRiIn0= 2 12637 0 0
+/.well-known/acme-challenge/S-3EA8SO_J2775AF8JYK374X0S0G968E 1 64 1 0
+/.well-known/acme-challenge/5T5AUT2UDRAXDO5D7E07MKX0XWOI9W_6 1 64 0 1
+/.well-known/acme-challenge/T77Y3GAWDMPJ7XSF7F3Z5F-ZFG3YBXOA 1 64 1 0
+/.well-known/acme-challenge/9GMMP9W8L8LQGL5GTX6CZPII8_7PQWIQ 1 64 0 1
+/.well-known/acme-challenge/_HOVAK186C9PN5C9IFPQEU9TNIU-7IVO 1 64 1 0
+/.well-known/acme-challenge/PY6XAHNK2VP0MQU7EPZXIGH-07KWZRBH 1 64 1 0
+/.well-known/acme-challenge/1DLVVFHI6JZCCKHMI4CEN0AAYBX7GOTW 1 64 0 1
+/.well-known/acme-challenge/ZCY1XN095BT225WX4VYQ-W2DB603OY_5 1 64 1 1
+/.well-known/acme-challenge/HSVBG7J8G0GP0ODJN15LYKO4WJZWS8H0 1 64 1 0
+/.well-known/acme-challenge/OSLK-_2QUOYIR1_ICX7DS8XTTJI1ST49 1 64 1 0
+/.well-known/acme-challenge/_YE3LKKNT43VLG_3IAYAXU2PDK0Z08RV 1 64 0 1
+/front-assets/webfonts/fa-solid-900.woff 1 103300 0 0
+/admin/faq/all 1 3959 0 0
+/.well-known/acme-challenge/D-2Z_321FJG-PIR7VIAI7PPMP8B4Q080 1 64 1 0
+/.well-known/acme-challenge/3WFW544MQLFCVCXQ3FA2569LLWNC8BG4 1 64 1 0
+/.well-known/acme-challenge/V1WIL8C67S5GCTRXNF6G9BKJOHLCE0Y6 1 64 1 0
+/.well-known/acme-challenge/J5L92U1868B6KVLPTTLR0C315_SSIHGI 1 64 0 1
+/.well-known/acme-challenge/OC8ST8BZSF-XP4M3NCRAS968YWJBU0FK 1 64 0 1
+/.well-known/acme-challenge/G09HWLUEDFASDO2TYKDVFTYOJ32LV39L 1 64 0 1
+/.well-known/acme-challenge/C43ZG1RQCBP6_OGFJ1ZLDMOCEHMRDRB4 1 64 1 1
+/.well-known/acme-challenge/1XIZ6PZ5WV-GBDHUTG9R521U98J-HJGY 1 64 0 1
+/.well-known/acme-challenge/TL8LO6QW8KLUKY9URCPN70LLX12-_VVV 1 64 0 1
+/.well-known/acme-challenge/PIRLLPBP0XTOFZCM-OBQ-PI23VPBO8O3 1 64 0 1
+/.well-known/acme-challenge/5E47WGHNYUMAG71W-RDJHRE683IXV8UD 1 64 1 0
+/.well-known/acme-challenge/MUI04FJVRS3_TGNR-Z7K6_7NR30A3W1S 1 64 1 0
+/.well-known/acme-challenge/CL2MTILCVA-J-VO2FPZLT775607RLIAI 1 64 1 0
+/.well-known/acme-challenge/7M1S57-O7KYP1DHE2UKE8699FX1377PK 1 64 1 0
+/.well-known/acme-challenge/OSXF8H4ISMX5NTB8H017_JDIDU3M24RQ 1 64 0 1
+/.well-known/acme-challenge/3O0O38R8A0IB2LHHV4VLS-64ZTFLU1UY 1 64 0 1
+/.well-known/acme-challenge/OUNCW-K0Q90V77HPQN51DF_U-AS03Z_X 1 64 1 0
+/.well-known/acme-challenge/6ZWX1KUX44XIEIWE3XNIUPCCM5VDQ0-9 1 64 1 0
+/.well-known/acme-challenge/LA4TU-WD13YAV59UX-12-IXV79S6YMMN 1 64 0 1
+/.well-known/acme-challenge/T1PM37ZCYUIQUF1TP8GTBTV095EKMB_3 1 64 1 0
+/.well-known/acme-challenge/O_2J2VVABO3QYS_X9D9I2_C6F0IHLY2X 1 64 1 0
+/.well-known/acme-challenge/RYUUI5NGOZDIFW9YVX88QFC5D3L1OZZT 1 64 0 1
+/.well-known/acme-challenge/I_YU04D-Q5R950OII-GJ3DX6AMBLFSC3 1 64 0 0
+/.well-known/acme-challenge/0UDXOMOR3AL9C22UZH_5OQY4NH_72EZ6 1 64 1 0
+/.well-known/acme-challenge/CDD1J7YUDPL2KATDMQYLK243I84VUKAG 1 64 0 1
+/.well-known/acme-challenge/GOX-KY18AS_H85N24E7CZ8NAVKN-QRM2 1 64 1 0
+/.well-known/acme-challenge/T2II822PRB1VOCTOOSLD7P54_I3XQJJ8 1 64 1 0
+/about-us/ 2 4886 1 1
+/.well-known/acme-challenge/W5CVI7420RJ_BD5KPFKPB2FLGCNT9PXU 1 64 0 1
+/.well-known/acme-challenge/LGVRXCO63JBF35ET9L36JH0IM5HCIC9O 1 64 1 0
+/.well-known/acme-challenge/AP20ZGB3MT5H5COF-FAL78GI-7_P4CXP 1 64 0 1
+/.well-known/acme-challenge/DK4XDOUBW2QNELX4U14-OMEUMVGN3MB7 1 64 1 0
+/front-assets/webfonts/fa-regular-400.ttf 1 16638 0 0
+/admin-assets/fonts/line-awesome/fonts/la-regular-400.woff2 1 12900 0 0
+/.well-known/acme-challenge/X4HJM_7WYWGOE19Y09D-DQTP-0OJUIS7 1 64 0 1
+/.well-known/acme-challenge/XLU9QJLBB__4MJ4_0M-ZBLZS48TS9BPF 1 64 1 0
+/.well-known/acme-challenge/WZBWVTBNMNQBZQQ-_KFEIEU50DKSG7JH 1 64 0 1
+/.well-known/acme-challenge/CXZEOCVP_GPBRZV_UUPQSC5IXKONYZR7 1 64 0 1
+/.well-known/acme-challenge/300OYAHUDTGMJVZPH8L9MGBOQRWBNDOA 1 64 0 1
+/.well-known/acme-challenge/3TPFU__C-4GJ-Z62986I2A03GTT4BO1F 1 64 0 1
+/.well-known/acme-challenge/PGGT-_62OTSZ67TR4G396-0AMGATM06B 1 64 1 0
+/.well-known/acme-challenge/UGE748QK38C_ZABMB7I19ADM3TV5OC_Z 1 64 1 0
+/front-assets/fonts/themify.eot 2 81162 0 0
+/.well-known/acme-challenge/C7ELSTNS1UL8R6LEFRD309-EYKWGPUF0 1 64 0 1
+/.well-known/acme-challenge/TO5RMXY0I899I20BEERZOL19842P98JD 1 64 0 0
+/.well-known/acme-challenge/D6BYS8H-6PPX_NUE2PPX5AXNJXYGVDHE 1 64 0 1
+/.well-known/acme-challenge/NYX01I1N253ZBU_G9EF6OV0IZ7WZ93GM 1 64 1 0
+/.well-known/acme-challenge/W9IBVWIHGSTG6N33G7VHBITG4313NJJE 1 64 0 1
+/.well-known/acme-challenge/NVFDWME-H51K1X7HN1DODZVP_D6WQBEU 1 64 0 1
+/.well-known/acme-challenge/77LBG90K47B_2UEO2UR77EVZ2P38RTM9 1 64 1 0
+/index.php 2 13265 2 2
+/.well-known/acme-challenge/YOF77ICUWLDYXGIYMPNO56BYWG30CHG- 1 64 1 0
+/.well-known/acme-challenge/CHEFCKMMY6XAU0XPG65L4TX8Y75QINNM 1 64 0 1
+/.well-known/acme-challenge/-LV5NG_MBH197KY9MD2E2SRLZGEE_U1L 1 64 1 0
+/.well-known/acme-challenge/K2GW119AG2J4VG11867E8_BZH5EBWH_N 1 64 1 0
+/admin-assets/fonts/line-awesome/fonts/la-brands-400.woff 1 98673 0 0
+/.well-known/acme-challenge/4RD-T0PR0B4CGEVIPVMPRESLID249VGR 1 64 0 1
+/.well-known/acme-challenge/FLCH-YFIXVO1WCREPW-145ME17PCA0Q1 1 64 1 0
+/.well-known/acme-challenge/7XRS-KUZXB89SIKN72LRJGDIN9JA4Q06 1 64 1 0
+/.well-known/acme-challenge/3B8PLGNJLWES6HZUICUH063WFFI5TG6M 1 64 1 0
+/.well-known/acme-challenge/T2BP7VI-146T9GGLRFJEGKY-WTC_ERR4 1 64 1 0
+/front-assets/webfonts/fa-regular-400.eot 2 33496 0 0
+/.well-known/acme-challenge/ZLV3KFJQQ2LU5CNNN94XF29ATNTVZRB2 1 64 0 1
+/.well-known/acme-challenge/XJHFJ21IF7HTB3_VLWRLUOFCP3I7ACM8 1 64 0 1
+/.well-known/acme-challenge/FQFBB0DR4TYM-L9A15AVERSAC-87VAKA 1 64 1 1
+/.well-known/acme-challenge/PQV0RYAF4PGQGO4ZU3YMWRJ-FOTMGDQ1 1 64 1 0
+/.well-known/acme-challenge/S_-XRUVLP8Q5K5TFKR-IX9KELEUCC4HL 1 64 1 0
+/.well-known/acme-challenge/JSPCEXLDZ94Q6W07GFY98HN3SSY6OANS 1 64 1 0
+/.well-known/acme-challenge/QXO8K3ISR71NIJCH7HBL7PL8ZVZR97-6 1 64 1 0
+/.well-known/acme-challenge/72XOH5ZMQUW0BEYTFE6KGPVXP1BWVO35 1 64 1 0
+/.well-known/acme-challenge/QFT83UE-53PRE6XVL5XWDMRQ0OPI5S61 1 64 1 0
+/admin-assets/vendors/fileupload/fonts/dropify.woff 1 3052 0 0
+/front-assets/webfonts/fa-brands-400.eot 2 177428 0 0
+/.well-known/acme-challenge/LO9NCQUXRWZQ2YMOMQRMFZWIXDW0SZI7 1 64 0 1
+/.well-known/acme-challenge/RTZL2IN-OHGB43C1P6Q2-DWQODKCT64- 1 64 0 1
+/.well-known/acme-challenge/4MRH6ISP8M8VGRMUBGN_52V906KLXAA1 1 64 1 0
+/.well-known/acme-challenge/O_O865VJL59U4YH0T9R182RGBD7QR91B 1 64 1 0
+/.well-known/acme-challenge/R4631-Y9MZ4MKR0_433XM901VNDSP287 1 64 0 1
+/.well-known/acme-challenge/4KPUC2-I7OQJA9XFKS9-QNYJ8PI741LA 1 64 1 0
+/.well-known/acme-challenge/LQ5017N5MQF6241HDYLL8G4V56N-EGRZ 1 64 0 1
+/.well-known/acme-challenge/9_QX_LT2N8BUN8TXL2C03AI3M6_KZ62V 1 64 1 0
+/.well-known/acme-challenge/9E37AB8451WE-EA4UO0Y6SOP__AC7CS6 1 64 1 0
+/.well-known/acme-challenge/P29QAUIW37S7ZR62BM0YJK4IW924U2TD 1 64 1 0
+/admin/notification/single/user 1 4095 0 0
+/.well-known/acme-challenge/HTHF_E2YC2Y_7TS6OCG3_-N-IU94QN9_ 1 64 1 0
+/.well-known/acme-challenge/XYJB7FR8WKTK-IJC1LW2USZ7KF6JJSG8 1 64 1 0
+/.well-known/acme-challenge/7P1AWBHPQIMI_QU28HAGV24WX5E5DB94 1 64 0 1
+/.well-known/acme-challenge/FBRNX46CWBONRDMBCCZR5IK-MD_RURQ5 1 64 0 1
+/.well-known/acme-challenge/URK0K14B0YXBH30-B6AU_B7Y2O94B4WB 1 64 0 1
+/.well-known/acme-challenge/V5FCVZAQQ9NL_DVN9M6PHJ1Y4_07ILW_ 1 64 0 1
+/.well-known/acme-challenge/_33ILRADGPPN0_K7JC56_ZIYYOR_C199 1 64 0 1
+/.well-known/acme-challenge/8Q1NIYCYJ__8F-K084KOP77SLKVNMRKF 1 64 0 1
+/.well-known/acme-challenge/1W_UCWZZY1DKVZ-YSP_BHRX-SV0-J4Y- 1 64 0 1
+/.well-known/acme-challenge/NF2_MLCUS8_SITNSDYKJ2AIIFT3TRMQE 1 64 0 1
+/.well-known/acme-challenge/_74U70RB1GMK3009XP0YG109BFSP5DGR 1 64 0 1
+/.well-known/acme-challenge/3P04DS_NB0DTIT04H9WKMN7YL9NCA-H8 1 64 0 1
+/.well-known/acme-challenge/3CCPZVLS9CSP_WU0VQJ_P5PF_TFZIP1J 1 64 0 1
+/.well-known/acme-challenge/Q84AZBE2JTT4GIA0NL71B41-TPF8V4_N 1 64 1 0
+/.well-known/acme-challenge/CW_TC6MBLWW4XHHH0CLKR5J350N5KT-_ 1 64 1 1
+/.well-known/acme-challenge/CLPDQ5ID6HAJCO-H05J5FIZW18GJ6WS6 1 64 1 0
+/.well-known/acme-challenge/THX6-HTBDW45ZQ_85BXRSA7SFLVDY7KQ 1 64 0 1
+/.well-known/acme-challenge/ZL3RZJC65C8M73N01-JVNNSCXPW3ZDHP 1 64 0 1
+/.well-known/acme-challenge/BTWVA0DEHE_HEC4_A0RQIRPO2MY1EWNN 1 64 1 0
+/.well-known/acme-challenge/NDUD-CXJ_BK584_PC4HV5A_A-XJ2PZX9 1 64 0 1
+/.well-known/acme-challenge/QVR20SRW4CUPAD1KTG_J0--4F0N9B0QP 1 64 0 1
+/.well-known/acme-challenge/0SZ14E8WV6EOAI8MNPYO3D0E7D74G8BH 1 64 0 1
+/admin-assets/fonts/line-awesome/fonts/la-regular-400.woff 1 15489 0 0
+/.well-known/acme-challenge/6GJ4CBUUCQPO2IJLZM3I4X88S57FO960 1 64 1 0
+/front-assets/fonts/themify.ttf 1 40485 0 0
+/.well-known/acme-challenge/4PUZCBYTN91LP8KC6ODDSLIMWZAYN7EZ 1 64 1 0
+/.well-known/acme-challenge/VDZHWXHSN7S4LDK6FGYIZO_K8LR21IBM 1 64 1 1
+/.well-known/acme-challenge/R-U2H9S9ZNAFPGE4S38UZ4KNVWEKIECN 1 64 1 0
+/.well-known/acme-challenge/CECMZ8PHJ2MMSHCHO4MIXT2U4XD176V9 1 64 0 1
+/.well-known/acme-challenge/KB9K04HY6H6XG8DRGIX1EYLGS2OS9SLP 1 64 1 0
+/.well-known/acme-challenge/BUMP44LFCEEHZC02IYWKHR7RL8H4YV6M 1 64 1 0
+/.well-known/acme-challenge/GIWFDO0LWOYMU9_W_6GS8COQ1XR1V2QS 1 64 1 0
+/.well-known/acme-challenge/M500RFSKWMX83CE6J4U_-OIPRLB-U5M1 1 64 1 0
+/.well-known/acme-challenge/HW0QZ3AEATECNU3-2FCCL9-JXRZUCI10 1 64 1 0
+/front-assets/webfonts/fa-brands-400.woff 1 89824 0 0
+/.well-known/acme-challenge/YO00BY6W8EE7TGJDV5MM0JE9TQTZ5RPS 1 64 1 0
+/.well-known/acme-challenge/V32TM7YL_DGPZ93QHBR7IG5H60GBMMVJ 1 64 1 0
+/.well-known/acme-challenge/IH804R0V-ZKHZQG085Y3QJNLTK9K9_YN 1 64 1 0
+/.well-known/acme-challenge/LXMC280RWBTPGT237663FGDE1Z8Y29GB 1 64 1 0
+/.well-known/acme-challenge/A8ZUMIKWTQEJKLJDN3_QK4SR60WFHO11 1 64 0 1
+/.well-known/acme-challenge/73T6U_YN2JHT9JS2LWNZCW-I94Q7LJDZ 1 64 1 0
+/.well-known/acme-challenge/4ZCUH0O607H2TID_UIORZL_YKE8CNWWI 1 64 1 0
+/.well-known/acme-challenge/KPF38TT3KFVO5S2Y92GPL2XZJWZI20LL 1 64 0 1
+/.well-known/acme-challenge/TSI_PQ30C3J-2IKC_8VP2AX-G1C912O6 1 64 1 0
+/privacy-policy/ 2 4805 0 0
+/.well-known/acme-challenge/G80XEG9H__LIK5K8FHJXSGJABGS1287G 1 64 0 1
+/.well-known/acme-challenge/G78DG382BQGJ93OKR_Q9SC324I9IT6VY 1 64 0 1
+/.well-known/acme-challenge/SJ2FX86_3IDSY_AH895SGR14BXB67G-S 1 64 1 1
+/.well-known/acme-challenge/D0Q6PY-SS8N2ZXW1L83CV7EFQDSRA7RM 1 64 1 0
+/.well-known/acme-challenge/NIL7ON15FC0CYJP1_EB--0DN0VWRDKH_ 1 64 0 1
+/.well-known/acme-challenge/VO379I-7NBDCSZV5SL8EO_B19XEO7K_- 1 64 0 1
+/.well-known/acme-challenge/F44O6QIPDU-INTT0YMNI1LQ0Z41Z_2OP 1 64 0 1
+/admin-assets/fonts/line-awesome/fonts/la-brands-400.ttf 1 96879 0 0
+/.well-known/acme-challenge/S5U1PJY-YIKLNDXLICIAM6MDB0BNZ9WU 1 64 1 0
+/.well-known/acme-challenge/I30NLA5V0KBF73IER03Q9DCCFOWHF653 1 64 1 0
+/.well-known/acme-challenge/O4BC7Q6YN1BBVQM535WCVYTTL75JW8KF 1 64 1 0
+/admin-assets/fonts/line-awesome/fonts/la-solid-900.eot 2 239718 0 0
+/.well-known/acme-challenge/_7O_J6KSPNK1ZAB8TNBNMSPX4CRB-4NZ 1 64 1 0
+/.well-known/acme-challenge/FFMHER13U52KYZC-YKGOO542_W5Q1JXY 1 64 0 1
+/.well-known/acme-challenge/KMTZLLPQZX7F2-0MWQ00O_5LQIMHG2U3 1 64 0 1
+/.well-known/acme-challenge/BS_7I9R4TCDG1PM-M_YC9KYHP92ZYZO6 1 64 1 0
+/.well-known/acme-challenge/5F1RDCE4EBKV7GR5Q-JAJ7YX528XBGB0 1 64 0 1
+/.well-known/acme-challenge/CF7BL3LAA8V6BGZWLWAJXD_SN2VRM5-7 1 64 0 1
+/admin-assets/fonts/line-awesome/fonts/la-regular-400.ttf 1 15358 0 0
+/.well-known/acme-challenge/SCTPYIRYV7DE_-U8IINOW1LPQ0_F95PK 1 64 0 1
+/.well-known/acme-challenge/26KKY7KBF6D5HGQ1WBSUL_KVE-W_ZJ0C 1 64 0 1
+/.well-known/acme-challenge/0UHE-C7FKSBOX9NBW13MRVJOJO282QLU 1 64 1 0
+/.well-known/acme-challenge/Y5QY0FG8O47BB_MO50_WRK60F6H_W7OC 1 64 0 1
+/.well-known/acme-challenge/JWSYQ2___B8K5Q9QLB8ODJ1LM2GOCAXB 1 64 0 1
+/.well-known/acme-challenge/1JIC16QDIBIABCX4US6JLGBG4DGP522- 1 64 1 0
+/.well-known/acme-challenge/6MVN923GNF5B63199VFB_X1K-5JVBL-H 1 64 1 0
+/.well-known/acme-challenge/N9F8JVWSA2ZPT-6QK2GTVWAIE3IMF24I 1 64 1 0
+/.well-known/acme-challenge/65T36J9_NJX3WGQAE7O8YKD15V8682MP 1 64 0 1
+/.well-known/acme-challenge/4IARY1BKL42E60GT66WHKN3UX7D0WZUZ 1 64 0 1
+/.well-known/acme-challenge/7UUM467SZ1QT6M1GRMKF1LZH0M74H5S6 1 64 1 0
+/.well-known/acme-challenge/FJCI_GC65YGAOPZ1I9B7Z0X6XMKPZ11G 1 64 0 1
+/.well-known/acme-challenge/_UBFT2PNGPUES5DSF_DFKC2JLRLHD068 1 64 0 1
+/.well-known/acme-challenge/R92928SFOOSZE__H9REE8H-TAXNCECI_ 1 64 0 1
+/.well-known/acme-challenge/JQRBQFC9XUSBO2X9U_DMEV5BRBWV-PGE 1 64 0 1
+/.well-known/acme-challenge/K5XPYKS9RV8SU0T6P5R91K_HYT-3_851 1 64 0 1
+/.well-known/acme-challenge/GPJUKTRYOP_G8UOKYJH4YV17YNH007XV 1 64 1 0
+/.well-known/acme-challenge/IFOHKXNDCU3-XOCCKN9RZQ783Q3F-RLD 1 64 1 0
+/.well-known/acme-challenge/_S-LSWFRQD281T9148ZY5528SPA_WB4Q 1 64 0 1
+/.well-known/acme-challenge/PB7T145APFSEHWEN6E483_60ESW6AF90 1 64 1 0
+/.well-known/acme-challenge/HQR63-IPQYI53LRJO9G7M_WGVHJIWRF2 1 64 0 1
+/.well-known/acme-challenge/WEKT8D6RZIBSZN3TZPQ7PCJH2PWT7ULN 1 64 0 1
+/.well-known/acme-challenge/0GAMUZL-L346JZ0Y74L8O4EA2DT2JZ2_ 1 64 1 0
+/.well-known/acme-challenge/57AOX5EURW2X2VPLPJ_NMDHP4XC_KZRM 1 64 1 0
+/.well-known/acme-challenge/5_6MF6XYKF1P4E_KVI49KEAX-2N9SA6K 1 64 0 1
+/.well-known/acme-challenge/SH4E-U5_IHLQNQ0D2OF6215JX_PV-U4L 1 64 1 0
+/.well-known/acme-challenge/W7-MGHFG3JPTJV4_G5MD2PFA--W7383T 1 64 1 0
+/.well-known/acme-challenge/TGE9EPH1CT0ZYC3ZF7-CDKTODZEWTCIL 1 64 0 1
+/.well-known/acme-challenge/XSZKDR8MDUQ4CUBH_1EPYJVM54_SS66_ 1 64 1 0
+/.well-known/acme-challenge/NRZH5RL95J7206P495E6HPYUGA-076-2 1 64 1 0
+/.well-known/acme-challenge/JNNW4_9XUZ2XQJ58VTSE9JG395TG2K6Z 1 64 1 0
+/.well-known/acme-challenge/_WTN84IWM3LAD7-P1V7CW67L5T3KVF_C 1 64 1 0
+/.well-known/acme-challenge/A8R7Y-NDSGPYH3ZFFYYY6NLN_ZC_-2XV 1 64 0 1
+/.well-known/acme-challenge/ZZ2-ODOIAIZQZJDMXFZX2-LCTT3VUTFC 1 64 1 0
+/.well-known/acme-challenge/12X9WW415OBY-4KN_CZZ_J68LBIA6P7N 1 64 0 1
+/.well-known/acme-challenge/DGOSKIAD68HSTFWQTID3_WMU9WW_Z1WV 1 64 0 1
+/.well-known/acme-challenge/FO1E8ZWBCEPTY9NU1I-XP4TC309A2KMP 1 64 1 0
+/.well-known/acme-challenge/4PFX8HZT0TY5ZPOR1-REC_GR3FPCIPR6 1 64 1 0
+/.well-known/acme-challenge/Y2J18LZG2EQ414V-C_3TVY8ILD57DK-E 1 64 0 1
+/.well-known/acme-challenge/UJXTJ_HCXZDKLT_8ONQWPSMMMXA88ZC4 1 64 0 1
+/.well-known/acme-challenge/P2YIC8SERSBH84Z-MCLI0MVYLEO_F0XY 1 64 0 1
+/.well-known/acme-challenge/TNN3Y1K141Z06V7-STRJTFARARV8W-9H 1 64 0 1
+/.well-known/acme-challenge/X4VOCRF7NSPZ03MLO33H1BD16NK_L60K 1 64 0 1
+/.well-known/acme-challenge/UEL-IY0HWU37MQB08-H4MO1XDELMRTVZ 1 64 0 1
+/.well-known/acme-challenge/ZYPS2NE0Y-370UQLRZ0_7_8OW8WATRIP 1 64 0 1
+/.well-known/acme-challenge/SEW9XBNCZKVGINCDIUC5_PZEM_8PKZMR 1 64 1 0
+/.well-known/acme-challenge/RA6XEKU_VWFCCIFUZB3I91E7SBZ4VRH0 1 64 1 0
+/.well-known/acme-challenge/7BH1LKS18NTGA3GD97VEO6V5UAN6BUD2 1 64 1 0
+/.well-known/acme-challenge/AZJ0E7A7-YZ3BY6YW-SAU_ENFEB995VA 1 64 1 0
+/.well-known/acme-challenge/LXFBZK4LFA40PGEKH31U2NZ5COG7BQRR 1 64 0 1
+/.well-known/acme-challenge/80RXTGE-MLMQU5Q75Z_3OW-2VP6G09_F 1 64 1 0
+/.well-known/acme-challenge/X5UQCQR8M5DH60HMGWSUL-VMVDEG0_RG 1 64 1 0
+/.well-known/acme-challenge/_LP2IG717JHOML4MSJENNV0RV532CMQ2 1 64 1 0
+/.well-known/acme-challenge/NGDF8473VFXPF7KYU9PZA71CBSX6P1UA 1 64 1 0
+/.well-known/acme-challenge/-QQWUQ9_TH4P2CY16YMYE-6CVMQVXWI_ 1 64 1 0
+/.well-known/acme-challenge/M-INURC6IS7K4YK8XM6_Q1VWNP8ZMW2X 1 64 1 0
+/.well-known/acme-challenge/UP4B5W7MYD-CGN4PIWI-WSID-93Z-01S 1 64 0 1
+/.well-known/acme-challenge/W7L6YC0VPYYKYXMDT6X6JB6UXEM187UY 1 64 1 0
+/.well-known/acme-challenge/0CDD94RIJMU9PM9MYNA7E8W9S4_YG7A8 1 64 0 1
+/.well-known/acme-challenge/NEZ0SSB0T0EFLK71AZA0S49V5FWIL_6P 1 64 1 0
+/.well-known/acme-challenge/U9HIH9920SO7O24W3P_TD6D540IHUQ46 1 64 0 1
+/.well-known/acme-challenge/XUHY09SEQM4JGP44ZF4L26_QV70X0M7R 1 64 0 1
+/.well-known/acme-challenge/QEDO-4HOOUNNLYG0TOECUABF7PENUOPI 1 64 1 0
+/.well-known/acme-challenge/XPHM3F6BKZZI8FBLTS0LKAZOB-EJOUS4 1 64 0 0
+/.well-known/acme-challenge/CG_5SIX9CY5PQ9QRD_8__9-GS79WA3N0 1 64 1 0
+/.well-known/acme-challenge/LO3THGU56OFZGL1TMKX1QZ43401N19XU 1 64 0 1
+/.well-known/acme-challenge/EB3Q2E46DWMDHBHEVLQ1-CZIBETVC3TA 1 64 1 0
+/.well-known/acme-challenge/ISBQ1WO8BSUPIWG2D2EPB3L4OM81IJFG 1 64 0 1
+/.well-known/acme-challenge/RBKF6P8OC5K-C5GCJ-BENBPQTCFU_NUA 1 64 0 1
+/contact-us/ 2 6437 1 1
+/.well-known/acme-challenge/BZ05CJD1MOU5A_YW5_K0EYFJXR7EAEBX 1 64 1 0
+/.well-known/acme-challenge/7JJ27KPHRYOCUQ370EBD92RT9ME3AYVF 1 64 0 1
+/.well-known/acme-challenge/FKP380HX6MG9TW8ZVBWN0HIO7PH_TE5G 1 64 1 0
+/.well-known/acme-challenge/BWLN9UTIQ-KD5RAOTH9PO1NIP9MLSZSC 1 64 0 1
+/.well-known/acme-challenge/85ML4-UQ7O6BQ2-PYJU6J1_XDWPBJKND 1 64 0 1
+/.well-known/acme-challenge/38SBTCN4UNU9G17G5VD5DH_99M_LOQPB 1 64 0 1
+/.well-known/acme-challenge/THP9AYDSFBFMQH5A7UNB0ROP3TLDDDH1 1 64 1 0
+/.well-known/acme-challenge/0PNCDH9036N6AI1MOQ8P16T1YJRU6M4A 1 64 1 0
+/.well-known/acme-challenge/KDG-KKAAPLDFVMAYBL8LK2JC-0WJ-9NX 1 64 0 1
+/.well-known/acme-challenge/EO19DIJDZ9EWVFRZY2H187M0WDD7NFDW 1 64 0 1
+/.well-known/acme-challenge/3WFBMAULW16DEEISI07ESJ_CBE9C31SY 1 64 0 1
+/admin/transction/all 2 7782 0 0
+/.well-known/acme-challenge/D5FJZQMUNFQQKL228W2N1HKSCYAEV1B4 1 64 0 1
+/.well-known/acme-challenge/GXBDG7X858VB5CDVRBE0ER41QLACR8EV 1 64 1 0
+/admin-assets/fonts/line-awesome/fonts/la-brands-400.eot 2 193810 0 0
+/.well-known/acme-challenge/Q57AY_1U3EXIKETPQ8395GN0Y3QKQG8A 1 64 1 0
+/.well-known/acme-challenge/O8_OXS3AXO841L0RELHIRQJFRBPNZ1CL 1 64 1 0
+/.well-known/acme-challenge/HYVY22_A1NMRJSHU_CJMH6X7H6G-LEQD 1 64 0 1
+/contact/now 1 24 0 1
+/.well-known/acme-challenge/BGMK284NI2HTU1W7H05ORE-95_PT56VP 1 64 1 0
+/.well-known/acme-challenge/AN2ACODQ3DE3YHPIBTQJ4D9I0Y45NTPD 1 64 1 0
+/.well-known/acme-challenge/6LMGL1QJFINXJ92I4BAOTUEQLZ5Z1VEZ 1 64 1 0
+/.well-known/acme-challenge/8V_3TEBP8WOD3TKX-REMAHPFM0KOP6P9 1 64 0 1
+/.well-known/acme-challenge/IXN171JEEHJ-J4QSY2O_OP3IVC_BUML2 1 64 0 1
+/.well-known/acme-challenge/BI-GE8B19YKEBQBSEIMOTR9ZNHWVDM97 1 64 1 0
+/.well-known/acme-challenge/I7U3KXIQ6VL3OZUDU49G43VJ44H_IDID 1 64 0 1
+/.well-known/acme-challenge/GLSQJTCA5AIYZM9BAA9_4B9F9816LNVO 1 64 0 1
+/.well-known/acme-challenge/2Y0UFZ12T-TMJPL5XIIT-J_M-C-EIDLQ 1 64 1 0
+/.well-known/acme-challenge/3M7IOG-7VNDCGVG6F4ZF4OZ7GAB4O1JV 1 64 0 1
+/.well-known/acme-challenge/1MMA7Q_TN1E7WRJG9N83FAQEE1ID2PJF 1 64 0 1
+/.well-known/acme-challenge/S7AACQVO47Q46K7ABRJR57J_ZNNYKKT8 1 64 0 1
+/.well-known/acme-challenge/Y5ZOMSACKGI6N4_VQRK-BO2XHGCAYAIC 1 64 0 1
+/refund-policy/ 2 4827 0 1
+/.well-known/acme-challenge/TIOEGBS6T0YR8KXL142M2EM_V27529-U 1 64 1 0
+/.well-known/acme-challenge/DUFYSZX5QS583OSPEIZUX-1KIWXLDD0E 1 64 0 1
+/.well-known/acme-challenge/HUJILU-79C6ICDW8FRI250D0LBCC1FI6 1 64 1 0
+/.well-known/acme-challenge/02PZGKO_AV99BWC-L_DF7SUZ65WP8N4O 1 64 0 1
+/.well-known/acme-challenge/CE5UJMICP-2S2585OZBX_GWDRQV7LH68 1 64 1 0
+/.well-known/acme-challenge/OK96_SMW_P4K4BIAZ3M827HXNRFSDMDD 1 64 0 1
+/.well-known/acme-challenge/SI3C1F2QBTD7UCE9GH8GQN2OJFMVUO31 1 64 0 1
+/.well-known/acme-challenge/5HV7QSXWVXBEU9LX364R--INLC-_LZQM 1 64 1 0
+/.well-known/acme-challenge/NO-_9I_WG5S8KT9JBG9RSPQOL1XFN3S3 1 64 0 1
+/.well-known/acme-challenge/0ENQYIUL9M0TXUSYAHCTGIT9EV1V-WTY 1 64 1 0
+/.well-known/acme-challenge/WYX4DPNPUN02RBN8PD2UOI6B57GP1DTU 1 64 1 1
+/.well-known/acme-challenge/7PIB5JBKOGQKL8-DXZS1NT_3ZCZIXN8L 1 64 0 1
+/.well-known/acme-challenge/TQPZBHZ7F142ULNF7GOWXO8YQ2HFK-2H 1 64 1 0
+/.well-known/acme-challenge/ZI0L83TY5IC4VARIO3LOU7BDBF323V-O 1 64 0 0
+/.well-known/acme-challenge/CL01UBX33X4NZ6W9K629ISHGL38F6HAL 1 64 0 1
+/.well-known/acme-challenge/Y5O556QP9NAHH7PTT9BFE-7XP89GHHX3 1 64 0 1
+/.well-known/acme-challenge/WNJYP8OZAG9NEE6JBSXLH43LZ0PP09TT 1 64 0 1
+/.well-known/acme-challenge/W1TLDLWD4UAPTNPAT8RRJL5JZ1MHIRY0 1 64 0 1
+/.well-known/acme-challenge/W3ITF8MN-N5LYLIQG3AQG1I3AQMDGKDF 1 64 1 0
+/.well-known/acme-challenge/YWYFKNC0KM--VPRPVF_US9J6X74I0L9G 1 64 0 1
+/.well-known/acme-challenge/A-8B0CV90ZK6IBI_ZYUTLPKDGMXPEPVO 1 64 1 0
+/.well-known/acme-challenge/LJO9-SVPXUWCJ76PDO9SGDZPWK0K4JX0 1 64 1 1
+/.well-known/acme-challenge/L_I1OLRV93552Q303BP49Q-4K-QFO6WV 1 64 1 0
+/.well-known/acme-challenge/77TG97_PSXJA3ICSM_U9DR2NSJMLJDEW 1 64 1 0
+/.well-known/acme-challenge/G17340XJ3_EDGYT71YEP3DXO1MSST1H_ 1 64 0 1
+/.well-known/acme-challenge/RVD_6UX_9DXAKDP4VL-OZMR1CR8CB6NY 1 64 0 1
+/.well-known/acme-challenge/C8N80UZ_XQHFOLH64ZRW_CV82SR5SU48 1 64 1 0
+/.well-known/acme-challenge/AK7_9IGM6X2V7G1X1K1N2KMQ31V5K8QG 1 64 1 0
+/.well-known/acme-challenge/AYUSBG1CARU68P9Q7LFSL-_DSIG8CXL5 1 64 0 1
+/.well-known/acme-challenge/4S0F-WE-N_TVC1Y01L-5QWLRHYSFR01_ 1 64 1 1
+/.well-known/acme-challenge/8ZUHD3GAJXHAYLMVIZWU6HHKK-P0C1B9 1 64 1 0
+/.well-known/acme-challenge/DWQSD_47_0_H_GZ356YG7X_9G16LQWB6 1 64 1 0
+/.well-known/acme-challenge/Z8DMI9MK-AZLCZ1DOTU63PZ06T19_ITR 1 64 0 1
+/.well-known/acme-challenge/PMQXSZ4_XEVAG61ELY51Y1KJB33-67OC 1 64 1 0
+/.well-known/acme-challenge/PVB0GTCVZ-9BJB4CJX093BZR2PF2FDUS 1 64 1 0
+/.well-known/acme-challenge/_MJY2Z7SP4184X3MLWGA47ER_HSJQHOL 1 64 0 1
+/.well-known/acme-challenge/H364EEUPJBJ2FXT2MF826MJD7CHAX2IE 1 64 0 1
+/.well-known/acme-challenge/_QLWOUKJO1NYDPVW9HZCMGBL-BS90I9N 1 64 0 1
+/.well-known/acme-challenge/-TBEN8533GEBNWJW9M7QMMK1TW1N2HC2 1 64 1 0
+/.well-known/acme-challenge/37KW-9L4J_-SEIWSBAJ9651U-QUIUPNI 1 64 0 1
+/.well-known/acme-challenge/IP_9WEGEAGEFD2Q72_BZ64DM3HSK1CBW 1 64 1 0
+/.well-known/acme-challenge/-Z8T0HCQ9V0VNRF9AN4FKZL63E2TE02O 1 64 0 1
+/.well-known/acme-challenge/8BTFQXLMW179NT5YQ_1VXXRWBIVTKGWC 1 64 0 1
+/.well-known/acme-challenge/L10BPH37BANIH7K1OMQQQBGPF4--LPKA 1 64 1 0
+/.well-known/acme-challenge/CHLCMN5B-0B0T1-482C5RV293-ND-MI6 1 64 1 0
+/admin/player/transction/eyJpdiI6ImdqdlB1RkFuRzRpaEozUFZXRkdwbUE9PSIsInZhbHVlIjoidi96MWhmbXhDZDZyR3UvWUhoK1FMZ1hPeEhBRXRneW5pd0VEUTkvVzdXWT0iLCJtYWMiOiI4ODU1YTgzNDNlYWQwM2ZkZmM0NjFjZDdjMGFmNGMzZWQxYmI0ZmNlZDc3MzBiY2FkNzNiMTFkNTQ1NGU4MjdmIn0= 2 7422 0 0
+/.well-known/acme-challenge/E_8VI9-47ASIOF24HP0360D3UARC90A6 1 64 1 0
+/.well-known/acme-challenge/FZZ8FNJ8RFT61__HTV6RFZ-4HUYCST_9 1 64 0 1
+/.well-known/acme-challenge/M9WTAAWW1F47V9S_8O0RHELG7MZLAARW 1 64 1 0
+/admin/shop/coin 2 9053 0 0
+/offline/index.php 2 1256 1 1
+/.well-known/acme-challenge/E_4FI8OA2Z5KCO4UAOSCTE0JO3FC7UAD 1 64 0 1
+/.well-known/acme-challenge/1VDD0QHBYRBJA4JKRIJCMS01A-U_4-V_ 1 64 1 0
+/.well-known/acme-challenge/X2RXWLTT253G4O_MHLM95_6CB3F69HVU 1 64 1 0
+/admin/ 1 1486 0 1
+/.well-known/acme-challenge/V3RRZVW-W0-TJO8IM7NGZM0LJVSK87IG 1 64 1 0
+/.well-known/acme-challenge/AJU-HH4QOZ6MN_DICCQ5X6FS9YZINSYY 1 64 0 1
+/.well-known/acme-challenge/L62PP0FV91WP77U_HP8VO8HKK578P2WP 1 64 1 0
+/.well-known/acme-challenge/7QG3FJ4KPLM_JD2JIKEUSF-705PNPFHT 1 64 0 1
+/.well-known/acme-challenge/SAN-UIWL_XSO5ZF0GNYQL2HN98NIRELY 1 64 0 1
+/.well-known/acme-challenge/Y8V69SFQ8PFH70CZ9C0GRYNCCZM9T37M 1 64 1 0
+/.well-known/acme-challenge/WJH3Y52_0LZKKU43GZJ196OPXOLM68R5 1 64 1 0
+/admin-assets/fonts/line-awesome/fonts/la-solid-900.ttf 1 119614 0 0
+/.well-known/acme-challenge/2AA9Q62GA7O61GIQ9GHP7W26XV0ZIEEO 1 64 0 1
+/.well-known/acme-challenge/7PDUQBZF7YKCDU15FBPPLE3ELL6OQE2U 1 64 1 0
+/.well-known/acme-challenge/MRZ6JIA5CPBBGX2821D_TX8J417PEG78 1 64 1 0
+/.well-known/acme-challenge/XNRKORAEVPZPBU0GV1ZF4K1S66WXBMV_ 1 64 0 1
+/.well-known/acme-challenge/_TMFMRJX5O3S937GNEW0594RTO9BALBN 1 64 1 1
+/.well-known/acme-challenge/F6YAY_UDSDMT_ZFZVQ24DL30Q0YNR835 1 64 1 0
+/.well-known/acme-challenge/K99XZ5PYXKEZWKLRE34DSG0DRAAT0VQ0 1 64 0 1
+/.well-known/acme-challenge/JPURARPWBOHZ9T7RYG5AD_E7RB5BLY48 1 64 0 1
+/.well-known/acme-challenge/902XQWEVN4P3DO9FQCRWBI-KZNYTUGFU 1 64 1 0
+/.well-known/acme-challenge/7TQV3GA6TQI08T3ZV779MOTQLHXRHUY2 1 64 0 1
+/.well-known/acme-challenge/NPW0OM7W2_UU933QSZ60DWCMV1I-5ZWB 1 64 0 1
+/.well-known/acme-challenge/36TH79PXI0TF6-3AT-TFFKVX8Y7JFBV7 1 64 1 0
+/.well-known/acme-challenge/AAO88OSAS4NWSFU2I78EF41OUWMR3G11 1 64 0 1
+/.well-known/acme-challenge/KMHKA33-KXPL9R6FB9H69_ZRQ3ORV5BW 1 64 1 0
+/.well-known/acme-challenge/RNWOGWQGJYSG5-P9U4NT7K0HVYI24P1C 1 64 1 0
+/.well-known/acme-challenge/BC97R0_82UR4QRXDU6QCLN25RKT-66E- 1 64 0 1
+/.well-known/acme-challenge/KX5SVRQSGMXJQLZYEA6N1MVJOB0XYQOQ 1 64 0 1
+/.well-known/acme-challenge/4EGRPLDH5ZCB-1BXTJ25R_-CHOTBMKLX 1 64 0 1
+/.well-known/acme-challenge/U1RYATX-1ZXEH57MEQE229C8VLDG9-TD 1 64 1 0
+/.well-known/acme-challenge/1MF_SG_DI4C-3RLNGFWJS7X6R7I_ZZ05 1 64 0 1
+/.well-known/acme-challenge/JWDN3QX0-2YJ1N39EUXBF8M9FL9ME_ZV 1 64 1 0
+/.well-known/acme-challenge/0-37DQL3WO0IVHGHQCQFULM_MAPIDWSB 1 64 0 1
+/.well-known/acme-challenge/L94-_9SQ7CYFYQA30QHV75SCCGQ61K_0 1 64 1 0
+/.well-known/acme-challenge/83728PIAZ1N86LXVL4OMULD06P1ROCFJ 1 64 1 0
+/admin-assets/fonts/line-awesome/fonts/la-regular-400.eot 2 30822 0 0
+/.well-known/acme-challenge/3XZ21-Q7BBQG31F-0LBSFL3-M62LYCFR 1 64 0 1
+/.well-known/acme-challenge/LT6Q7_0H1UJSR2IM5ZO0FKYKRISJKEZ8 1 64 1 0
+/.well-known/acme-challenge/XNPFJVATKUN58PPO82H0B_C7OBBHV7EU 1 64 0 1
+/.well-known/acme-challenge/I-W__5CYSTBRK12NWDKZZE8MOTMSPBWK 1 64 1 0
+/.well-known/acme-challenge/KI178-2685ZEPBMYW70F4EGV9LI9AE-U 1 64 1 0
+/.well-known/acme-challenge/5TQ5Q3EQI-NNKRVDEW7FJGWKE5HFYYLO 1 64 1 0
+/.well-known/acme-challenge/U6V82RH5_QQWQN8TIX2WA-FLLEU-7NN3 1 64 1 0
+/.well-known/acme-challenge/SJBZ7FN5MW_ELLCZ82MGQXQZAGQ-8IPH 1 64 0 1
+/.well-known/acme-challenge/1LOOOO6FSYSE0-KEJHSXAU2OBCHTB4K1 1 64 0 1
+/.well-known/acme-challenge/AOIQBBCB9XM_ISAKOVD02_LKJZSICUXT 1 64 0 1
+/.well-known/acme-challenge/Z_-8Q-AQTQ49KZWBCYW0FMXPA2MA90N_ 1 64 1 0
+/.well-known/acme-challenge/HGZDG3P-Q2SY8KY4-ZXDWQIBP_ERTI8R 1 64 1 0
+/admin/player/view/eyJpdiI6ImRGZm1YdTNrb094QVVET1psaWZyY3c9PSIsInZhbHVlIjoiZTFwNDAxc2hoRXkzajZ1NjdMMnVQM2JZWGdqa240WndZdllPZW5hYi9Rbz0iLCJtYWMiOiJhOWFiNTFlMGMxNjMxMDcyYjM5NDczYzc5M2M0Mjc4NDI0Y2E2ZWNhNDZjMDZhMDRmZTg5YjU0ZWUxYWY1MDViIn0= 1 6290 0 0
+/.well-known/acme-challenge/QWYJ8K0BTNXLQ0I-9GQ2EJFXPQRAOY77 1 64 0 1
+/.well-known/acme-challenge/BRXFXXI07_M0QOSNNM8L26AU0KUP6PJA 1 64 0 1
+/.well-known/acme-challenge/QT_WLPFIV1X6TF647BV3A3ICICQ23IZ1 1 64 0 1
+/.well-known/acme-challenge/YPSE5I7JFDE88ELCGAGZ15ZYLD573N45 1 64 0 1
+/.well-known/acme-challenge/X1DV23DUHNFGZEH-YW_W39O7L8EVC3ED 1 64 1 0
+/.well-known/acme-challenge/5I6ZPMQ2IONBJ4YJS6IX8F-TJ2W389W5 1 64 1 0
+/.well-known/acme-challenge/_IFY35IWTSQY6A-9M0U603AX3_WOZXHP 1 64 1 0
+/.well-known/acme-challenge/KX0JBSHRYNHB2PDXBR32Q54Q4XEF_L_Z 1 64 1 0
+/.well-known/acme-challenge/0QVX8EAM724-I6CL6VKQU-JGALFYJHOF 1 64 0 1
+/.well-known/acme-challenge/PY7MK6_U7QQ1RA3E_23F0FY9P2YD6VJ8 1 64 0 1
+/admin-assets/fonts/line-awesome/fonts/la-solid-900.woff 1 125421 0 0
+/.well-known/acme-challenge/7VH6M76FUEE_A0X8WF-AEQ678H14UH-V 1 64 0 1
+/.well-known/acme-challenge/-9OKQYEMR0O_84NPKQ00XGISTQG_YWAC 1 64 0 1
+/.well-known/acme-challenge/YTH2IC3VV4427I2ROV4GNUF9EJ_ACL1- 1 64 0 1
+/.well-known/acme-challenge/XDYB87C33SK8W4JPE1LRF_4XFJN41GY0 1 64 1 0
+/.well-known/acme-challenge/C-DLLPMOEJ02L627O6L_UY18MHGAFL5S 1 64 0 1
+/.well-known/acme-challenge/76GT-YWBXXZ-ZBP8RGAPB99T-A375VSG 1 64 1 0
+/.well-known/acme-challenge/-TC3DFWBA5QC0FU4DYIAB-U43ETOT4WF 1 64 0 1
+/.well-known/acme-challenge/95XYDHHZU5J05KOK0S5TEFMJ66T04D43 1 64 1 0
+/.well-known/acme-challenge/8E6VZHCQ3VG6KMX-3EKEN172UKSEOZP_ 1 64 0 1
+/.well-known/acme-challenge/PQ575155D9QWI6NVSOLFK22_TH47AW2E 1 64 1 0
+/.well-known/acme-challenge/CUTDDID8-7PYJQK1U753JPDDZBNYR2NX 1 64 0 1
+/.well-known/acme-challenge/8S4-2GVCGQVXJ-FLGKT1NEJDOFWSVH0E 1 64 0 1
+/.well-known/acme-challenge/4ASN3NWLMHKKCUF8R9ZT9N93TBS7IYU7 1 64 1 0
+/.well-known/acme-challenge/TOGOCOHAOD3QS36_9YTTFTD8HKAE-9UQ 1 64 0 1
+/.well-known/acme-challenge/TQH86W-V4YLWPW42TQVS2YQUCE76ZTKY 1 64 0 1
+/.well-known/acme-challenge/54YRI8SFVW-5CNXARVNRHBZVD__8JKM5 1 64 0 1
+/.well-known/acme-challenge/3EVXLKNSDREQXY79WPDH5V9Z2NQJO-1R 1 64 0 1
+/.well-known/acme-challenge/AQG_0J901CI4WHLHXWYUS0_2K7X69I-S 1 64 1 0
+/.well-known/acme-challenge/WMQP58A5SZTGTLM73J77RLRZGYZ5LR7B 1 64 0 0
+/.well-known/acme-challenge/RVPZY_5NO46WUE-ZC2F-9_3X0AFGBMA0 1 64 0 1
+/.well-known/acme-challenge/WBJQF9TC_LLL8-NZ7Z37DZ_9KUEF69W- 1 64 0 1
+/.well-known/acme-challenge/BC061H_KK7_5XAR332A4Z0TGEE97TBRF 1 64 0 1
+/admin/testimonial/all 1 4670 0 0
+/.well-known/acme-challenge/SOP93X-V9F32XFEKVJ3S91KJ175SFI49 1 64 1 0
+/admin/contact/list/delete/19 1 36 0 0
+/.well-known/acme-challenge/F9T5XWTVKQ2FWF-RL1A_20EYP4SW0SA9 1 64 0 1
+/.well-known/acme-challenge/3EHX61KXTJR5_L05CXXJIN2VSQUYP6-2 1 64 0 1
+/.well-known/acme-challenge/PN5D-NWDX5VB7BT84694Y_WOCHU6JKTP 1 64 1 0
+/.well-known/acme-challenge/40SVQJ_V522JD7SXK47X5B86FW6Z9I55 1 64 0 1
+/.well-known/acme-challenge/3N87E1T6DSQPA4R76_BWO43XK-9DLEIC 1 64 1 0
+/.well-known/acme-challenge/QZ1ONHITMD2AR19R_8ZRQ6M7AJZA_Z3H 1 64 0 1
+/.well-known/acme-challenge/3IERTATQQJO9_JHTPIKNSQAPU3MJM8GV 1 64 1 0
+/.well-known/acme-challenge/U40S-THYDQDCW1OQH5-LN58YWHX793-J 1 64 0 1
+/.well-known/acme-challenge/Y17PEVW070FH5RQQAEB8Y4ZY5PW16V4M 1 64 1 0
+/.well-known/acme-challenge/VFSCAPTZ_92OL8N89I221SCAX7OTWXUK 1 64 1 0
+/front-assets/webfonts/fa-brands-400.ttf 1 88739 0 0
+/.well-known/acme-challenge/LO-ID1Z8I-5IVXZN9M_1SC88BZEL2_2Z 1 64 0 1
+/.well-known/acme-challenge/QGU-_AI6WXH1P9WAT3JQ5FX-KUYXBCHZ 1 64 1 0
+/.well-known/acme-challenge/QXABL_HQMWL4NPJETF4RXSQE3-N2D56F 1 64 1 0
+/front-assets/webfonts/fa-solid-900.ttf 1 100567 0 0
+/.well-known/acme-challenge/O0MMFXCWSRH9LTND8MKWRS17RYGZDPII 1 64 0 1
+/.well-known/acme-challenge/CXXVH-2N6WWXY2KH51YFOE47QPPIMAQX 1 64 0 1
+/.well-known/acme-challenge/OU0OUNQJGTE2T3E4T8GQ5QR6Q6IA1QU0 1 64 1 0
+/.well-known/acme-challenge/NI919CHU8CF3P2SCF_D93-6R9MKDLEP8 1 64 1 0
+/admin/contact/list 2 8441 0 0
+/.well-known/acme-challenge/ZA_JK2Z6Y3_-4YQR9V8LY73WBX-CXPKU 1 64 1 0
+/.well-known/acme-challenge/9FHQRJ-7UMRE9INO_7N005GTPAHNDLJ7 1 64 1 0
+/.well-known/acme-challenge/XH_TC0RI6TTMYPMOX5OUYSSX3869E8OT 1 64 0 1
+/.well-known/acme-challenge/WE_K6BIJBBP-TJW7QP9ZNE1S77LRI8OI 1 64 0 1
+/.well-known/acme-challenge/JWR5D6M6N4KHC-H61HL7DRX6RIQI2X4- 1 64 0 1
+/.well-known/acme-challenge/DH7WCC1WRXV4UKEHQU6P80CGF5APPIQ- 1 64 1 0
+/.well-known/acme-challenge/ULTZ5H-P0YF3L20OS_KRLE3YS5NYBHJI 1 64 0 1
+/.well-known/acme-challenge/6BYKVOOV3II0IPV4KAWGW6OENSKMXB7S 1 64 0 1
+/.well-known/acme-challenge/63CF7BXKDAA7K1AAK4LN2U5-QJW8Z0WH 1 64 1 0
+/.well-known/acme-challenge/234TK7QKUV-9G6WS_6NU7N5A9S55T-FJ 1 64 0 1
+/.well-known/acme-challenge/LABCVBON5TU019FCGVRK_ADFV0BF3GPH 1 64 0 1
+/.well-known/acme-challenge/1HFMPAXI1N7FR-_0WIYB3DRIE-QVOOLR 1 64 1 0
+/.well-known/acme-challenge/QWDN69NH4QY4C2W2FXZCL5Y4XAMGDLJY 1 64 1 0
+/.well-known/acme-challenge/MYIR_KAS313-QI71JI3ET15XAN38USYN 1 64 0 1
+/.well-known/acme-challenge/FIVHFBUZFK9KP-RKNLFPH2YHSHAYZ-PJ 1 64 0 1
+/.well-known/acme-challenge/FSYXD98W3DIPJDJ9QJBCCQW4UZTRVNA6 1 64 0 1
+/.well-known/acme-challenge/54QMWIZYELSZ1LG_X2NPZP99VG_JGSC2 1 64 1 0
+/.well-known/acme-challenge/Q3-90CL5JN-78Z_LRIL0NHJB-LO9F72U 1 64 0 1
+/.well-known/acme-challenge/O_30TP9OWRXILW77_M6Y_VZGG-TNN_TS 1 64 0 1
+/front-assets/webfonts/fa-regular-400.woff2 1 13584 0 0
+/front-assets/webfonts/fa-regular-400.woff 1 16800 0 0
+/.well-known/acme-challenge/73PNM8GV8SAIUTGQ0927B4149DX2BE_S 1 64 0 1
+/.well-known/acme-challenge/GZ5DRFWNACQQJP7MWXIJV3S0_B4H39D_ 1 64 1 0
+/.well-known/acme-challenge/RSWJI27P9M4YCFMG3F-I971J3VETG16Q 1 64 0 1
+/.well-known/acme-challenge/ZVWCUGJ5O22D-EKUOV6_U-AGINZUOBBY 1 64 1 0
+/.well-known/acme-challenge/MY03OCXHVHQM2-G3XX0G-BVGFJ0YBED- 1 64 0 1
+/.well-known/acme-challenge/Y6506X1Y3VL_1QAUA--_GR76S1G-B00U 1 64 0 1
+/.well-known/acme-challenge/RZ5W9-JYB_LU-M_CAY23KJ3012EV2J6V 1 64 0 1
+/.well-known/acme-challenge/PW_S_ABBCTBP3PZTJK7URKDVY0A6GGWF 1 64 1 0
+/.well-known/acme-challenge/9T1FLGQQI0JAARKSJZY6AZ002Z3MGL5X 1 64 0 1
+/.well-known/acme-challenge/JS1IN4I_OTWG0Z4_2Y71PG4OSCNB037R 1 64 0 1
+/.well-known/acme-challenge/VDFAKTJJ1QNKAEJQI--KQEDN1IOIRP9_ 1 64 0 1
+/.well-known/acme-challenge/SWG67QPW-J6H57BGB6V9XA7DN8X5FLR9 1 64 0 1
+/.well-known/acme-challenge/LF9J2DK0UZ1R_QUR52_LVQETF7A5TD6P 1 64 1 0
+/.well-known/acme-challenge/T2T4RQ8N1D08HNPT9K0XWEGGVU7I3DBY 1 64 1 0
+/.well-known/acme-challenge/RJIHQJ7V6Q83UE_D-83YCIQM0LUC0UGC 1 64 1 0
+/.well-known/acme-challenge/24-PTX-I9LKLAT19XC-XKLKHBEL2ETDC 1 64 1 0
+/.well-known/acme-challenge/E352GOB5OZJ-GV8YC-EW74Q2NCFQZ_18 1 64 0 1
+END_SIDER

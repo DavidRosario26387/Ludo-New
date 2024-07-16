@@ -1,0 +1,280 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202407 will be lost/reset.
+# Last config file used to build this data file was /home/spludo/tmp/awstats/ssl/awstats.spludo.online.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2012                
+POS_TIME 2691                
+POS_VISITOR 6626                
+POS_DAY 7295                
+POS_DOMAIN 3280                
+POS_LOGIN 3557                
+POS_ROBOT 3712                
+POS_WORMS 3957                
+POS_EMAILSENDER 4088                
+POS_EMAILRECEIVER 4231                
+POS_SESSION 7514                
+POS_SIDER 7671                
+POS_FILETYPES 4366                
+POS_DOWNLOADS 4560                
+POS_OS 4608                
+POS_BROWSER 4738                
+POS_SCREENSIZE 4895                
+POS_UNKNOWNREFERER 4969                
+POS_UNKNOWNREFERERBROWSER 5056                
+POS_ORIGIN 5138                
+POS_SEREFERRALS 5272                
+POS_PAGEREFS 5435                
+POS_SEARCHWORDS 5583                
+POS_KEYWORDS 5735                
+POS_MISC 2355                
+POS_ERRORS 5794                
+POS_CLUSTER 3413                
+POS_SIDER_404 5884                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20240715092328 92 29193 22468596539201
+FirstTime 20240705201450
+LastTime 20240715014832
+LastUpdate 20240715104910 92 0 92 0 0
+TotalVisits 14                  
+TotalUnique 14                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 15                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+AddToFavourites 0 2 0
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 16 54 4392119 1 11 107724
+2 1 17 1240834 2 21 1288935
+3 0 0 0 1 2 48243
+4 0 0 0 0 0 0
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 0 0 0 1 5 85948
+8 0 0 0 0 0 0
+9 6 23 1569640 1 8 46287
+10 0 0 0 2 3 62836
+11 0 0 0 0 2 6633
+12 0 0 0 1 2 48243
+13 0 0 0 3 22 1332938
+14 0 0 0 0 0 0
+15 1 1 11934 1 1 6609
+16 5 22 1557706 0 4 26436
+17 5 22 1557706 0 4 26436
+18 2 18 1459794 0 14 1000516
+19 0 0 0 0 0 0
+20 1 1 48219 0 0 0
+21 0 0 0 0 0 0
+22 0 0 0 0 0 0
+23 0 0 0 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 4
+us 18 56 4452272
+in 12 62 4575206
+hu 6 23 1569640
+bd 1 17 1240834
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+Applebot/ 33 2520782 20240712131424 2
+Googlebot/ 21 1247790 20240715092328 5
+AhrefsBot/ 2 48243 20240712033815 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+html 2 96438 0 0
+js 89 2209286 0 0
+woff 6 336648 0 0
+css 32 7551384 0 0
+Unknown 10 119340 0 0
+php 1 8008 0 0
+woff2 18 1516848 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 4
+win10 40 7
+androidkitkat 1 1
+android10 86 19
+androidnougat 31 10
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 5
+chrome126.0.0.0 81 15
+chrome126.0.6478.134 23 6
+chrome124.0.0.0 22 5
+chrome59.0.3071.125 31 10
+android 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 5 11
+From1 0 0
+From2 7 7
+From3 0 0
+From4 25 140
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 7 7
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 41 270969
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 7
+/.well-known/traffic-advice 2 -
+/storage/Brand/homepage.png 1 https://www.spludo.online/
+/storage/Brand/Ludo-Game-Ludo-2020-Star-Game-logo.webp 12 https://www.spludo.online/about-us
+/assets/img/slider-bg-1.jpg 6 https://www.spludo.online/about-us
+/front-assets/s/vendors/countdown.min.js 18 https://www.spludo.online/about-us
+/storage/Brand/home.png 1 https://www.spludo.online/
+/storage/Brand/rtyrt.png 1 https://www.spludo.online/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 15
+37.111.206.154 6 23 1569640 20240715014832
+45.119.28.216 5 22 1557706 20240714175029
+152.58.106.162 5 22 1557706 20240707095300
+27.61.87.84 5 22 1557706 20240708160442
+74.125.215.197 3 7 200562 20240715014800
+64.233.173.69 3 5 289641 20240715014803
+64.233.173.67 2 2 173364 20240715014803
+122.172.191.186 2 18 1459794 20240711181543
+74.125.215.196 1 7 1062981 20240715014800
+74.125.215.195 1 8 294163 20240715014800
+69.4.89.106 1 1 48219 20240705201450
+42.0.7.246 1 17 1240834 20240707020044
+72.14.201.138 1 1 11934 20240712155440
+72.14.201.141 1 1 11934 20240707095308
+64.233.173.68 0 2 801768 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 7
+20240705 1 1 48219 1
+20240707 7 40 2810474 3
+20240708 5 22 1557706 1
+20240711 2 18 1459794 1
+20240712 1 1 11934 1
+20240714 5 22 1557706 1
+20240715 16 54 4392119 6
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+0s-30s 13
+30s-2mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 7
+/about-us 10 119340 9 4
+/front-assets/webfonts/fa-brands-400.woff2 6 459672 2 2
+/front-assets/webfonts/fa-solid-900.woff2 6 476664 0 3
+/admin-assets/fonts/line-awesome/fonts/la-solid-900.woff2 6 580512 1 3
+/front-assets/fonts/themify.woff 6 336648 0 0
+/ 2 96438 2 1
+/privacy/index.php 1 8008 0 1
+END_SIDER
