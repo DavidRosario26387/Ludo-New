@@ -1,15 +1,17 @@
-## Overview
+### Recent Enhancements
 
-The latest update includes a new feature to reward coins to players through an API call.
+1. **Fixed Float Coin Display Issue**
+   - Resolved the problem where coins displayed as float numbers were not appearing in the game.
 
-## Recent Changes
+2. **API for Coin Deduction and Addition**
+   - Added a new API to deduct coins when spinning the fortune wheel.
+   - Added functionality to credit coins to the user's account upon winning.
 
-### Backend (Laravel)
+3. **Withdrawal Fees Confirmation Panel**
+   - Implemented a panel to confirm withdrawal fees.
+   - Calculates and deducts the fees from the final withdrawal amount.
+   - Updates are reflected in the admin panel and the database.
 
-- **New API Endpoint:** Added `/player/addRewardCoins` to reward coins to players.
-- **Controller Update:** Added `AddRewardCoins` method in `PlayerController.php` to handle rewarding coins to players.
+4. **Win Coins Issue Fix**
+   - Fixed the issue where win coins were not being added after winning games.
 
-### Frontend (Unity)
-
-- **New Coroutine:** Implemented a coroutine in Unity to call the new `AddRewardCoins` API.
-- **API Call Integration:** Updated Unity script to handle the API response and update the player's coin balance in the game.
