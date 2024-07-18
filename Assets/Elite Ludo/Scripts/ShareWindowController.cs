@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
 using AssemblyCSharp;
 using UnityEngine;
 using UnityEngine.UI;
@@ -22,8 +23,8 @@ public class ShareWindowController : MonoBehaviour
 
     IEnumerator ShareAndroidText()
     {
-        
-        body = "Play Ludo King Pro & Win Unlimited Money Daily, Join now with my Invite Code "+PlayerPrefs.GetString("referral_code")+" Get "+ "5"+ "INR BONUS Instantly.. Download link :- "+StaticStrings.ShareApkLink;
+
+        body = "Join the Ultimate Ludo King Pro Challenge & Win Unlimited Money Daily!\n🎉 Play now with my exclusive invite code " + PlayerPrefs.GetInt("ReferCode") + " and get a special referral bonus! 💰\nDon't miss out – download the game now: https://spludo.online/\nInvite your friends and let the games begin! 🏆";
         yield return new WaitForEndOfFrame();
         //execute the below lines if being run on a Android device
         //Reference of AndroidJavaClass class for intent
@@ -54,7 +55,7 @@ public class ShareWindowController : MonoBehaviour
 
         int SignupBonus = PlayerPrefs.GetInt("SignupBonus");
 
-        string des = "Earn Bonus " + SignupBonus.ToString() + " INR by inviting your friends to download and play this Game "+ PlayerPrefs.GetString("GameName") + ". Bonus amount will be credited to your account when your friends signup using your invite code. "+ reff.ToString();
+        string des = "Invite your friends to download and play SP Ludo and earn bonus coins when they sign up using your invite code. The more friends you invite, the more bonus coins you earn!";
         inviteCodeText.GetComponent<Text>().text = reff.ToString();
 
        Debug.Log("Here Is full deasc -------"+ des);
