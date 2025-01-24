@@ -1,0 +1,8 @@
+REGISTERED CHANNELS:
+====================
+CHANNEL      ALIAS   SUMMARY
+doc.php.net  phpdocs PHP Documentation Team
+pear.php.net pear    PHP Extension and Application
+                     Repository
+pecl.php.net pecl    PHP Extension Community Library
+__uri        __uri   Pseudo-channel for static packages

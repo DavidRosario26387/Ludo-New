@@ -1,13 +1,20 @@
 {
-    "m_SelectedDeviceId": "FYNRTSHUW48HWCBI",
+    "m_SelectedDeviceId": "emulator-5554",
     "m_SelectedProcess": {
-        "deviceId": "",
-        "name": "",
-        "processId": 0,
+        "deviceId": "emulator-5554",
+        "name": "com.spludo.user",
+        "processId": 21277,
         "exited": false
     },
     "m_SelectedPriority": 0,
-    "m_KnownProcessesForSerialization": [],
+    "m_KnownProcessesForSerialization": [
+        {
+            "deviceId": "emulator-5554",
+            "name": "com.spludo.user",
+            "processId": 21277,
+            "exited": false
+        }
+    ],
     "m_Tags": {
         "m_Entries": [
             {

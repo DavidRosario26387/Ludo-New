@@ -20,7 +20,7 @@ public class BuyItemControl : MonoBehaviour
 
     public Text AmountShow,CoinCount;
 
-
+    private GameObject requestWindow;
     public void SetBuyData(string amount)
     {
         amt = amount;
@@ -31,8 +31,11 @@ public class BuyItemControl : MonoBehaviour
 
     public void buyItem()
     {
-        
-    FindObjectOfType<WebView>().    OnOpenWebView(amt);
+        PlayerPrefs.SetInt("CoinsAmount", int.Parse(amt));
+        WhatsappRequestManager WhatsApp = FindAnyObjectByType<WhatsappRequestManager>();
+        WhatsApp.addMoneyText.text = $"Add {amt} Coins to Your Account";
+        WhatsApp.transform.GetChild(0).gameObject.SetActive(true);
+    //FindObjectOfType<WebView>().    OnOpenWebView(amt);
     }
  
 

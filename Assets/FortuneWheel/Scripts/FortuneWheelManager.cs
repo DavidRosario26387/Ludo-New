@@ -80,6 +80,7 @@ public class FortuneWheelManager : MonoBehaviour
     void Start()
     {
         //timeToFreeText = TimeToFreeTurnIndicator.GetComponent<Text>();
+        //RewardCoins(500);
     }
 
     private void Awake()
@@ -216,10 +217,11 @@ public class FortuneWheelManager : MonoBehaviour
             if (IsPaidTurnEnabled)
             {
                 // If player have enough coins
-                if (GameManager.Instance.myPlayerData.GetCoins() >= TurnCost)
+                if (GameManager.Instance.TotalCoins >= TurnCost)
                 {
+                    StartCoroutine(InitMenuScript.inst.DeductCoins(TurnCost));
                     Dictionary<string, string> data = new Dictionary<string, string>();
-                    data.Add(MyPlayerData.CoinsKey, (GameManager.Instance.myPlayerData.GetCoins() - TurnCost).ToString());
+                    data.Add(MyPlayerData.CoinsKey, (GameManager.Instance.TotalCoins - TurnCost).ToString());
                     GameManager.Instance.myPlayerData.UpdateUserData(data);
                     TurnWheelForCoins();
                 }
@@ -285,7 +287,7 @@ public class FortuneWheelManager : MonoBehaviour
             {                           // If player can turn for coins
                 ShowPaidTurnButton();
 
-                if (_isStarted || GameManager.Instance.myPlayerData.GetCoins() < TurnCost)
+                if (_isStarted || GameManager.Instance.TotalCoins < TurnCost)
                     DisablePaidTurnButton();    // Make button non interactable if user has not enough money for the turn of if wheel is turning right now
                 else
                     EnablePaidTurnButton(); // Can make paid turn right now
@@ -350,8 +352,9 @@ public class FortuneWheelManager : MonoBehaviour
         DeltaCoinsText.gameObject.SetActive(true);
         StartCoroutine(UpdateCoinsAmount());
 
+        StartCoroutine(InitMenuScript.inst.AddRewardCoins(awardCoins));
         Dictionary<string, string> data = new Dictionary<string, string>();
-        data.Add(MyPlayerData.CoinsKey, (GameManager.Instance.myPlayerData.GetCoins() + awardCoins).ToString());
+        data.Add(MyPlayerData.CoinsKey, (GameManager.Instance.TotalCoins + awardCoins).ToString());
         GameManager.Instance.myPlayerData.UpdateUserData(data);
     }
 

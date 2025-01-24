@@ -74,6 +74,8 @@ public class GameFinishWindowController : MonoBehaviour
         }
         if(!GameManager.Instance.Historycalled)
         StartCoroutine(History());
+
+        //InitMenuScript.inst.AddWinCoins(PlayerPrefs.GetInt("WINAMT") - PlayerPrefs.GetInt("EN"));
     }
     string status = "";
     public IEnumerator History()

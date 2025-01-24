@@ -1,0 +1,453 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202404 will be lost/reset.
+# Last config file used to build this data file was /home/spludo/tmp/awstats/ssl/awstats.spludo.online.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2012                
+POS_TIME 2689                
+POS_VISITOR 8757                
+POS_DAY 12835               
+POS_DOMAIN 3321                
+POS_LOGIN 3564                
+POS_ROBOT 3719                
+POS_WORMS 4036                
+POS_EMAILSENDER 4167                
+POS_EMAILRECEIVER 4310                
+POS_SESSION 12942               
+POS_SIDER 13089               
+POS_FILETYPES 4445                
+POS_DOWNLOADS 4603                
+POS_OS 4651                
+POS_BROWSER 4806                
+POS_SCREENSIZE 5450                
+POS_UNKNOWNREFERER 5524                
+POS_UNKNOWNREFERERBROWSER 5754                
+POS_ORIGIN 5877                
+POS_SEREFERRALS 6011                
+POS_PAGEREFS 6155                
+POS_SEARCHWORDS 6303                
+POS_KEYWORDS 6455                
+POS_MISC 2353                
+POS_ERRORS 6514                
+POS_CLUSTER 3420                
+POS_SIDER_404 6631                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20240504224002 35 8211 4936114084761
+FirstTime 20240404233035
+LastTime 20240405154023
+LastUpdate 20240505121325 35 0 34 0 0
+TotalVisits 61                  
+TotalUnique 61                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 125                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 9 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 9 15 1358832 18 21 132180
+1 6 6 240711 17 17 112353
+2 3 3 144273 0 0 0
+3 5 5 203926 11 14 79332
+4 4 4 192300 0 1 0
+5 0 0 0 22 50 3111970
+6 18 22 1469571 19 53 415981
+7 3 9 964285 1 9 64499
+8 2 6 1028936 2 3 26252
+9 3 9 1158716 0 0 0
+10 7 38 2643295 0 5 19827
+11 6 12 1204499 1 9 59481
+12 2 2 96246 8 8 52872
+13 1 1 48219 0 0 0
+14 2 2 64842 7 20 1621799
+15 3 3 144657 0 0 0
+16 0 0 0 0 0 0
+17 0 0 0 0 0 0
+18 0 0 0 0 0 0
+19 0 0 0 0 0 0
+20 0 0 0 0 0 0
+21 0 0 0 0 0 0
+22 0 0 0 0 0 0
+23 3 8 1069433 2 3 54660
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 2
+us 75 143 11936687
+eu 2 2 96054
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+Googlebot/ 67 3362931 20240405145143 3
+yandex 12 241575 20240405144021 0
+YandexBot/ 3 96078 20240405144015 1
+bot[\s_+:,\.\;\/\\-] 2 48051 20240404231458 1
+unknown 1 24 20240405032016 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+html 56 2691624 0 0
+php 19 128128 0 0
+js 36 894334 0 0
+Unknown 2 28633 0 0
+css 32 8290022 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 7
+win10 51 30
+macosx15 6 6
+Unknown 5 5
+macosx 2 2
+ios_iphone 35 14
+linux 45 19
+macosx14 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 30
+chrome122.0.6261.94 8 2
+chrome119.0.0.0 10 4
+chrome58.0.3029.110 3 3
+chrome103.0.5060.66 16 2
+chrome104.0.0.0 2 2
+chrome94.0.4606.61 5 5
+iphone 21 4
+chrome83.0.4103.97 3 3
+chrome106.0.5249.91 7 2
+chrome114.0.0.0 2 2
+chrome78.0.3904.108 9 9
+safari10.0 6 2
+chrome117.0.5938.132 10 4
+safari13.0.3 7 7
+chrome123.0.0.0 3 2
+chrome87.0.4280.144 1 1
+chrome110.0.0.0 1 1
+netscape5.0 2 2
+chrome121.0.0.0 6 3
+chrome102.0.0.0 2 2
+chrome78.0.3904.70 1 1
+firefox98.0 1 1
+firefox120.0 2 2
+chrome120.0.0.0 2 2
+opera107.0.0.0 1 1
+safari17.3.1 1 1
+Unknown 1 1
+firefox33.0 2 2
+chrome92.0.4515.159 8 2
+edge17 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla/5.0_Firefox/33.0 20240405032017
+Python/3.10_aiohttp/3.8.3 20240405072309
+Mozilla/5.0_researchscan.comsys.rwth-aachen.de 20240405154023
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Python/3.10_aiohttp/3.8.3 20240405072309
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 49 49
+From1 0 0
+From2 0 0
+From3 0 0
+From4 28 96
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+404 117 773253
+405 1 576460
+500 1 652834
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 47
+/wp-login.php 1 -
+//cms/wp-includes/wlwmanifest.xml 3 -
+/storage/Brand/rtyrt.png 5 https://spludo.online/
+/3ds1633693954432212 2 -
+//test/wp-includes/wlwmanifest.xml 3 -
+/3ds.php 2 -
+/storage/Screenshot/Screenshot%20(131).png 2 https://spludo.online/
+//web/wp-includes/wlwmanifest.xml 3 -
+/storage/Screenshot/Screenshot%20(129).png 1 https://spludo.online/
+//2019/wp-includes/wlwmanifest.xml 3 -
+/sbn 1 -
+/view-source: 1 -
+/lander/ru-ru-quiz-sberbank/ 1 -
+/storage/Brand/Ludo-Game-Ludo-2020-Star-Game-logo.webp 12 https://spludo.online/
+/storage/Brand/homepage.png 6 https://spludo.online/
+/administrator/index.php 1 -
+/lander/sber/ 1 -
+//news/wp-includes/wlwmanifest.xml 3 -
+//site/wp-includes/wlwmanifest.xml 3 -
+/rek/offer-rbk-gazprom_1710409953/ 1 -
+/lander/tinkoff 1 -
+/storage/Screenshot/Screenshot%20(139).png 1 https://spludo.online/
+/storage/Brand/EliteLudo.apk 1 -
+//media/wp-includes/wlwmanifest.xml 3 -
+/public/.git/config 1 -
+/top 1 -
+/wp-includes/wlwmanifest.xml 1 -
+/merchant/z/payment/ 2 -
+/lander/gpb-prelanderhuylonewkoment-thanksstory2/land/ 1 -
+//website/wp-includes/wlwmanifest.xml 3 -
+//wp/wp-includes/wlwmanifest.xml 3 -
+/storage/Brand/home.png 4 https://spludo.online/
+/front-assets/s/vendors/countdown.min.js 8 https://spludo.online/
+//sito/wp-includes/wlwmanifest.xml 3 -
+//shop/wp-includes/wlwmanifest.xml 3 -
+/storage/Screenshot/Screenshot%20(138).png 1 https://spludo.online/
+/lander/gazprom-prelandergnidanewkomment-thanksstory2-objv2/ 1 -
+//blog/wp-includes/wlwmanifest.xml 3 -
+/merchant/code 2 -
+//wordpress/wp-includes/wlwmanifest.xml 3 -
+/misc/ajax.js 1 -
+/tme 1 -
+//wp1/wp-includes/wlwmanifest.xml 3 -
+/storage/Screenshot/Screenshot%20(128).png 2 https://spludo.online/
+//wp2/wp-includes/wlwmanifest.xml 3 -
+//wp-includes/wlwmanifest.xml 3 -
+//2018/wp-includes/wlwmanifest.xml 3 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 125
+172.70.147.99 3 3 96054 20240405015546
+162.158.106.34 3 3 96054 20240405065326
+172.70.188.66 3 3 96054 20240405005809
+172.71.151.148 2 2 96054 20240405104158
+172.71.115.56 2 2 56035 20240405082556
+172.70.126.57 2 2 56035 20240405094154
+162.158.78.64 2 2 56035 20240405112557
+172.69.59.93 2 3 87600 20240405005030
+172.71.99.166 2 2 56035 20240405062111
+172.71.147.195 2 2 56035 20240405062428
+172.71.167.173 2 2 56035 20240405005039
+172.70.134.98 2 2 56035 20240405112556
+172.71.103.20 2 2 56035 20240405061756
+172.70.135.49 1 1 48027 20240405104145
+172.71.142.106 1 1 48027 20240405062302
+172.71.142.107 1 1 48027 20240405041746
+172.69.223.11 1 1 48027 20240405061734
+162.158.138.60 1 1 48027 20240405001416
+162.158.155.46 1 1 48027 20240405032016
+172.70.242.9 1 1 48219 20240405154022
+172.70.90.247 1 1 48027 20240405062304
+162.158.95.83 1 1 48027 20240405072309
+162.158.78.52 1 1 11818 20240405034705
+172.64.236.13 1 1 48027 20240405091518
+172.71.242.198 1 1 48219 20240404234633
+162.158.78.229 0 1 20887 
+172.70.134.86 0 1 780881 
+172.70.126.129 0 1 110590 
+172.71.147.164 0 1 110590 
+172.71.146.182 0 1 20887 
+172.70.42.95 0 1 9028 
+172.70.134.185 0 1 20218 
+172.70.175.97 0 1 20887 
+172.71.242.168 0 1 20887 
+172.71.150.123 0 1 21256 
+172.71.151.45 0 1 780881 
+172.71.222.206 0 1 60174 
+172.71.223.143 0 1 6055 
+162.158.78.185 0 1 780881 
+162.158.78.116 0 1 110590 
+172.70.126.204 0 1 780881 
+172.70.134.25 1 1 48219 20240405015833
+172.71.99.208 1 1 8008 20240405062446
+162.158.175.117 1 1 8008 20240405061843
+172.69.23.137 1 1 48219 20240405020505
+172.71.114.172 0 1 780881 
+172.71.223.49 0 1 7956 
+172.70.126.178 0 1 89475 
+172.70.147.57 1 1 48219 20240405012903
+162.158.79.187 0 1 16977 
+172.68.77.11 1 1 8008 20240405062447
+172.71.242.16 0 1 31565 
+172.71.182.76 1 1 48027 20240405062301
+172.70.143.15 1 1 48219 20240405120335
+172.71.242.61 0 1 110590 
+172.70.127.68 0 1 21256 
+172.71.222.14 0 1 2014 
+172.69.52.138 1 1 48027 20240405043138
+172.70.135.199 0 1 21256 
+162.158.78.156 1 1 48027 20240404233035
+172.70.135.28 0 1 20887 
+172.69.58.75 0 1 89475 
+172.70.135.128 0 1 9028 
+172.69.43.199 0 1 21256 
+172.71.114.95 0 1 60174 
+172.70.127.153 0 1 20887 
+172.71.223.163 0 1 44342 
+172.70.42.102 0 1 31565 
+172.70.43.45 0 1 5547 
+172.71.150.253 0 1 5675 
+172.71.146.240 1 1 48027 20240405104143
+172.70.43.2 1 2 54082 20240405104147
+172.70.42.198 0 1 2014 
+162.158.62.174 1 1 48027 20240405032017
+172.71.242.124 0 1 780881 
+172.70.42.72 0 1 44342 
+172.71.103.45 0 1 20887 
+172.70.42.31 0 1 110590 
+172.64.236.12 1 1 48027 20240405042126
+172.70.127.142 0 1 31565 
+172.70.35.8 1 1 48027 20240405034705
+172.71.151.21 0 1 2014 
+172.71.130.55 1 1 48027 20240405142733
+172.70.43.65 0 1 89475 
+172.69.33.191 1 1 48027 20240405101541
+172.70.134.75 0 1 110590 
+172.70.42.76 0 1 20887 
+172.70.135.168 1 1 8008 20240405104146
+172.70.135.60 0 1 4216 
+172.71.150.151 1 1 48027 20240405071613
+172.71.114.133 0 1 110590 
+172.71.150.45 0 1 6055 
+172.69.58.175 0 1 110590 
+172.71.146.80 1 1 48027 20240405122449
+172.71.150.71 0 1 44342 
+172.64.236.50 1 1 48219 20240405044125
+162.158.62.254 1 1 48027 20240405112535
+172.69.194.206 1 1 8008 20240404234634
+172.70.134.9 1 1 48027 20240405022518
+172.70.42.93 0 1 4216 
+162.158.186.94 1 1 48027 20240405025507
+172.70.42.7 0 1 5675 
+162.158.167.9 1 1 48219 20240405131333
+172.69.22.32 1 1 48219 20240405010308
+141.101.68.230 1 1 48027 20240405062307
+172.70.43.71 0 1 60174 
+172.70.42.188 0 2 802137 
+172.71.114.57 0 1 21256 
+172.71.122.153 1 1 48219 20240405154023
+172.70.43.205 0 1 16977 
+172.70.43.49 0 2 28174 
+172.70.142.216 1 1 48027 20240405035844
+172.69.58.207 0 1 20887 
+172.70.174.11 0 1 5675 
+172.70.115.115 1 1 8008 20240405061855
+172.64.238.7 1 1 48027 20240405001757
+172.71.158.70 1 1 48219 20240405150448
+162.158.79.196 0 1 31565 
+172.69.59.182 0 1 780881 
+172.71.147.70 0 1 780881 
+172.69.59.26 0 1 21256 
+172.70.135.162 0 1 31565 
+188.114.111.181 1 1 48027 20240405114128
+172.71.134.108 1 1 16815 20240405142734
+172.71.150.186 1 1 8008 20240405071630
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 2
+20240404 3 8 1069433 3
+20240405 74 137 10963308 58
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 61
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 5
+/ 56 2691624 52 43
+/privacy/index.php 16 128128 7 16
+//xmlrpc.php 3 0 0 0
+/contact-us 1 16815 1 1
+/about-us 1 11818 1 1
+END_SIDER

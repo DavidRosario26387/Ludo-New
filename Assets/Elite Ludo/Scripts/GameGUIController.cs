@@ -103,9 +103,12 @@ public class GameGUIController : PunBehaviour
 
     public Font f;
 
+    public Text playerText;
+
     // Use this for initialization
     void Start()
     {
+        //SetFinishGame("dsi1923426690", true);
         requiredToStart = GameManager.Instance.requiredPlayers;
         GameManager.Instance.dropdownButton = dropdownBtn;
         photonView = GetComponent<PhotonView>();
@@ -389,9 +392,8 @@ public class GameGUIController : PunBehaviour
         }
 
         currentPlayerIndex = GameManager.Instance.firstPlayerInGame;
-        GameManager.Instance.currentPlayer = playerObjects[currentPlayerIndex];
-
-
+        //GameManager.Instance.currentPlayer = playerObjects[currentPlayerIndex];
+        //playerText.text = "id: " + GameManager.Instance.currentPlayer.id.ToString() + "name: " + GameManager.Instance.currentPlayer.name.ToString();
 
 
 
@@ -751,36 +753,43 @@ public class GameGUIController : PunBehaviour
             Debug.Log("SET FINISH" + me);
             ActivePlayersInRoom--;
 
+            PlayerPrefs.SetString("API", "GetPlayerPosition");
             int index = GetPlayerPosition(id);
-
 
             if (index == -1)
                 index = 0;
+            PlayerPrefs.SetString("API", "playersFinished");
             playersFinished.Add(playerObjects[index]);
-
-
+            PlayerPrefs.SetString("API", "controller");
             PlayerAvatarController controller = playerObjects[index].AvatarObject.GetComponent<PlayerAvatarController>();
             controller.Name.GetComponent<Text>().text = "";
             controller.Active = false;
             controller.finished = true;
+            PlayerPrefs.SetString("API", "controllerFinished");
 
             playerObjects[index].dice.SetActive(false);
-
+            PlayerPrefs.SetString("API", "dice");
             int position = playersFinished.Count;
+            PlayerPrefs.SetString("API", "count");
             if (position == 1)
             {
                 controller.Crown.SetActive(true);
+                PlayerPrefs.SetString("API", "Crown");
             }
-
+            
             if (me)
             {
+                PlayerPrefs.SetString("API", "me");
                 PhotonNetwork.BackgroundTimeout = StaticStrings.photonDisconnectTimeoutLong;
                 iFinished = true;
+                PlayerPrefs.SetString("API", "isFinished");
                 if (ActivePlayersInRoom >= 0)
                 {
+                    PlayerPrefs.SetString("API", "activePlayers");
                     PhotonNetwork.RaiseEvent((int)EnumPhoton.FinishedGame, PhotonNetwork.player.NickName.Split('|')[1], true, null);
                     Debug.Log("set finish call finish turn");
                     SendFinishTurn();
+                    PlayerPrefs.SetString("API", "SetFinishTurn");
                 }
 
 
@@ -788,26 +797,30 @@ public class GameGUIController : PunBehaviour
 
                 if (position == 1)
                 {
+                    PlayerPrefs.SetString("API", "position");
                     WinSound.Play();
-                    Debug.Log("-type-->" + GameManager.Instance.type);
+                    Debug.Log("-type-->" + GameManager.Instance.type); 
+                    PlayerPrefs.SetString("API", "WinSound");
                     if (GameManager.Instance.type == MyGameType.TwoPlayer)
                     {
                         //    data.Add(MyPlayerData.TwoPlayerWinsKey, (GameManager.Instance.myPlayerData.GetTwoPlayerWins() + 1).ToString());
                         //    url = StaticStrings.baseURL+"update-games-win.php?playfab_id="+GameManager.Instance.playfabManager.PlayFabId+"&avl_coins="+data[MyPlayerData.CoinsKey]+"&total_earning="+data[MyPlayerData.TotalEarningsKey]+"&two_player_wins="+data[MyPlayerData.TwoPlayerWinsKey]+"&four_player_wins="+"&win_amount="+firstPlacePrize.ToString();
                         Wintype = "twoplayerwin";
+                        PlayerPrefs.SetString("API", "twoplayerwin");
                         StartCoroutine(WinAmount(firstPlacePrize,true));
-                   
                     }
                     else if (GameManager.Instance.type == MyGameType.FourPlayer)
                     {
                         //         data.Add(MyPlayerData.FourPlayerWinsKey, (GameManager.Instance.myPlayerData.GetFourPlayerWins() + 1).ToString());
                         //     url = StaticStrings.baseURL+"update-games-win.php?playfab_id="+GameManager.Instance.playfabManager.PlayFabId+"&avl_coins="+data[MyPlayerData.CoinsKey]+"&total_earning="+data[MyPlayerData.TotalEarningsKey]+"&two_player_wins=&four_player_wins="+data[MyPlayerData.FourPlayerWinsKey]+"&win_amount="+firstPlacePrize.ToString();
                         Wintype = "fourplayerwin";
+                        PlayerPrefs.SetString("API", "fourplayerwin");
                         StartCoroutine(WinAmount(firstPlacePrize,true));
                     }
                     else if(GameManager.Instance.type == MyGameType.Private)
                     {
                         Wintype = "Private";
+                        PlayerPrefs.SetString("API", "private");
                         StartCoroutine(WinAmount(firstPlacePrize,true));
                     }
              //       GameManager.Instance.myPlayerData.UpdateUserData(data);
@@ -818,23 +831,36 @@ public class GameGUIController : PunBehaviour
                 }
                 else if (position == 2 && GameManager.Instance.type == MyGameType.FourPlayer)
                 {
-                    
-                    
+
+                    PlayerPrefs.SetString("API", "2");
                     StartCoroutine(WinAmount(secondPlacePrize,true));
                     //call api to update game played
 
                 }
+                else
+                {
+                    string test = "Mid: " + id + "pFinishid: " + playersFinished[0].id + "gMID: " + GameManager.Instance.currentPlayer.id + "gMName: " + GameManager.Instance.currentPlayer.name + "PNick: " + PhotonNetwork.player.NickName.Split('|')[1];
+                    PlayerPrefs.SetString("API", test);
+                    if (playersFinished[0].id == GameManager.Instance.currentPlayer.id)
+                    {
+                        StartCoroutine(WinAmount(firstPlacePrize, true));
+                    }
+                }
             }
             else if (GameManager.Instance.currentPlayer.isBot)
             {
+                PlayerPrefs.SetString("API", "isBot");
                 SendFinishTurn();
             }
+            //PlayerPrefs.SetString("API", "sprite");
             controller.setPositionSprite(position);
+            //PlayerPrefs.SetString("API", "check");
             CheckPlayersIfShouldFinishGame();
         }
     }
     private IEnumerator WinAmount(int win,bool status)
     {
+        //PlayerPrefs.SetString("API", "Win");
         string entrycoin = GameManager.Instance.payoutCoins.ToString();
         string wincoin = Mathf.Abs(win - GameManager.Instance.payoutCoins).ToString();
         Debug.Log("total win--->"+win);
@@ -865,6 +891,7 @@ public class GameGUIController : PunBehaviour
                 if (jsonNode["notice"] == "User Win Status Update")
                 {
                     Debug.Log("Won Amount added !");
+                    //PlayerPrefs.SetString("API", "API Success");
                     PlayerPrefs.SetInt("Coins", int.Parse(jsonNode["totalcoin"].Value));
 
                 }

@@ -1,0 +1,497 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202405 will be lost/reset.
+# Last config file used to build this data file was /home/spludo/tmp/awstats/ssl/awstats.spludo.online.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2012                
+POS_TIME 2686                
+POS_VISITOR 9280                
+POS_DAY 13900               
+POS_DOMAIN 3398                
+POS_LOGIN 3700                
+POS_ROBOT 3855                
+POS_WORMS 4345                
+POS_EMAILSENDER 4476                
+POS_EMAILRECEIVER 4619                
+POS_SESSION 14224               
+POS_SIDER 14371               
+POS_FILETYPES 4754                
+POS_DOWNLOADS 4953                
+POS_OS 5001                
+POS_BROWSER 5325                
+POS_SCREENSIZE 6333                
+POS_UNKNOWNREFERER 6407                
+POS_UNKNOWNREFERERBROWSER 6743                
+POS_ORIGIN 6952                
+POS_SEREFERRALS 7087                
+POS_PAGEREFS 7250                
+POS_SEARCHWORDS 7398                
+POS_KEYWORDS 7550                
+POS_MISC 2350                
+POS_ERRORS 7609                
+POS_CLUSTER 3556                
+POS_SIDER_404 7726                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20240601021754 4 706 11593644650991
+FirstTime 20240504235830
+LastTime 20240531042733
+LastUpdate 20240601124534 4 0 3 0 0
+TotalVisits 86                  
+TotalUnique 85                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 132                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 8 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 3 3 144081 1 2 11659
+1 5 27 1532464 1 6 33045
+2 9 26 1718986 3 14 765646
+3 12 29 1824709 0 6 33069
+4 16 47 4185076 6 18 137882
+5 6 21 2046363 0 21 125571
+6 1 1 48219 1 2 48243
+7 1 1 48219 12 14 284303
+8 2 2 96054 8 10 133229
+9 6 6 256950 3 5 1277543
+10 1 24 48219 1 8 19827
+11 2 2 96054 0 0 0
+12 4 11 433584 1 21 1291732
+13 1 1 48027 0 0 0
+14 3 3 144273 0 3 13218
+15 11 28 1847020 3 23 1304546
+16 1 1 48027 1 1 48027
+17 4 4 192300 3 6 26460
+18 6 6 288354 0 0 0
+19 5 5 240327 2 5 61437
+20 6 19 2312042 1 3 13242
+21 1 1 48027 1 1 652064
+22 4 4 192300 2 4 102663
+23 1 1 48027 0 3 13242
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 6
+us 94 185 14291847
+in 10 44 3115412
+eu 4 5 42853
+gr 1 24 48219
+jp 1 1 48219
+fr 1 14 341152
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+Googlebot/ 27 408252 20240521072028 5
+AhrefsBot/ 24 1345025 20240521004255 4
+Applebot/ 16 1258283 20240530155327 1
+no_user_agent 6 288546 20240510072852 0
+unknown 5 120 20240511045847 5
+Go\-http\-client/ 4 13655 20240510100604 2
+(firefox/)([0-9]\.|[0-1][0]\.) 3 0 20240522104541 0
+bot[\s_+:,\.\;\/\\-] 2 48051 20240511020019 1
+bingbot/ 1 24 20240531230518 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+php 12 96096 0 0
+html 75 3606249 0 0
+woff2 14 1037716 0 0
+Unknown 6 81366 0 0
+js 117 2721644 0 0
+woff 4 224432 0 0
+css 45 10120199 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 19
+win7 6 4
+win10 115 31
+symbian 1 0
+ios_iphone 45 28
+linux 17 6
+androiddonut 1 0
+win8.1 1 0
+androidcupcake 1 0
+androidmarshmallow 1 1
+macosx7 1 1
+android 22 5
+macosx14 6 0
+androidpie 4 2
+Unknown 12 11
+android10 22 5
+wii 1 0
+macosx 2 2
+winnt 1 1
+macosx15 14 14
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 47
+chrome106.0.0.0 1 1
+firefox118.0 1 1
+chrome69.0.3497.100 1 0
+safari 26 8
+android 1 0
+chrome85.0.4183.102 37 8
+chrome105.0.0.0 2 2
+chrome110.0.0.0 1 1
+safari17.0 1 1
+chrome17.0.963.56 1 1
+chrome124.0.0.0 57 12
+chrome79.0.3945.79 3 2
+chrome96.0.4664.110 1 1
+chrome88.0.4324.192 1 1
+chrome71.0.3578.98 1 0
+chrome83.0.4103.61 2 2
+Unknown 3 0
+chrome73.0.3683.75 2 0
+chrome87.0.4280.141 23 6
+chrome61.0.3163.79 1 0
+chrome102.0.0.0 9 9
+chrome117.0.5938.132 8 2
+firefox46.0 1 0
+safari13.0.3 19 19
+sonyericsson 1 0
+chrome122.0.0.0 1 1
+chrome121.0.0.0 3 3
+chrome75.0.3770.143 2 0
+cloudflare 2 2
+chrome53.0.2785.124 1 1
+chrome83.0.4103.97 3 3
+firefox98.0 1 1
+mozilla 5 5
+chrome71.0.3578.80 1 0
+safari15.4 2 2
+chrome76.0.3809.89 2 1
+firefox33.0 2 2
+chrome114.0.0.0 1 1
+netscape5.0 2 2
+chrome125.0.0.0 22 5
+chrome74.0.3729.169 3 2
+chrome75.0.3770.142 1 0
+chrome76.0.3809.100 2 0
+chrome73.0.3683.103 2 0
+chrome49.0.2623.87 1 0
+chrome92.0.4515.159 9 2
+chrome98.0.2129 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Mozilla/5.0_researchscan.comsys.rwth-aachen.de 20240510152716
+Facebot 20240522104541
+Cloudflare-SSLDetector 20240509185403
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20240509191827
+Mozilla/5.0_Firefox/33.0 20240505034155
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+Midori/0.1.10_(X11;_Linux_i686;_U;_en-us)_WebKit/(531).(2) 20240522104541
+Facebot 20240522104541
+wii_libnup/1.0 20240522104511
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 51 87
+From1 0 0
+From2 2 2
+From3 0 0
+From4 58 184
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+500 3 1956239
+404 76 502284
+405 1 576169
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 26
+/storage/Brand/EliteLudo.apk 3 -
+/storage/Brand/home.png 3 https://spludo.online/
+/storage/Brand/rtyrt.png 3 https://spludo.online/
+/.well-known/traffic-advice 1 -
+/ads.txt 1 -
+/storage/Screenshot/Screenshot%20(128).png 2 https://spludo.online/
+/storage/Brand/Ludo-Game-Ludo-2020-Star-Game-logo.webp 23 https://spludo.online/
+/app-ads.txt 1 -
+/.env 4 -
+/sellers.json 1 -
+/storage/Screenshot/Screenshot%20(129).png 2 https://spludo.online/
+/storage/Screenshot/Screenshot%20(136).png 1 https://spludo.online/
+/storage/Brand/homepage.png 3 https://spludo.online/
+/storage/Screenshot/Screenshot%20(139).png 1 https://spludo.online/
+/sitemap.xml.gz 1 -
+/storage/Screenshot/Screenshot%20(135).png 1 https://spludo.online/
+/assets/img/slider-bg-1.jpg 4 https://www.spludo.online/about-us
+/sitemap.xml 3 http://www.spludo.online:8880/sitemap.xml
+/front-assets/s/vendors/countdown.min.js 8 -
+/cdn-cgi/l/email-protection 2 -
+/storage/Screenshot/Screenshot%20(132).png 1 https://spludo.online/
+//www.spludo.online/front-assets/s/vendors/countdown.min.js 2 -
+/storage/Screenshot/Screenshot%20(131).png 1 https://spludo.online/
+/proxy.php 1 http://spludo.online/proxy.php
+/storage/Screenshot/Screenshot%20(138).png 2 https://spludo.online/
+/sitemap.txt 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 132
+157.38.32.185 7 24 1584190 20240522031439
+106.221.166.168 5 22 1557706 20240521025414
+45.119.28.35 5 22 1557706 20240531042733
+152.59.108.60 4 21 1545772 20240530155011
+172.71.166.227 3 3 104062 20240505043959
+172.68.27.220 2 2 56035 20240505044507
+172.70.178.233 2 3 145510 20240505043956
+172.71.174.247 2 2 56035 20240505044511
+141.101.69.114 2 2 16016 20240511050505
+172.71.154.107 2 2 96054 20240511193123
+172.68.22.180 2 2 96054 20240510193224
+172.71.166.31 2 2 56035 20240512052216
+172.70.246.201 1 1 48219 20240510154702
+172.70.100.135 1 1 48027 20240509082316
+172.70.111.168 1 1 48027 20240510204620
+108.162.246.21 1 1 48027 20240510044858
+172.70.42.89 1 1 48027 20240509201540
+172.71.151.7 1 1 48027 20240509185403
+162.158.114.227 1 1 48027 20240505223941
+162.158.114.231 1 1 48219 20240509142407
+172.71.10.51 1 1 16815 20240511024027
+172.70.142.100 1 1 48027 20240505003435
+172.71.142.16 1 1 48027 20240510114330
+72.14.201.138 1 1 11934 20240530154959
+172.71.223.32 1 1 48027 20240505010006
+172.68.26.129 0 1 2014 
+162.158.174.110 0 2 110590 
+162.158.174.220 0 1 21256 
+172.71.123.113 0 1 110590 
+172.70.230.111 0 1 31565 
+172.68.27.93 0 1 31565 
+172.71.130.159 0 1 21256 
+172.70.42.102 0 2 63130 
+172.68.22.107 1 1 48027 20240509190925
+172.70.42.30 0 1 110590 
+172.70.42.31 0 1 110590 
+172.70.179.112 0 1 60174 
+162.158.167.55 1 1 48027 20240505185422
+172.70.38.5 0 2 42512 
+172.69.222.171 1 1 48027 20240509225306
+172.70.178.175 0 1 20887 
+172.70.91.88 1 1 48027 20240510142952
+172.69.134.51 1 1 48219 20240505023057
+162.158.138.22 1 1 48027 20240510004658
+162.158.174.221 0 1 21256 
+172.70.179.73 0 1 31565 
+172.71.250.18 1 1 48027 20240510174745
+172.68.193.181 1 1 48219 20240510152716
+172.70.42.95 0 1 9028 
+172.71.183.138 1 1 48027 20240505170040
+172.70.38.226 0 1 5547 
+162.158.62.220 1 1 48027 20240510125001
+172.71.146.240 1 1 48027 20240505033712
+172.71.158.209 1 1 48219 20240511030040
+172.71.223.2 0 1 21256 
+172.69.222.241 0 1 5675 
+172.70.110.117 1 1 48027 20240505034141
+172.71.158.228 1 1 48027 20240510185825
+172.70.38.25 0 1 60174 
+172.70.178.58 0 1 21256 
+162.158.222.29 1 1 48027 20240509094238
+172.70.160.181 1 1 48219 20240511012449
+172.70.43.30 1 1 8008 20240505010009
+162.158.174.214 0 1 780881 
+172.71.146.200 1 1 48027 20240509120641
+172.70.179.39 0 1 780881 
+172.71.170.124 0 1 20887 
+92.118.39.244 1 24 48219 20240522104458
+172.71.135.56 0 1 20887 
+172.71.170.125 0 1 0 
+172.70.43.49 0 1 20218 
+172.69.67.242 0 1 20218 
+172.70.39.164 1 1 8008 20240509201543
+172.70.111.26 1 1 48027 20240505034155
+172.70.242.59 1 1 48027 20240509081859
+172.69.194.182 1 1 48027 20240509220424
+172.71.135.6 0 1 780881 
+162.158.146.59 1 1 48027 20240505180056
+62.210.90.209 1 14 341152 20240519010913
+172.69.166.109 1 1 48027 20240511004420
+108.162.245.170 1 1 48027 20240505110031
+172.71.134.110 1 1 48027 20240511050501
+162.158.179.23 1 1 48219 20240509154315
+172.69.6.94 1 1 48219 20240509170313
+172.71.110.75 1 1 48219 20240509152622
+172.69.135.169 1 1 48219 20240505152221
+172.70.39.183 1 1 8008 20240505125007
+172.70.39.179 0 2 178950 
+172.71.142.58 1 1 48219 20240509185403
+172.70.42.188 0 4 1583018 
+172.70.160.212 1 1 48027 20240510211443
+172.70.142.126 1 1 48027 20240509182422
+141.101.69.88 1 1 8008 20240511052234
+172.68.22.181 1 1 48027 20240510093012
+172.71.222.206 0 1 60174 
+162.158.138.61 1 1 48027 20240509173757
+172.70.43.65 0 1 89475 
+172.70.86.89 1 1 48027 20240510025902
+172.70.43.72 0 1 60174 
+162.158.114.242 1 1 48219 20240509191827
+172.69.52.139 1 1 48027 20240509134633
+43.134.34.133 1 1 48219 20240521061117
+172.71.110.35 1 1 48219 20240510042746
+162.158.87.86 1 1 48219 20240510152715
+141.101.95.75 1 1 16815 20240505094234
+172.70.42.103 0 1 0 
+172.71.222.110 1 1 8008 20240510204621
+172.68.23.51 1 1 48027 20240510013154
+172.69.194.122 1 1 48219 20240509073744
+172.70.178.170 0 1 110590 
+172.69.214.41 1 1 48027 20240504235830
+172.71.222.210 0 1 89475 
+162.158.222.88 1 1 48027 20240509141514
+172.71.182.80 1 1 48027 20240505165205
+141.101.97.115 0 1 2014 
+108.162.245.226 1 1 48027 20240510092654
+172.70.42.76 0 2 41774 
+162.158.174.215 0 1 780881 
+172.70.160.180 1 1 48219 20240505221432
+172.68.242.61 1 1 48219 20240505031259
+172.71.123.179 1 1 48027 20240505094232
+162.158.174.196 0 3 268425 
+172.70.111.112 0 1 780881 
+172.70.43.46 0 1 5547 
+172.70.42.77 0 1 0 
+172.71.219.98 1 1 48219 20240505204235
+172.69.166.70 1 1 48219 20240510022358
+172.70.42.235 1 1 48027 20240505125006
+172.68.27.94 0 1 31565 
+172.70.38.24 0 1 60174 
+172.71.135.107 0 1 31565 
+172.71.150.69 1 1 48027 20240505200300
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 11
+20240504 1 1 48027 1
+20240505 31 61 4797954 26
+20240509 21 29 2090267 21
+20240510 21 26 1952859 21
+20240511 10 17 1302253 8
+20240512 2 10 1001444 1
+20240519 1 14 341152 1
+20240521 6 23 1605925 2
+20240522 8 48 1632409 2
+20240530 5 22 1557706 2
+20240531 5 22 1557706 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 86
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 10
+/ 75 3606249 73 69
+/privacy/index.php 12 96096 6 10
+/front-assets/webfonts/fa-brands-400.woff2 4 306448 0 1
+/admin-assets/fonts/line-awesome/fonts/la-solid-900.woff2 4 387008 0 1
+/front-assets/webfonts/fa-solid-900.woff2 4 317776 0 1
+/about-us 4 47736 4 1
+/front-assets/fonts/themify.woff 4 224432 1 0
+/contact-us 2 33630 2 2
+/front-assets/webfonts/fa-regular-400.woff2 1 13584 0 0
+/admin-assets/fonts/line-awesome/fonts/la-regular-400.woff2 1 12900 0 1
+END_SIDER

@@ -73,11 +73,12 @@ public class InitMenuScript : MonoBehaviour
 
     public static InitMenuScript inst;
 
+    public Text loadingText;
 
     void Start()
     {
         inst = this;
-
+        //InAppBrowser.OpenURL("https://spludo.online/cashfree/payment");
         Text[] fonts = FindObjectsOfType<Text>();
         for (int i = 0; i < fonts.Length; i++)
             fonts[i].font = f;
@@ -95,7 +96,8 @@ public class InitMenuScript : MonoBehaviour
         GameManager.Instance.isLocalPLay = false;
         GameManager.Instance.GameScene = "GameScene";
         GameManager.Instance.isPlayingWithComputer = false;
-
+        /*Debug.Log(GameManager.Instance.currentPlayer.id);
+        Debug.Log(GameManager.Instance.currentPlayer.name);*/
         // PlayerPrefs.SetInt(StaticStrings.SoundsKey,0);
         // PlayerPrefs.SetInt(StaticStrings.MusicKey,0);
         // PlayerPrefs.Save();
@@ -194,11 +196,109 @@ public class InitMenuScript : MonoBehaviour
     }
     public Transform CoinList;
     public GameObject LoadingScreen,CoinLister;
-    public IEnumerator Details()
+
+    public IEnumerator AddRewardCoins(int coins)
     {
-     
         WWWForm form = new WWWForm();
         form.AddField("playerid", PlayerPrefs.GetString("PID", ""));
+        form.AddField("coins", coins);
+
+        string url = StaticStrings.baseURL + "api/player/addRewardCoins";
+
+        using (UnityWebRequest request = UnityWebRequest.Post(url, form))
+        {
+            yield return request.SendWebRequest();
+
+            if (request.isHttpError || request.isNetworkError)
+            {
+                Debug.LogError(request.error);
+            }
+            else
+            {
+                JSONNode jsonNode = JSON.Parse(request.downloadHandler.text);
+                Debug.Log("Response: " + request.downloadHandler.text);
+                if (jsonNode["notice"] == "Coins Successfully Added!")
+                {
+                    //loadingText.text = request.downloadHandler.text;
+                }
+                else
+                {
+                    Debug.LogWarning(jsonNode["notice"]);
+                }
+            }
+        }
+    }
+
+    public IEnumerator AddWinCoins(int coins)
+    {
+        WWWForm form = new WWWForm();
+        form.AddField("playerid", PlayerPrefs.GetString("PID", ""));
+        form.AddField("coins", coins);
+
+        string url = StaticStrings.baseURL + "api/player/addWinCoins";
+
+        using (UnityWebRequest request = UnityWebRequest.Post(url, form))
+        {
+            yield return request.SendWebRequest();
+
+            if (request.isHttpError || request.isNetworkError)
+            {
+                Debug.LogError(request.error);
+            }
+            else
+            {
+                JSONNode jsonNode = JSON.Parse(request.downloadHandler.text);
+                Debug.Log("Response: " + request.downloadHandler.text);
+                if (jsonNode["notice"] == "Win Coins Successfully Added!")
+                {
+                    //loadingText.text = request.downloadHandler.text;
+                }
+                else
+                {
+                    Debug.LogWarning(jsonNode["notice"]);
+                }
+            }
+        }
+    }
+
+    public IEnumerator DeductCoins(int coins)
+    {
+        WWWForm form = new WWWForm();
+        form.AddField("playerid", PlayerPrefs.GetString("PID", ""));
+        form.AddField("coins", coins);
+
+        string url = StaticStrings.baseURL + "api/player/deductCoins";
+
+        using (UnityWebRequest request = UnityWebRequest.Post(url, form))
+        {
+            yield return request.SendWebRequest();
+
+            if (request.isHttpError || request.isNetworkError)
+            {
+                Debug.LogError(request.error);
+            }
+            else
+            {
+                JSONNode jsonNode = JSON.Parse(request.downloadHandler.text);
+                Debug.Log("Response: " + request.downloadHandler.text);
+                if (jsonNode["notice"] == "Coins Successfully Deducted!")
+                {
+                    //loadingText.text = request.downloadHandler.text;
+                }
+                else
+                {
+                    Debug.LogWarning(jsonNode["notice"]);
+                }
+            }
+        }
+    }
+    public IEnumerator Details()
+    {
+        loadingText.text = PlayerPrefs.GetString("API");
+        WWWForm form = new WWWForm();
+        form.AddField("playerid", PlayerPrefs.GetString("PID", ""));
+        //loadingText.text = PlayerPrefs.GetString("PID", "");
+        //form.AddField("playerid", "dsi1923426690");
         string url = StaticStrings.baseURL + "api/player/details";
 
         using (UnityWebRequest handshake = UnityWebRequest.Post(url, form))
@@ -236,8 +336,9 @@ public class InitMenuScript : MonoBehaviour
                     }
                     else
                     {
-                       
-                        TotalCoins = int.Parse( jsonNode["playerdata"]["playcoin"].Value);
+                        Debug.Log(jsonNode["playerdata"]["playcoin"].Value);
+                        //TotalCoins = int.Parse(jsonNode["playerdata"]["playcoin"].Value);
+                        TotalCoins = (int)Convert.ToDouble(jsonNode["playerdata"]["playcoin"].Value);
                     }
 
 
@@ -322,10 +423,7 @@ public class InitMenuScript : MonoBehaviour
         StartCoroutine(Details());
         }
 
-
-
-
-    public string[] DataArray = new string[7];
+public string[] DataArray = new string[7];
 
     public IEnumerator LoadPro_pic(string url)
     {
